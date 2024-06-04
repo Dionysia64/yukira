@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Luciole';
+    src: url('Luciole-Regular.eot');
+    src: url('Luciole-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Luciole-Regular.woff2') format('woff2'),
+        url('Luciole-Regular.woff') format('woff'),
+        url('Luciole-Regular.ttf') format('truetype'),
+        url('Luciole-Regular.svg#Luciole-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lexie Readable';
+    src: url('LexieReadable-Regular.eot');
+    src: url('LexieReadable-Regular.eot?#iefix') format('embedded-opentype'),
+        url('LexieReadable-Regular.woff2') format('woff2'),
+        url('LexieReadable-Regular.woff') format('woff'),
+        url('LexieReadable-Regular.ttf') format('truetype'),
+        url('LexieReadable-Regular.svg#LexieReadable-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Herculanum';
+    src: url('Herculanum.eot');
+    src: url('Herculanum.eot?#iefix') format('embedded-opentype'),
+        url('Herculanum.woff2') format('woff2'),
+        url('Herculanum.woff') format('woff'),
+        url('Herculanum.ttf') format('truetype'),
+        url('Herculanum.svg#Herculanum') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
