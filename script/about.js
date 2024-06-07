@@ -589,6 +589,7 @@ function displayLang(data) {
         }
       })
       .catch((error) => {
+        console.log(error);
         throw new Error(error);
       });
   }
@@ -691,9 +692,9 @@ function displayLang(data) {
     });
     const figcaption = document.querySelector("#histoire > figure > figcaption");
     figcaption.innerHTML = data.mainAbout.about.histoire.figcaption;
-    const titleQui = document.querySelector("#qui > div:nth-child(1) > span");
+    const titleQui = document.querySelector("#quiSuisJe > div:nth-child(1) > span");
     titleQui.innerHTML = data.mainAbout.about.qui.title;
-    const quis = document.querySelectorAll("#qui > p");
+    const quis = document.querySelectorAll("#quiSuisJe > p");
     quis.forEach((qui,index)=>{
       qui.innerHTML = data.mainAbout.about.qui.paragraphes[index];
     });
