@@ -674,6 +674,8 @@ function displayLang(data) {
   }
 
   function mainAbout(data) {
+    const img = document.querySelector('.banner-img');
+    img.alt = data.mainAbout.banniere.alt;
     const citations = document.querySelector("#grey > main > section.citation > blockquote > p:nth-child(2)");
     citations.innerHTML = data.mainAbout.blockquote.citations;
     const blockquote = document.querySelector("#grey > main > section.citation > blockquote > footer");

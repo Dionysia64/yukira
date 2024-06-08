@@ -671,6 +671,8 @@ function displayLang(data) {
   }
 
   function informations(data) {
+    const img = document.querySelector('.banniere').getElementsByTagName('img')[0];
+    img.alt = data.informations.banniere.alt;
     const h2s = document.querySelectorAll("#grey > main > section.containerInfos > div > div > a > div > h2");
     h2s.forEach((h2, i) => {
       console.log(h2, i);

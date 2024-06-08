@@ -103,7 +103,7 @@ async function colorChange(array = ["default", "linear-gradient(120deg, rgb(2, 2
   body.style.background = array[1];
   figcaption.style.color = array[2];
   Array.from(links).forEach((link) => {
-    //link.style.color = array[3];
+    link.style.color = array[3];
     link.addEventListener("focus", function () {
       link.style.color = "#ffffff";
     });
@@ -660,7 +660,6 @@ function displayLang(data) {
       imgs[i].alt = data.header.langues[i];
     }
   }
-
   
 function main(data) {
   const img = document.querySelector(
@@ -785,6 +784,7 @@ function main(data) {
     body.style.background = array[1];
     figcaption.style.color = array[2];
     Array.from(links).forEach((link) => {
+      console.log(array[3]);
       link.style.color = array[3];
       link.addEventListener("focus", function () {
         link.style.color = "#ffffff";

@@ -535,6 +535,7 @@ function displayLang(data) {
     head(data);
     header(data);
     menu(data);
+    itineraires(data);
     footer(data);
   }
   
@@ -669,6 +670,11 @@ function displayLang(data) {
     for (let i = 0; i < imgs.length; i++) {
       imgs[i].alt = data.header.langues[i];
     }
+  }
+
+  function itineraires(data) {
+    const img = document.querySelector(".banniere").getElementsByTagName("img")[0];
+    img.alt = data.itineraire.banniere.alt;
   }
 
   function footer(data) {

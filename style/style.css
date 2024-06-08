@@ -1351,6 +1351,7 @@ button#scrollToTopBtn {
   }
   .banner-img {
     height: 250px;
+    object-fit: contain;
   }
 }
 
@@ -1623,6 +1624,12 @@ section.about {
   margin: 0 auto;
 }
 
+section.citation > p,
+section.citation > div > p {
+  width: 80%;
+  margin: 0 auto;
+}
+
 section.informations, section.itinéraire {
   width: 40%;
   margin: 0 auto;
@@ -1635,11 +1642,13 @@ section.informations, section.itinéraire {
 }
 
 .about > div > p, .informations > div > p,
-.about > div > p, .itinéraire > div > p  {
+.about > div > p, .itinéraire > div > p,
+section.citation > p,
+section.citation > div > p  {
   font-size: 2.5rem;
 }
 
-.informations > div > p, .itinéraire > div > p  {
+.informations > div > p, .itinéraire > div > p, section.citation > div > p  {
   line-height: 2.5;
 }
 
@@ -1771,4 +1780,8 @@ section.itinéraire > div > figure > img, section.itinéraire > div > div > img,
 
 section.itinéraire > div > div:nth-child(1) {
   margin: 0 0 150px 0;
+}
+
+section.citation > p {
+  line-height: 2;
 }
