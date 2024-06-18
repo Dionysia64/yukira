@@ -3,7 +3,6 @@
     function active() {
         const url = new URLSearchParams(window.location).toString();
         const currentPage = decodeURIComponent(url).split("pages")[1].split(".html")[0];
-        console.log(currentPage);
         switch (currentPage) {
           case "/about":
             links(currentPage);

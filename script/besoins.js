@@ -1,7 +1,5 @@
 let url = new URLSearchParams(window.location.search).get("lang");
 let stateColor = JSON.parse(localStorage.getItem("stateColor")) || ["default","linear-gradient(120deg, rgb(2, 2, 77), black 50%)","#fff", "#FFE200",false];
-let police = JSON.parse(localStorage.getItem("police"));
-let size = JSON.parse(localStorage.getItem("size"));
 
 /* Change color page */
 
@@ -19,8 +17,6 @@ changeColorPage("cielNoir", "#000000", "#82FFFF", "#FFFFFF");
 changeColorPage("limeNoir", "#000000", "#00FF00", "#FFFFFF");
 
 document.addEventListener("DOMContentLoaded", async () => {
-  fontSize(size);
-  fontType(police);
   await colorChange(stateColor)
 });
 
@@ -59,32 +55,6 @@ function switchLanguages(url) {
       break;
   }
 }
-
-function fontSize(size) {
-  const html = document.querySelector(":not(.container)");
-  html.style.fontSize = size;
-}
-function fontType(police) {
-  const body = document.getElementById("grey");
-  body.classList.add(police);
-}
-
-/* buttons menu sizes change */
-
-const btnsSizes = document.querySelectorAll(
-  "ul.dropdown-menu-taille > li > button"
-);
-
-const valuesSizes = ["8px", "12px", "16px", "18px", "20px", "22px"];
-
-/* buttons funtions change */
-
-changeSize(valuesSizes[0], btnsSizes[0], "50px");
-changeSize(valuesSizes[1], btnsSizes[1], "75px");
-changeSize(valuesSizes[2], btnsSizes[2]);
-changeSize(valuesSizes[3], btnsSizes[3]);
-changeSize(valuesSizes[4], btnsSizes[4]);
-changeSize(valuesSizes[5], btnsSizes[5]);
 
 async function colorChange(array = ["default", "linear-gradient(120deg, rgb(2, 2, 77), black 50%)", "#fff", "#FFE200", false]) {
   const body = document.getElementById("grey");
@@ -463,19 +433,6 @@ function changeColorPage(
         });
       }
     });
-  });
-}
-
-
-/* Size change */
-
-function changeSize(size, button, lineHieght = "150px") {
-  const html = document.querySelector(":not(.container)");
-  const paragraphe = document.querySelector(".paragraphe_accueil");
-  button.addEventListener("click", () => {
-    html.style.fontSize = size;
-    paragraphe.style.lineHeight = lineHieght;
-    localStorage.setItem("size", JSON.stringify(size));
   });
 }
 

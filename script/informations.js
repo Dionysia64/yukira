@@ -1,7 +1,5 @@
 let url = new URLSearchParams(window.location.search).get("lang");
 let stateColor = JSON.parse(localStorage.getItem("stateColor")) || ["default","linear-gradient(120deg, rgb(2, 2, 77), black 50%)","#fff", "#FFE200",false];
-let police = JSON.parse(localStorage.getItem("police"));
-let size = JSON.parse(localStorage.getItem("size"));
 
 /* Change color page */
 
@@ -18,8 +16,6 @@ changeColorPage("jauneNoir", "#000000", "#FFE200", "#FFFFFF");
 changeColorPage("cielNoir", "#000000", "#82FFFF", "#FFFFFF");
 changeColorPage("limeNoir", "#000000", "#00FF00", "#FFFFFF");
 
-fontSize(size);
-fontType(police);
 colorChange(stateColor);
 
 switchLanguages(url);
@@ -57,32 +53,6 @@ function switchLanguages(url) {
       break;
   }
 }
-
-function fontSize(size) {
-  const html = document.querySelector(":not(.container)");
-  html.style.fontSize = size;
-}
-function fontType(police) {
-  const body = document.getElementById("grey");
-  body.classList.add(police);
-}
-
-/* buttons menu sizes change */
-
-const btnsSizes = document.querySelectorAll(
-  "ul.dropdown-menu-taille > li > button"
-);
-
-const valuesSizes = ["8px", "12px", "16px", "18px", "20px", "22px"];
-
-/* buttons funtions change */
-
-changeSize(valuesSizes[0], btnsSizes[0], "50px");
-changeSize(valuesSizes[1], btnsSizes[1], "75px");
-changeSize(valuesSizes[2], btnsSizes[2]);
-changeSize(valuesSizes[3], btnsSizes[3]);
-changeSize(valuesSizes[4], btnsSizes[4]);
-changeSize(valuesSizes[5], btnsSizes[5]);
 
 async function colorChange(array = ["default", "linear-gradient(120deg, rgb(2, 2, 77), black 50%)", "#fff", "#FFE200", false]) {
   const body = document.getElementById("grey");
@@ -464,19 +434,6 @@ function changeColorPage(
   });
 }
 
-
-/* Size change */
-
-function changeSize(size, button, lineHieght = "150px") {
-  const html = document.querySelector(":not(.container)");
-  const paragraphe = document.querySelector(".paragraphe_accueil");
-  button.addEventListener("click", () => {
-    html.style.fontSize = size;
-    paragraphe.style.lineHeight = lineHieght;
-    localStorage.setItem("size", JSON.stringify(size));
-  });
-}
-
 /* Niveau de gris */
 
 function handleGrey() {
@@ -675,8 +632,99 @@ function displayLang(data) {
     img.alt = data.informations.banniere.alt;
     const h2s = document.querySelectorAll("#grey > main > section.containerInfos > div > div > a > div > h2");
     h2s.forEach((h2, i) => {
-      console.log(h2, i);
-      h2.textContent = data.informations.containerInfos.h2[i];
+      h2.innerHTML = data.informations.containerInfos.h2[i];
+    });
+    const titleSpan = document.querySelector("#notice > div > span");
+    titleSpan.innerHTML = data.informations.informationsBlocs.notice.span;
+    const paragraphs = document.querySelectorAll("#notice > p");
+    paragraphs.forEach((paraph, index) => {
+      paraph.innerHTML = data.informations.informationsBlocs.notice.p[index];
+    });
+    const ancres = document.querySelectorAll("section.informations > div:nth-child(2) > p > a");
+    ancres.forEach((ancre, index) => {
+      ancre.innerHTML = data.informations.informationsBlocs.notices[index];
+    });
+    const title2 = document.querySelector("#notice_1 > div:nth-child(1) > span");
+    title2.innerHTML = data.informations.notice1.span;
+    const img2 = document.querySelector("#notice_1 > div:nth-child(2) > img");
+    img2.alt = data.informations.notice1.alt;
+    const paragraphs2 = document.querySelectorAll("#notice_1 > p");
+    paragraphs2.forEach((paragraph, index) => {
+      paragraph.innerHTML = data.informations.notice1.p[index];
+    });
+    const title3 = document.querySelector("#notice_2 > div:nth-child(1) > span");
+    title3.innerHTML = data.informations.notice2.span;
+    const img3 = document.querySelector("#notice_2 > div:nth-child(2) > img");
+    img3.alt = data.informations.notice2.alt;
+    const paragraphs3 = document.querySelectorAll("#notice_2 > p");
+    paragraphs3.forEach((paragraph, index) => {
+      paragraph.innerHTML = data.informations.notice2.p[index];
+    });document.querySelector("#notice_3 > div:nth-child(1) > span");
+    const title4 = document.querySelector("#notice_3 > div:nth-child(1) > span");
+    title4.innerHTML = data.informations.notice3.span;
+    const img4 = document.querySelector("#notice_3 > div:nth-child(2) > img");
+    img4.alt = data.informations.notice3.alt;
+    const paragraph4 = document.querySelectorAll("#notice_3 > p");
+    paragraph4.forEach((paragraph, index) => {
+      paragraph.innerHTML = data.informations.notice3.p[index];
+    });
+    const title5 = document.querySelector("#notice_4 > div > span");
+    title5.innerHTML = data.informations.notice4.span;
+    const paragraph5 = document.querySelectorAll("#notice_4 > p");
+    paragraph5.forEach((paragraph, index) => {
+      paragraph.innerHTML = data.informations.notice4.p[index];
+    });
+    const title6 = document.querySelector("#notice_5 > div > span");
+    title6.innerHTML = data.informations.notice5.span;
+    const paragraph6 = document.querySelectorAll("#notice_5 > p");
+    paragraph6.forEach((paragraph, index) => {
+      paragraph.innerHTML = data.informations.notice5.p[index];
+    });
+    const title7 = document.querySelector("#notice_6 > div:nth-child(1) > span");
+    title7.innerHTML = data.informations.notice6.span;
+    const paragraph7 = document.querySelectorAll("#notice_6 > p");
+    paragraph7.forEach((paragraph, index) => {
+      paragraph.innerHTML = data.informations.notice6.p[index];
+    });
+    const title8 = document.querySelector("#notice_7 > div:nth-child(1) > span");
+    title8.innerHTML = data.informations.notice7.span;
+    const paragraph8 = document.querySelectorAll("#notice_7 > p");
+    paragraph8.forEach((paragraph, index) => {
+      paragraph.innerHTML = data.informations.notice7.p[index];
+    });
+    const titleImages = document.querySelector("#images > div:nth-child(1) > span");
+    titleImages.innerHTML = data.informations.images.span;
+    const paragraphImages = document.querySelectorAll("#images > p");
+    paragraphImages.forEach((paragraph, index) => {
+      paragraph.innerHTML = data.informations.images.p[index];
+    });
+    const titleProfs = document.querySelector("#profs > div:nth-child(1) > span");
+    titleProfs.innerHTML = data.informations.profs.span;
+    const paragraphProfs = document.querySelectorAll("#profs > p");
+    paragraphProfs.forEach((paragraph, index) => {
+      paragraph.innerHTML = data.informations.profs.p[index];
+    });
+    const titleGrammaire = document.querySelector("#grammaire > div:nth-child(1) > span");
+    titleGrammaire.innerHTML = data.informations.grammaire.span;
+    const paragraphGrammaire = document.querySelectorAll("#grammaire > p");
+    paragraphGrammaire.forEach((paragraph, index) => {
+      paragraph.innerHTML = data.informations.grammaire.p[index];
+    });
+    const titleBiblio = document.querySelector("#biblio > div:nth-child(1) > span");
+    titleBiblio.innerHTML = data.informations.biblio.span;
+    const paragraphBiblio = document.querySelectorAll("#biblio > p");
+    paragraphBiblio.forEach((paragraph, index) => {
+      paragraph.innerHTML = data.informations.biblio.p[index];
+    });
+    const titleHandicap = document.querySelector("#handicap > div:nth-child(1) > span");
+    titleHandicap.innerHTML = data.informations.handicap.span;
+    const paragraphHandicap = document.querySelectorAll("#handicap > p");
+    paragraphHandicap.forEach((paragraph, index) => {
+      paragraph.innerHTML = data.informations.handicap.p[index];
+    });
+    const menuLateral = document.querySelectorAll("#menuLateralInfo > li > a");
+    menuLateral.forEach((menu, index) => {
+      menu.innerHTML = data.informations.menuLateral.menu[index];
     });
   }
 

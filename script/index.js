@@ -1,8 +1,6 @@
 let url = new URLSearchParams(window.location.search).get("lang");
 console.log(url);
 let stateColor = JSON.parse(localStorage.getItem("stateColor")) || ["default","linear-gradient(120deg, rgb(2, 2, 77), black 50%)","#fff", "#FFE200",false];
-let police = JSON.parse(localStorage.getItem("police"));
-let size = JSON.parse(localStorage.getItem("size"));
 
 /* Change color page */
 
@@ -20,8 +18,6 @@ changeColorPage("cielNoir", "#000000", "#82FFFF", "#FFFFFF");
 changeColorPage("limeNoir", "#000000", "#00FF00", "#FFFFFF");
 
 document.addEventListener("DOMContentLoaded", async () => {
-  fontSize(size);
-  fontType(police);
   await colorChange(stateColor);
 });
 
@@ -61,39 +57,11 @@ function switchLanguages(url) {
   }
 }
 
-function fontSize(size) {
-  const html = document.querySelector(":not(.container)");
-  html.style.fontSize = size;
-}
-function fontType(police) {
-  const body = document.getElementById("grey");
-  body.classList.add(police);
-}
-
-/* buttons menu sizes change */
-
-const btnsSizes = document.querySelectorAll(
-  "ul.dropdown-menu-taille > li > button"
-);
-
-const valuesSizes = ["8px", "12px", "16px", "18px", "20px", "22px"];
-
-/* buttons funtions change */
-
-changeSize(valuesSizes[0], btnsSizes[0], "50px");
-changeSize(valuesSizes[1], btnsSizes[1], "75px");
-changeSize(valuesSizes[2], btnsSizes[2]);
-changeSize(valuesSizes[3], btnsSizes[3]);
-changeSize(valuesSizes[4], btnsSizes[4]);
-changeSize(valuesSizes[5], btnsSizes[5]);
-
 async function colorChange(array = ["default", "linear-gradient(120deg, rgb(2, 2, 77), black 50%)", "#fff", "#FFE200", false]) {
   const body = document.getElementById("grey");
-  const links = document.querySelectorAll(
-    "a:not(.lien-cards):not(.damier-link)"
-  );
+  const links = document.querySelectorAll("a:not(.lien-cards):not(.damier-link)");
   const textes = document.getElementsByTagName("p");
-  const figcaption = document.querySelector("figcaption");
+  const figcaption = document.querySelector("div.illustration > figure > figcaption");
   const h1 = document.getElementsByTagName("h1");
   const h2 = document.getElementsByTagName("h2");
   const h3 = document.querySelectorAll("h3:not(.daminer-original-color)");
@@ -383,7 +351,7 @@ function changeColorPage(
     "a:not(.lien-cards):not(.damier-link)"
   );
   const textes = document.getElementsByTagName("p");
-  const figcaption = document.querySelector("figcaption");
+  const figcaption = document.querySelector("div.illustration > figure > figcaption");
   const h1 = document.getElementsByTagName("h1");
   const h2 = document.getElementsByTagName("h2");
   const h3 = document.querySelectorAll("h3:not(.daminer-original-color)");
@@ -448,18 +416,6 @@ function changeColorPage(
         });
       }
     });
-  });
-}
-
-/* Size change */
-
-function changeSize(size, button, lineHieght = "150px") {
-  const html = document.querySelector(":not(.container)");
-  const paragraphe = document.querySelector(".paragraphe_accueil");
-  button.addEventListener("click", () => {
-    html.style.fontSize = size;
-    paragraphe.style.lineHeight = lineHieght;
-    localStorage.setItem("size", JSON.stringify(size));
   });
 }
 
@@ -667,9 +623,7 @@ function main(data) {
   );
   img.src = data.main.illustration.img.imgUrl;
   img.alt = data.main.illustration.img.alt;
-  const texte1 = document.querySelectorAll(
-    "div.illustration > figure.illustration_figure > figcaption > span"
-  )[0];
+  const texte1 = document.querySelector("#grey > main > div.illustration > figure > figcaption");
   texte1.innerHTML = data.main.illustration.img.figcaption.span1;
   const title1 = document.querySelector("section.bienvenue > h1 > a");
   const title2 = document.querySelector(
@@ -774,7 +728,7 @@ function main(data) {
       "a:not(.lien-cards):not(.damier-link)"
     );
     const textes = document.getElementsByTagName("p");
-    const figcaption = document.querySelector("figcaption");
+    const figcaption = document.querySelector("div.illustration > figure > figcaption");
     const h1 = document.getElementsByTagName("h1");
     const h2 = document.getElementsByTagName("h2");
     const h3 = document.querySelectorAll("h3:not(.daminer-original-color)");
@@ -784,13 +738,12 @@ function main(data) {
     body.style.background = array[1];
     figcaption.style.color = array[2];
     Array.from(links).forEach((link) => {
-      console.log(array[3]);
       link.style.color = array[3];
       link.addEventListener("focus", function () {
         link.style.color = "#ffffff";
       });
       link.addEventListener("blur", function () {
-        link.style.color = array[2];
+        link.style.color = array[3];
       });
       link.addEventListener("mouseenter", () => {
         link.style.color = "#ffffff";

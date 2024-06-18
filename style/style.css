@@ -557,7 +557,10 @@ div.paragraphe_accueil > p > a {
   padding: 10px;
 }
 
-div.paragraphe_accueil > p > a:hover, div.paragraphe_accueil > p > a:focus-visible {
+div.paragraphe_accueil > p > a:hover,
+div.paragraphe_accueil > p > a:focus-visible,
+div.illustration > figure > figcaption > span > a:hover,
+div.illustration > figure > figcaption > span > a:focus-visible {
   background-color: var(--green-bg-hover);
   color: var(--white-text-hover);
   padding: 10px;
@@ -576,9 +579,12 @@ div.illustration > figure > figcaption > span {
 div.illustration > figure > figcaption {
   font-size: 2.2rem;
   color: var(--white-text-hover);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 0 auto;
+  width: 85%;
+}
+
+#grey > main > div.illustration > figure > figcaption > a {
+  text-decoration: none;
 }
 
 div.illustration > figure > figcaption > span > a {

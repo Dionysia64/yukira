@@ -10,7 +10,6 @@ function menuBurger() {
   burger.addEventListener("keydown", (event) => {
     if (event.keyCode === 13) {
       openBurger();
-      f;
     }
   });
 }
@@ -21,6 +20,7 @@ function openBurger() {
   if (accessibility.classList.contains("block")) {
     accessibility.classList.remove("block");
     accessibility.style.display = "none";
+    accessibility.style.transition = "all 3s linear";
     nav.style.display = "none";
   } else {
     accessibility.classList.add("block");

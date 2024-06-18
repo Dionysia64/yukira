@@ -9,7 +9,6 @@ const callback = (entries, observer) => {
 
   // Helper function to add 'anchorActive' class to the target link
   const addActiveClass = (targetId) => {
-    console.log(targetId);
     const targetLink = document.querySelectorAll(`a[href="#${targetId}"]`);
     if (targetLink) {
       links.forEach(link => {
@@ -23,10 +22,8 @@ const callback = (entries, observer) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       const targetId = entry.target.id;
-      console.log(`${targetId} is intersecting with the viewport.`);
       addActiveClass(targetId); // Directly use target ID
     } else {
-      console.log(`${entry.target.id} is not intersecting with the viewport.`);
       removeActiveClasses();
     }
   });
