@@ -17,9 +17,7 @@ changeColorPage("jauneNoir", "#000000", "#FFE200", "#FFFFFF");
 changeColorPage("cielNoir", "#000000", "#82FFFF", "#FFFFFF");
 changeColorPage("limeNoir", "#000000", "#00FF00", "#FFFFFF");
 
-document.addEventListener("DOMContentLoaded", async () => {
-  await colorChange(stateColor);
-});
+colorChange(stateColor);
 
 switchLanguages(url);
 
@@ -351,7 +349,7 @@ function changeColorPage(
     "a:not(.lien-cards):not(.damier-link)"
   );
   const textes = document.getElementsByTagName("p");
-  const figcaption = document.querySelector("div.illustration > figure > figcaption");
+  const figcaption = document.querySelector("figure > figcaption");
   const h1 = document.getElementsByTagName("h1");
   const h2 = document.getElementsByTagName("h2");
   const h3 = document.querySelectorAll("h3:not(.daminer-original-color)");
@@ -623,8 +621,12 @@ function main(data) {
   );
   img.src = data.main.illustration.img.imgUrl;
   img.alt = data.main.illustration.img.alt;
-  const texte1 = document.querySelector("#grey > main > div.illustration > figure > figcaption");
+  const texte1 = document.querySelectorAll("#grey > main > div.illustration > figure > figcaption > span")[0];
   texte1.innerHTML = data.main.illustration.img.figcaption.span1;
+  const linkCloe = document.querySelectorAll("#grey > main > div.illustration > figure > figcaption > a");
+  linkCloe.innerHTML = data.main.illustration.img.figcaption.link;
+  const texte2 = document.querySelectorAll("#grey > main > div.illustration > figure > figcaption > span")[1];
+  texte2.innerHTML = data.main.illustration.img.figcaption.span2;
   const title1 = document.querySelector("section.bienvenue > h1 > a");
   const title2 = document.querySelector(
     "section.bienvenue > div.titre_accueil > h2"
@@ -632,16 +634,24 @@ function main(data) {
   const p1 = document.querySelectorAll(
     "section.bienvenue > div.paragraphe_accueil > p"
   )[0];
-  const p2 = document.querySelectorAll(
+  const p2Span1 = document.querySelectorAll(
     "section.bienvenue > div.paragraphe_accueil > p"
-  )[1];
+  )[1].querySelectorAll("span")[0];
+  const p2Link = document.querySelectorAll(
+    "section.bienvenue > div.paragraphe_accueil > p"
+  )[1].querySelector("a");
+  const p2Span2 = document.querySelectorAll(
+    "section.bienvenue > div.paragraphe_accueil > p"
+  )[1].querySelectorAll("span")[1];
   const p3 = document.querySelectorAll(
     "section.bienvenue > div.paragraphe_accueil > p"
   )[2];
   title1.innerHTML = data.main.bienvenue.title1;
   title2.innerHTML = data.main.bienvenue.title2;
   p1.innerHTML = data.main.bienvenue.paragraphe.p1;
-  p2.innerHTML = data.main.bienvenue.paragraphe.p2;
+  p2Span1.innerHTML = data.main.bienvenue.paragraphe.p2.span1;
+  p2Link.innerHTML = data.main.bienvenue.paragraphe.p2.link;
+  p2Span2.innerHTML = data.main.bienvenue.paragraphe.p2.span2;
   p3.innerHTML = data.main.bienvenue.paragraphe.p3;
   const img1 = document.querySelectorAll(
     "div.communication > div.cards > div.card > img"
