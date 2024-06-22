@@ -492,7 +492,11 @@ function displayLang(data) {
   function languages(lang) {
     const urlParams = new URLSearchParams(window.location.search);
     urlParams.set("lang", lang);
-    const newUrl = window.location.pathname + "?" + urlParams.toString();
+    // Récupère le fragment (ancre) de l'URL actuelle
+    const hash = window.location.hash;
+    // Construit la nouvelle URL avec le fragment inclus
+    const newUrl = window.location.pathname + "?" + urlParams.toString() + hash;
+    // Met à jour l'historique du navigateur avec la nouvelle URL
     window.history.pushState({}, "", newUrl);
     retrieveData()
       .then((data) => {
@@ -650,6 +654,7 @@ function main(data) {
   title2.innerHTML = data.main.bienvenue.title2;
   p1.innerHTML = data.main.bienvenue.paragraphe.p1;
   p2Span1.innerHTML = data.main.bienvenue.paragraphe.p2.span1;
+  p2Link.href = data.main.bienvenue.paragraphe.p2.linkHref;
   p2Link.innerHTML = data.main.bienvenue.paragraphe.p2.link;
   p2Span2.innerHTML = data.main.bienvenue.paragraphe.p2.span2;
   p3.innerHTML = data.main.bienvenue.paragraphe.p3;
@@ -718,6 +723,11 @@ function main(data) {
     titleH4Group2[0].innerHTML = data.footer.damier.case7.title4;
     titleH4Group2[1].innerHTML = data.footer.damier.case8.title4;
     titleH4Group2[2].innerHTML = data.footer.damier.case9.title4;
+    const linkDamier = document.querySelectorAll("footer > div.container > a");
+    const cases = data.footer.damier;
+    linkDamier.forEach((link, index) => {
+      link.href = cases[`case${index + 1}`].href;
+    });
     const linksSubFooter = document.querySelectorAll(
       "div.sub-container > div > ul > li a"
     );

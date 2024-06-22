@@ -509,7 +509,11 @@ function displayLang(data) {
   function languages(lang) {
     const urlParams = new URLSearchParams(window.location.search);
     urlParams.set("lang", lang);
-    const newUrl = window.location.pathname + "?" + urlParams.toString();
+    // Récupère le fragment (ancre) de l'URL actuelle
+    const hash = window.location.hash;
+    // Construit la nouvelle URL avec le fragment inclus
+    const newUrl = window.location.pathname + "?" + urlParams.toString() + hash;
+    // Met à jour l'historique du navigateur avec la nouvelle URL
     window.history.pushState({}, "", newUrl);
     retrieveData()
       .then((data) => {
@@ -774,6 +778,11 @@ function displayLang(data) {
     for (let i = 0; i < textSubFooter.length; i++) {
       textSubFooter[i].innerHTML = data.footer.subFooter[i];
     }
+    const linkDamier = document.querySelectorAll("footer > div.container > a");
+    const cases = data.footer.damier;
+    linkDamier.forEach((link, index) => {
+      link.href = cases[`case${index + 1}`].href;
+    });
   }
   
   async function colorChangeDefault(array) {

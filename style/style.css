@@ -1665,7 +1665,9 @@ section.citation > div > p  {
 }
 }
 
-main > section.about > div > p > a:not(a[href="#"]):hover, main > section.about > div > p > a:not(a[href="#"]):focus-visible, #menuLateral > li > a:hover, #menuLateral > li > a:focus-visible {
+main > section.about > div > p > a:not(a[href="#"]):hover, main > section.about > div > p > a:not(a[href="#"]):focus-visible,
+#menuLateral > li > a:hover, #menuLateral > li > a:focus-visible,
+#menuLateralInfo > li > a:hover, #menuLateralInfo > li > a:focus-visible {
   background-color: var(--green-bg-hover);
   color: var(--white-text-hover);
 }

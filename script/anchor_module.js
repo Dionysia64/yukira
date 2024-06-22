@@ -1,4 +1,4 @@
-const array = document.querySelectorAll('a[href^="#"]');
+const array = document.querySelectorAll('a[href^="#"]:not(footer > div.container > a)');
 
 function anchor(selector) {
   selector.forEach(anchor => {
@@ -8,11 +8,10 @@ function anchor(selector) {
           const targetElement = document.querySelector(targetId);
 
           if (targetElement) {
-              targetElement.scrollIntoView({
-                  behavior: 'smooth',
-                  block: 'start',
-                  inline: 'start',
-                  boundary: targetElement
+              const topOffset = targetElement.getBoundingClientRect().top + window.scrollY - document.documentElement.clientTop;
+              window.scrollTo({
+                  top: topOffset,
+                  behavior: 'smooth'
               });
           }
       });

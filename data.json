@@ -54,7 +54,8 @@
           "p1": "Soyez les bienvenus sur ce site en construction et en cours de traduction. Son maître-mot ? Accessibilité. Mieux encore&nbsp;: confort de lecture pour tous&nbsp;! ",
           "p2": {
             "span1": "Si vous me rendez visite pour la première fois, je vous invite à vous rendre sur ",
-            "link": "<a href=\"/pages/informations.html?lang=Français#notice\">Informations</a>",
+            "linkHref": "\/pages\/informations.html?lang=Français#notice",
+            "link": "Informations",
             "span2": " pour découvrir comment agrémenter votre lecture."
           },
           "p3": "En 2015, j’accueillais mon premier chien-guide, Yuka. Ma labrador m’aura guidée fidèlement durant 8 ans avant de prendre sa retraite bien méritée et de passer le témoin à Kira, sa jeune successrice et partenaire de jeux."
@@ -194,7 +195,7 @@
       "informationsBlocs": {
         "notice": {
           "span": "Si vous découvrez ce site..",
-          "p": ["«Entrez seulement&nbsp;!» comme nous aimons le dire en Suisse romande. Merci de me rendre visite. Ou plutôt, merci de NOUS rendre visite, parce que je ne saurais oublier les personnes sans qui cesite n'aurait jamais vu le jour. Je vous les présenterai ci-après.",
+          "p": ["«Entrez seulement&nbsp;!» comme nous aimons le dire en Suisse romande. Merci de me rendre visite. Ou plutôt, merci de NOUS rendre visite, parce que je ne saurais oublier les personnes sans qui ce site n'aurait jamais vu le jour. Je vous les présenterai ci-après.",
           "Ce site s'affiche, par défaut, avec une taille d'écriture plus élevée que la normale, la police de caractère Luciole (qui a été mise au point pour personnes malvoyantes) et un contraste positif.",
           "Cela ne vous convient pas&nbsp;? Aucun problème&nbsp;! Vous allez pouvoir configurer l'affichage de ce site selon vos besoins&nbsp;! Une fois que vous aurez trouvé de quoi rendre votre lecture confortable, vos préférences seront mémorisées et effectives lors de vos prochaines connexions.",
           "Voici une petite visite guidée&nbsp;:"]
@@ -313,39 +314,48 @@
       "damier": {
         "case1": {
           "titleAlt": "une photo portrait de Yuka dont on voit la partie supérieure de son harnais de travail",
-          "title3": "Yuka"
+          "title3": "Yuka",
+          "href": "/pages/about.html?lang=Français#yukaa"
         },
         "case2": {
           "titleAlt": "Dans un parc enneigé, je tiens, d'une seule main, Yuka et Kira en laisse et fais semblant de tenir, de l'autre, le parapluie qui a été fixé sur la tête d'un bonhomme de neige, presque aussi grand que moi, à côté duquel nous posons",
-          "title3": "dionysia alias Talaria"
+          "title3": "dionysia alias Talaria",
+          "href": "/pages/about.html?lang=Français#quiSuisJe"
         },
         "case3": {
           "titleAlt": "une photo portrait de Kira dont on voit la partie supérieure de son harnais de travail",
-          "title3": "Kira"
+          "title3": "Kira",
+          "href": "/pages/about.html?lang=Français#kiraa"
         },
         "case4": {
           "titleAlt": "Kira porte son gilet bleu sur lequel nous pouvons lire «L» (comme sur les voitures des élèves conducteurs), chien en parrainage ainsi que le logo de son école",
-          "title4": "Une future chienne-guide"
+          "title4": "Une future chienne-guide",
+          "href": "/pages/itineraire.html?lang=Français#parrainage"
         },
         "case5": {
           "titleAlt": "Kira, vue de profil, porte son harnais de travail Uniflaï de couleur bleu, avec le logo de l’école, sur lequel nous pouvons lire&nbsp;: chien guide",
-          "title4": "Une chienne-guide en activité"
+          "title4": "Une chienne-guide en activité",
+          "href": "/pages/itineraire.html?lang=Français#travail"
         },
         "case6": {
           "titleAlt": "Yuka est assise dans l’herbe et photographiée de près, ce qui nous permet de distinguer ses poils blancs naissants autour de ses yeux et qui sont bien plus concentrés autour de sa gueule",
-          "title4": "Une chienne-guide retraitée"
+          "title4": "Une chienne-guide retraitée",
+          "href": "/pages/itineraire.html?lang=Français#retraite"
         },
         "case7": {
           "titleAlt": "Dans la nursery de la fondation romande de chiens-guides, nous voyons Shila, la mère de Yuka, de couleur beige, en train d’allaiter ses 8 petits tout noirs.",
-          "title4": "Yuka 2012"
+          "title4": "Yuka 2012",
+          "href": "/pages/itineraire.html?lang=Français#nursery"
         },
         "case8": {
           "titleAlt": "Dans le parc enneigé, David, vu de face, tient dans chaque main la laisse de Kira et de Yuka",
-          "title4": "David L'homme de la maison et cameraman"
+          "title4": "David L'homme de la maison et cameraman",
+          "href": "/pages/about.html?lang=Français#david"
         },
         "case9": {
           "titleAlt": "Dans la nursery de l'école de chien-guide d'Allschwil, la portée de Kira est installée sur un coussin et une couverture disposés dans une corbeille bleue. 5 chiots sont de couleur noire, deux de couleur chocolat",
-          "title4": "KIRA 2020"
+          "title4": "KIRA 2020",
+          "href": "/pages/itineraire.html?lang=Français#nursery"
         }
       },
       "subMenuFooter": [
@@ -420,7 +430,8 @@
           "p1": "Herzlich willkommen auf dieser Website, die sich noch im Aufbau und in der Übersetzung befindet. Ihr Motto? Zugänglichkeit. Noch besser: Lesekomfort für alle!", 
           "p2": {
           "span1": "Wenn Sie diese Seite zum ersten Mal besuchen, lade ich Sie ein, auf",
-          "link": "<a href=\"/pages/informations.html?lang=Deutsch#notice\">Infos</a>",
+          "linkHref": "\/pages\/informations.html?lang=Deutsch#notice",
+            "link": "Infos",
             "span2": " zu gehen, um herauszufinden, wie Sie Ihren Lesekomfort optimieren können."
           },
           "p3": "Im Jahr 2015 bekam ich meinen ersten Blindenführhund, Yuka. Meine Labradorhündin hatte mich acht Jahre lang treu geführt, bevor sie in den wohlverdienten Ruhestand ging und den Staffelstab an Kira, ihre junge Nachfolgerin und Spielpartnerin, weitergab."
@@ -556,7 +567,7 @@
       "informationsBlocs": {
         "notice": {
           "span": "Wenn Sie diese Website entdecken… ",
-          "p": ["\"Chumm ine!\". Wie wir es gerne in der Deutschschweiz sagen. Danke, dass Sie mich besuchen. Oder besser, danke, dass Sie UNS besuchen, weil ich die Personen, ohne welche die Website das Tageslicht nie erblickt hätte, nicht vergessen darf. Ich werde sie Ihnen später vorstellen.",
+          "p": ["\"Chumm ine!\", wie wir es gerne in der Deutschschweiz sagen. Danke, dass Sie mich besuchen. Oder besser, danke, dass Sie UNS besuchen, weil ich die Personen, ohne welche die Website das Tageslicht nie erblickt hätte, nicht vergessen darf. Ich werde sie Ihnen später vorstellen.",
           "Standardmässig wird diese Website mit einer grösseren Schrift als normal, der Schrift Luciole (die für Sehbehinderte Menschen entwickelt wurde) und einem positiven Kontrast dargestellt.",
           "Das passt Ihnen nicht? Überhaupt kein Problem! Sie können die Darstellung je nach Ihrem Wunsch konfigurieren! Sobald Sie Ihren passenden Lesekomfort gefunden haben, werden Ihre Präferenzen gespeichert und wirken sich auf Ihren nächsten Besuch aus.",
           "Hier ist eine geführte Tour:"]
@@ -677,39 +688,48 @@
       "damier": {
         "case1": {
           "titleAlt": "ein Porträtfoto von Yuka, auf dem der obere Teil ihres Führgeschirrs zu sehen ist",
-          "title3": "Yuka"
+          "title3": "Yuka",
+          "href": "/pages/about.html?lang=Deutsch#yukaa"
         },
         "case2": {
           "titleAlt": "In einem verschneiten Park halte ich mit einer Hand Yuka und Kira an der Leine und tue so, als ich mit der anderen Hand den Regenschirm halten würde, der auf dem Kopf eines Schneemanns befestigt wurde, der fast so groß ist wie ich und neben dem wir sitzen",
-          "title3": "dionysia alias Talaria"
+          "title3": "dionysia alias Talaria",
+          "href": "/pages/about.html?lang=Deutsch#quiSuisJe"
         },
         "case3": {
           "titleAlt": "ein Porträtfoto von Kira, auf dem der obere Teil ihres Führgeschirrs zu sehen ist",
-          "title3": "Kira"
+          "title3": "Kira",
+          "href": "/pages/about.html?lang=Deutsch#kiraa"
         },
         "case4": {
           "titleAlt": "Kira trägt ihre blaue Weste, auf welcher ein L (wie auf den Autos der Fahrschüler), Patenhund und das Logo der Schule stehen.",
-          "title4": "Eine zukünftige Führhündin"
+          "title4": "Eine zukünftige Führhündin",
+          "href": "/pages/itineraire.html?lang=Deutsch#parrainage"
         },
         "case5": {
           "titleAlt": "Kira von der Seite gesehen trägt ihr blaues Unifly-Führsgeschirr mit der Aufschrift: Führhund und dem Logo ihrer Schule.",
-          "title4": "Eine berufstätige Führhündin"
+          "title4": "Eine berufstätige Führhündin",
+          "href": "/pages/itineraire.html?lang=Deutsch#travail"
         },
         "case6": {
           "titleAlt": "Yuka sitzt im Gras und ist von vorne fotografiert. So sieht man ihre erst kürzlich gewachsenen weissen Haare um die Augen und die schon länger bestehenden um ihre Schnauze.",
-          "title4": "Eine pensionierte Führhündin"
+          "title4": "Eine pensionierte Führhündin",
+          "href": "/pages/itineraire.html?lang=Deutsch#retraite"
         },
         "case7": {
           "titleAlt": "In der nursery der Westschweizer Stiftung für Blindenführhunde sehen wir Shila, die weissfarbige Mutter von Yuka, die ihre 8 schwarzen Welpen stillt.",
-          "title4": "Yuka 2012"
+          "title4": "Yuka 2012",
+          "href": "/pages/itineraire.html?lang=Deutsch#nursery"
         },
         "case8": {
           "titleAlt": "Im verschneiten Park hält David, von vorne gesehen, in jeder Hand die Leine von Kira und Yuka.",
-          "title4": "David Der Mann des Hauses und Kameramann"
+          "title4": "David Der Mann des Hauses und Kameramann",
+          "href": "/pages/about.html?lang=Deutsch#david"
         },
         "case9": {
           "titleAlt": "In der Nursery der Blindenführhundeschule Allschwil liegt Kiras Wurf auf einem Kissen. Fünf Welpen sind schwarz, zwei schokoladenbraun.",
-          "title4": "KIRA 2020"
+          "title4": "KIRA 2020",
+          "href": "/pages/itineraire.html?lang=Deutsch#nursery"
         }
       },
       "subMenuFooter": [
@@ -784,7 +804,8 @@
           "p1": "Benvenuti su questo sito in costruzione e in corso di traduzione. Il suo motto? Accessibilità. Meglio ancora: facilità di lettura per tutti!", 
           "p2": {
             "span1": "Se visitate il sito per la prima volta, vi invito ad andare su ",
-            "link": "<a href=\"/pages/informations.html?lang=Italiano#notice\">Infos</a>",
+            "linkHref": "\/pages\/informations.html?lang=Italiano#notice",
+            "link": "Informazione",
             "span2": " per scoprire come rendere più piacevole la vostra lettura."
 
 
@@ -1043,39 +1064,48 @@
       "damier": {
         "case1": {
           "titleAlt": "Una foto ritratto di Yuka che mostra la parte superiore della sua pettorina per cani guida.",
-          "title3": "Yuka"
+          "title3": "Yuka",
+          "href": "/pages/about.html?lang=Italiano#yukaa"
         },
         "case2": {
           "titleAlt": "In un parco innevato, tengo Yuka e Kira al guinzaglio con una mano e con l'altra fingo di tenere l'ombrello sopra alla testa di un pupazzo di neve",
-          "title3": "Dionysia alias Talaria"
+          "title3": "Dionysia alias Talaria",
+          "href": "/pages/about.html?lang=Italiano#quiSuisJe"
         },
         "case3": {
           "titleAlt": "Una foto ritratto di Kira che mostra la parte superiore della sua pettorina per cani guida",
-          "title3": "Kira"
+          "title3": "Kira",
+          "href": "/pages/about.html?lang=Italiano#kiraa"
         },
         "case4": {
           "titleAlt": "Kira indossa il suo gilet blu sul quale sono scritti la lettera L (come sulle macchine degli studenti), cane adottivo e il logo della scuola.",
-          "title4": "Un futuro cane guida"
+          "title4": "Un futuro cane guida",
+          "href": "/pages/itineraire.html?lang=Italiano#parrainage"
         },
         "case5": {
           "titleAlt": "Kira vista di profilo indossa la sua pettorina da lavoro Unifly di colore blu con indicato: cane guida e il logo della sua scuola.",
-          "title4": "Un cane guida in attività"
+          "title4": "Un cane guida in attività",
+          "href": "/pages/itineraire.html?lang=Italiano#travail"
         },
         "case6": {
           "titleAlt": "Yuka è seduta sull’erba e fotografata da vicino, questo ci permette di distinguere i suoi pelli bianchi che nascono attorno agli occhi e molto più presenti vicino al naso.",
-          "title4": "Un cane guida in pensione"
+          "title4": "Un cane guida in pensione",
+          "href": "/pages/itineraire.html?lang=Italiano#retraite"
         },
         "case7": {
           "titleAlt": "Nella nursery della Fondazione romanda per cani guida per Ciechi , vediamo la bianca Shila, la madre di Yuka, mentre allatta i suoi 8 cuccioli neri.",
-          "title4": "Yuka 2012"
+          "title4": "Yuka 2012",
+          "href": "/pages/itineraire.html?lang=Italiano#nursery"
         },
         "case8": {
           "titleAlt": "Nel parco innevato, David, visto di fronte, tiene i guinzagli di Kira e Yuka in mano.",
-          "title4": "David L'uomo di casa e il cameraman"
+          "title4": "David L'uomo di casa e il cameraman",
+          "href": "/pages/about.html?lang=Italiano#david"
         },
         "case9": {
           "titleAlt": "Nella nursery della scuola per cani guida di Allschwil, la cucciolata di Kira è adagiata su un cuscino. 5 cuccioli sono neri, due color cioccolato.",
-          "title4": "KIRA 2020"
+          "title4": "KIRA 2020",
+          "href": "/pages/itineraire.html?lang=Italiano#nursery"
         }
       },
       "subMenuFooter": [
@@ -1153,7 +1183,8 @@
           "p1": "A warm welcome to this site, not yet finished. Translation in progress. Its key word: Accessibility. Even better! Confortable reading for all!",
           "p2": {
             "span1": "If you're visiting me for the first time, I invite you to go to ",
-            "link": "<a href=\"/pages/informations.html?lang=English#notice\">Infos</a>",
+            "linkHref": "\/pages\/informations.html?lang=English#notice",
+            "link": "Informations",
             "span2": " to find out how to enhance your reading experience."
 
           },
@@ -1410,39 +1441,48 @@
       "damier": {
         "case1": {
           "titleAlt": "A portrait photo of Yuka showing the upper part of her work harness",
-          "title3": "Yuka"
+          "title3": "Yuka",
+          "href": "/pages/about.html?lang=English#yukaa"
         },
         "case2": {
           "titleAlt": "In a snowy park, I'm holding Yuka and Kira on a leash with one hand and pretending to hold the umbrella on the head of a snowman almost as tall as me with the other.",
-          "title3": "Dionysia alias Talaria"
+          "title3": "Dionysia alias Talaria",
+          "href": "/pages/about.html?lang=English#quiSuisJe"
         },
         "case3": {
           "titleAlt": "A portrait photo of Kira showing the upper part of her work harness",
-          "title3": "Kira"
+          "title3": "Kira",
+          "href": "/pages/about.html?lang=English#kiraa"
         },
         "case4": {
           "titleAlt": "Kira is wearing her blue vest on which we can see the letter L (as seen on the student drivers' cars), foster dog and the school logo.",
-          "title4": "A future guide dog"
+          "title4": "A future guide dog",
+          "href": "/pages/itineraire.html?lang=English#parrainage"
         },
         "case5": {
           "titleAlt": "Kira, seen in profile, is wearing her blue unifly working harness, with the words guide dog and the logo of her school.",
-          "title4": "A working Guide Dog"
+          "title4": "A working Guide Dog",
+          "href": "/pages/itineraire.html?lang=English#travail"
         },
         "case6": {
           "titleAlt": "Yuka is sitting in the grass and photographed close up, and allowing us to make out her barely showing white hair around her eyes and much more concentrated around her mouth",
-          "title4": "A retiered Guide Dog"
+          "title4": "A retiered Guide Dog",
+          "href": "/pages/itineraire.html?lang=English#retraite"
         },
         "case7": {
           "titleAlt": "In the nursery of the French-speaking guide dog foundation, we see Yuka's beige mother breastfeeding her 8 all black puppies.",
-          "title4": "Yuka 2012"
+          "title4": "Yuka 2012",
+          "href": "/pages/itineraire.html?lang=English#nursery"
         },
         "case8": {
           "titleAlt": "In the snow-covered park, David, seen from the front, holds Kira and Yuka's leashes in each hand.",
-          "title4": "David the Man of the house and cameraman"
+          "title4": "David the Man of the house and cameraman",
+          "href": "/pages/about.html?lang=English#david"
         },
         "case9": {
           "titleAlt": "In the nursery at the Allschwil guide dog school, Kira's litter is lying on a cushion. 5 puppies are black, two are chocolate.",
-          "title4": "KIRA 2020"
+          "title4": "KIRA 2020",
+          "href": "/pages/itineraire.html?lang=English#nursery"
         }
       },
       "subMenuFooter": [
@@ -1520,7 +1560,8 @@
           "p1": "Καλώς ήρθατε σε αυτόν τον ιστότοπο υπό κατασκευή και στην διαδικασία μετάφρασης. Το μότο του; Προσβασιμότητα. Aκόμα καλύτερα! Άνεση ανάγνωσης για όλους.",
           "p2": {
             "span1": "Αν με επισκέπτεστε για πρώτη φορά, σας προτείνω να πάτε στις ",
-            "link": "<a href=\"/pages/informations.html?lang=Ellinika#notice\">Infos</a>",
+            "linkHref": "\/pages\/informations.html?lang=Ellinika#notice",
+            "link": "Πληροφορίες",
             "span2": " για να ανακαλύψετε πώς να βελτιώσετε την ποιότητα ανάγνωσής σας."
 
 
@@ -1781,39 +1822,48 @@
       "damier": {
         "case1": {
           "titleAlt": "Ένα πορτραίτο της Γιούκας όπου φαίνεται μόνο το πάνω μέρος του ιμάντα εργασίας της.",
-          "title3": "Γιουκα"
+          "title3": "Γιουκα",
+          "href": "/pages/about.html?lang=Ellinika#yukaa"
         },
         "case2": {
           "titleAlt": "Βρίσκομαι σε ένα χιονισμένο πάρκο. Δίπλα σε έναν χιονάνθρωπο που έχει μία ομπρέλα πάνω από το κεφάλι του. Με το ένα χέρι κρατάω την Γιούκα και την Κίρα από τα λουριά τους και με το άλλο χέρι κάνω ότι κρατάω την ομπρέλα του χιονάνθρωπου.",
-          "title3": "Διονυσια ή αλλιως Ταλαρια"
+          "title3": "Διονυσια ή αλλιως Ταλαρια",
+          "href": "/pages/about.html?lang=Ellinika#quiSuisJe"
         },
         "case3": {
           "titleAlt": "Ένα πορτραίτο της Κίρας όπου φαίνεται μόνο το πάνω μέρος του ιμάντα εργασίας της",
-          "title3": "Κιρα"
+          "title3": "Κιρα",
+          "href": "/pages/about.html?lang=Ellinika#kiraa"
         },
         "case4": {
           "titleAlt": "Η Κίρα φοράει το μπλε γιλέκο της πάνω στο οποίο είναι γραμμένα το γράμμα L (όπως φαίνεται στα αυτοκίνητα των μαθητευόμενων οδηγών), Ανάδοχος Σκύλος και το λογότυπο του σχολείου της.",
-          "title4": "Ένας μελλοντικος σκυλος-οδηγος"
+          "title4": "Ένας μελλοντικος σκυλος-οδηγος",
+          "href": "/pages/itineraire.html?lang=Ellinika#parrainage"
         },
         "case5": {
           "titleAlt": "Φωτογραφία -προφίλ της Κίρας που φοράει τον ιμάντα εργασίας Unifly μπλε χρώματος, με την επιγραφή Σκύλος-Οδηγός και το λογότυπο του σχολείου της",
-          "title4": "Ένας σκυλος-οδηγος εν ενεργεια"
+          "title4": "Ένας σκυλος-οδηγος εν ενεργεια",
+          "href": "/pages/itineraire.html?lang=Ellinika#travail"
         },
         "case6": {
           "titleAlt": "Η Γιούκα φωτογραφίζεται από κοντά, επιτρέποντάς μας να δούμε τις λευκές τρίχες της γύρω από τα μάτια της και ακόμη πιο πολύ συγκεντρωμένες γύρω από το στόμα της.",
-          "title4": "Ένας συνταξιουχος σκυλος-οδηγος"
+          "title4": "Ένας συνταξιουχος σκυλος-οδηγος",
+          "href": "/pages/itineraire.html?lang=Ellinika#retraite"
         },
         "case7": {
           "titleAlt": "Στο μαιευτήριο του γαλλόφωνου ιδρύματος σκύλων-οδηγών, βλέπουμε την μπεζ μητέρα της Γιούκας να θηλάζει και τα 8 μαύρα κουταβάκια της. ",
-          "title4": "Γιουκα 2012"
+          "title4": "Γιουκα 2012",
+          "href": "/pages/itineraire.html?lang=Ellinika#nursery"
         },
         "case8": {
           "titleAlt": "Στο χιονισμένο πάρκο, ο Νταβίντ, όπως φαίνεται από μπροστά, κρατάει τα λουριά της Κίρα και της Γιούκα σε κάθε χέρι.",
-          "title4": "Νταβιντ, Ο κυριος του σπιτιου και ο εικονοληπτης"
+          "title4": "Νταβιντ, Ο κυριος του σπιτιου και ο εικονοληπτης",
+          "href": "/pages/about.html?lang=Ellinika#david"
         },
         "case9": {
           "titleAlt": "Στο μαιευτήριο του Foundation Swiss School for Guide Dogs for the Blind Allschwil, η Κίρα και τα αδέρφια της βρίσκονται πάνω σε ένα μαξιλάρι και μια κουβέρτα μέσα σε ένα μπλε καλάθι. 5 κουτάβια είναι μαύρα και δύο είναι σοκολατί.",
-          "title4": "Κιρα 2020"
+          "title4": "Κιρα 2020",
+          "href": "/pages/itineraire.html?lang=Ellinika#nursery"
         }
       },
       "subMenuFooter": [
