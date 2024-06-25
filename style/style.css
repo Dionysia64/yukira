@@ -1788,3 +1788,7 @@ section.itinéraire > div > div:nth-child(1) {
 section.citation > p {
   line-height: 2;
 }
+
+section.citation > p {
+  margin: 50px 0;
+}

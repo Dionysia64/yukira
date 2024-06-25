@@ -304,7 +304,7 @@
       
       },
       "menuLateral": {
-        "menu": ["Visite guidée", "Images", "Profs", "Grammaire", "Biblio", "Handicap"]
+        "menu": ["Visite guidée", "Images", "Profs", "Grammaire", "Bibliographie", "Handicap"]
       }
     },
     "footer": {
@@ -646,7 +646,7 @@
       "images": {
         "span": "L'illustratrice de ce site, les images & photos",
         "p": ["Il est temps de vous présenter <a href=\"https://chloeroten.wixsite.com/chloeillustree\" target=\"_blank\" >Chloé Roten</a >, une jeune artiste de talent qui a donné vie aux deux chiens-guides de ce site ainsi qu'aux membres de leur famille.",
-        "Chloé et la fille de Karin, une amie que j'ai rencontrée durant nos études d'orthophonie. Karin avait fait un poste sur Facebook avec un magnifique dessin de Chloé. J'ai été voir son instagram et le moins que je saurais dire, c'est que j'ai été conquise.",
+        "Chloé est la fille de Karin, une amie que j'ai rencontrée durant nos études d'orthophonie. Karin avait fait un poste sur Facebook avec un magnifique dessin de Chloé. J'ai été voir son instagram et le moins que je saurais dire, c'est que j'ai été conquise.",
         "J'ai toujours été fascinée par les belles peintures. Même lorsque je voyais de manière satisfaisante, je n'étais pas la partenaire idéale pour jouer au pictionary 🤣. Et c'est super frustrant parce que j'ai toujours eu beaucoup d'images, de couleurs, dans ma tête. J'ai même un vieux rêve inassouvi d'écrire des livres pour enfants avec de beaux dessins !",
         "Aussi, lorsque l'idée de créer un site a émergé, ce fut une évidence pour moi de demander une illustration à Chloé. Tout s'est rapidement mis en place, elle m'a proposé plusieurs esquisses de Kira en train de me guider, sur plusieurs angles. Une fois mon choix fait, elle a ajouté les autres éléments, apporté les petites corrections demandées, et fait les ajouts souhaités.",
         "J'étais si contente que j'ai eu envie de lui demander d'autres dessins&nbsp;: un pour représenter mes deux super-héroïnes et l'autre pour imager le livre d'or. Pour ces deux illustrations, ce fut encore plus facile, Chloé avait compris ce que j'avais dans la tête. J'ai accepté ses dessins du premier coup.",
@@ -992,7 +992,7 @@
         "Il secondo pulsante",
          "permette di scegliere un altro font: LexieReadable, che mi è sembrato interessante per le persone dislessiche, o il più classico Verdana.",
         "Il terzo pulsante",
-         "permette d i modificare la palette di colori. Ci sono 4 diversi contrasti negativi (testo scuro su fondo chiaro) seguiti da 8 contrasti positivi (testo chiaro su fondo scuro blu scuro per le 4 prime opzioni e su fondo nero per le altre 4).",
+         "permette d i modificare la palette di colori. Ci sono 4 diversi contrasti negativi (testo scuro su fondo chiaro) seguiti da 8 contrasti positivi (testo chiaro su fondo blu scuro per le 4 prime opzioni e su fondo nero per le altre 4).",
          "Logicamente, lo sfondo di ogni opzione indica il colore dello sfondo della pagina e il colore della matita a quello del testo. NB Ogni cambio di colore nel testo significa che c'è un link (attivo o in costruzione). Questi link si possono riconoscere perché, passandoci sopra, il testo appare in bianco su fondo verde scuro.",
         "Il quarto pulsante",
         "permette di selezionare una interfaccia sui toni del grigio. Per ragioni inspiegabili, lo sfondo non cambia sui toni del grigio. Quindi vi consiglio di usare questo bottone insieme al terzo. Per ottenere un contrasto ottimale, potreste scegliere la prima opzione per un contrasto negativo o la prima delle 4 ultime opzioni per un contrasto positivo."]
@@ -1010,11 +1010,11 @@
       "notice7": {
         "span":  "Perché questo sito è stato progettato in questo modo?",
 "p": ["La sfida che ho cercato di risolvere durante tutta l'elaborazione di questo sito, con l'aiuto di Farouk, il mio prof di sviluppo web, riguardava la restituzione accessibile dei miei contenuti. Non solo accessibile, ma piacevole alla lettura, tanto per i visitatori ipovedenti, quanto per chi vede bene.",
-        "👩🏼‍🔧 Questo sarà tradotto presto! 👩🏼‍🔧 Il serait dommage de faire fuir les personnes qui voient bien et celles dont les besoins sont diamétralement opposés à ceux des personnes malvoyantes, notamment en raison d'un TSA, d'une dyslexie, d'un syndrome d'Irlen, parfois les trois en même temps ! Certaines d'entre elles tolèrent très mal les contrastes élevés, surtout sur un arrière-plan foncé !",
-        "Beaucoup de sites, lorsque les web-masters se sont donné la peine d'installer des outils de navigation adaptée, me paraissent décevants… Ils n'offrent qu'un choix, pas toujours heureux. Les changement de couleurs ne couvrent pas toute la page. Certains font tout simplement disparaître les images, ce que je trouve dommage. D'autres font très mal leur travail (exemple : contraste positif avec écriture grise sur fond noir). Mais pourquoi diable ne pas opter pour une écriture blanche afin d'offrir un contraste maximal ? Il y aussi ceux qui ne changent que la couleur du texte principal mais ne jugent pas utile de le faire sur les titres, les liens qui deviennent illisibles (ex. violet sur noir).",
-        "En un mot, je voulais offrir ce qu'il y a de plus adapté à chaque personne malvoyante qui peut lire en noir dans de bonnes conditions sans oublier les autres visiteurs. Je me suis servie d'un outil très précieux, que l'on peut télécharger gratuitement, et que tout web-developer / web-designer devrait utiliser pour respecter la Web Accessibility Initiative (WAI) du World Wide Web Consortium (W3C) : <a href=\"https://www.avh.asso.fr/fr/favoriser-laccessibilite/accessibilite-numerique/outils-utiles\" target=\"_blank\" >un analyseur de contraste des couleurs (CCA)</a>.",
-        "Il m'a fallu une sacrée dose d'inconscience le jour où j'ai décidé de m'initier, quelques mois avant de souffler mes 60 bougies, au développement web ! Il en certainement fallu pas mal à Farouk pour m'accepter comme élève (rires). Le moins que je puisse dire, c'est que je ne l'ai pas ménagé avec mon perfectionnisme chevillé au corps et mes «non, cela ne va pas être possible… ça flingue les yeux !» en réponse à certaines de ces propositions d'animations pour agrémenter le site.",
-        "Pourquoi un tel perfectionnisme ? C'est dans mon ADN, pour le meilleur et pour le pire. Mais il y a une autre raison. Pour moi c'est un acte militant : je trouve inacceptable, à l'heure actuelle, que tant de web-masters, dont c'est le métier, qui créent des sites pour des administrations, des cabinets médicaux, des banques, soient si peu instruits en matière d'accessibilité numérique ! Je ne comprends même pas comment c'est possible de manquer à ce point de bon sens. C'est insupportable de voir tant de sites avec des écritures claires sur fonds clairs. Des sites qui utilisent du blanc sur bleu clair (ou l'inverse) fleurissent partout. J'en veux pour preuve ce contraste que l'on trouve partout dans le site d'un centre médical.",
+"Sarebbe un peccato fare scappare le persone che vedono bene e quelle i cui bisogni sono diametralmente opposti a quelli degli ipovedenti, in particolare per un DSA, per una dislessia, un sindrome d'Irlen, a volte tutti le tre! Alcuni di questi tollerano molto male i contrasti elevati, soprattutto su uno sfondo scuro!",
+"Molti siti, dopo che i loro programmatori si sono sforzati di installare degli strumenti di navigazione inclusivi, mi sembrano deludenti… Non offrono che una scelta, non sempre felice. I cambiamenti dei colori non coinvolgono tutta la pagina. Certi fanno semplicemente scomparire le immagini e questo mi dispiace molto. Altri fanno molto male il loro lavoro (esempio: contrasto positivo con testo grigio su fondo nero. Ma perche diavolo non possono optare per un testo bianco per offrire il massimo contrasto?). Ci sono anche quelli che cambiano solo il colore del testo principale ma non considerano utile farlo sui titoli o i link che diventano illeggibili (es. viola scuro su nero).",
+"In una parola, vorrei offrire quello che c'è di più adatto a ogni persona malvedente, che può leggere in nero nelle migliori condizioni senza dimenticare gli altri visitatori. Ho usato uno strumento prezioso che può essere scaricato gratuitamente, e che tutti gli sviluppatori / web-designer dovrebbero usare per rispettare la Web Accessibility Initiative (WAI) du World Wide Web Consortium (W3C): <a href=\"https://www.avh.asso.fr/fr/favoriser-laccessibilite/accessibilite-numerique/outils-utiles\" target=\"_blank\">Color Contrast Analyzer (CCA)</a>.",
+"Mi è mancata una sana dose d'incoscienza il giorno in cui ho deciso di studiare, qualche mese prima di compiere i miei 60 anni, lo sviluppo web! Lo stesso è mancato a Farouk nell'accettarmi come allieva (risate). Il minimo che possa dire è che non l'ho gestito con il perfezionismo che mi caratterizza e i miei \"no questo no sarà possibile… è da cavarsi gli occhi!\" in risposta a alcune proposte di animazioni per abbellire il sito.",
+        "Perche un tale perfezionismo? È nel mio DNA, positivo o negativo che sia. Ma c'è un altra ragione. Per me si tratta di una presa di posizione: trovo inaccettabile, al giorno d'oggi, che tanti sviluppatori, che lo fanno per mestiere, che creano siti per amministrazioni, studi medici, banche, siano così poco istruiti in materia d'accessibilità digitale! Non capisco neanche come sia possibile mancare di buon senso fino a questo punto. È insopportabile vedere tanti siti con testi chiari su fondi chiari. Siti che usano il bianco sull'azzurro (o il contrario) fioriscono ovunque. 👩🏼‍🔧 Questo sarà tradotto presto! 👩🏼‍🔧. J'en veux pour preuve ce contraste que l'on trouve partout dans le site d'un centre médical.",
         "Il y a encore pire, l'écriture jaune, ou vert, très claire, vive, sur fond blanc. À part éblouir, je ne vois pas à quoi ça sert.",
         "J'aurais encore fort à dire sur l'accessibilité numérique… j'y reviendrai certainement plus tard.",
         "Vous avez maintenant toutes les clés en main pour parcourir ce site avec les réglages mis à votre disposition. N'hésitez pas à me faire part des éventuels problèmes rencontrés. Vous pouvez volontiers me signaler des erreurs d'inattention dans l'orthographe, la syntaxe, etc."]
@@ -1054,7 +1054,7 @@
         "p": ["👩‍💻 Sera rédigé plus tard.👩‍💻"] 
       },
       "menuLateral": {
-        "menu": ["Istruzioni", "Images", "Profs", "Grammaire", "Biblio", "Handicap"]
+        "menu": ["Visita guidata", "Immagini", "Insegnanti", "Grammatica", "Bibliografia", "Disabilità"]
       }
     },
     "footer": {
@@ -1389,25 +1389,25 @@
         "p": ["The challenge I set myself throughout the development of this site, with the help of Farouk, my web development teacher, was to make my contents accessible. Not just accessible, in fact, but pleasant to read, both for the visually impaired internet users and for those who can see well.",
         "It would be a shame to scare away people who can see well and those whose needs are diametrically opposed to those of visually impaired people, particularly because of ASD, dyslexia or Irlen Syndrome, sometimes all three at the same time! Some of them have a very low tolerance of high contrasts, especially against a dark background!",
         "When webmasters have taken the trouble to install suitable navigation tools, I find many sites disappointing… They only offer a choice, not always a good one. The colour changes don't cover the whole page. Some simply make the images disappear, which I think is a shame. Others do their job very badly (example: positive contrast with grey writing on a black background. But why on earth not opt for a white font to offer maximum contrast?). There are also those who only change the colour of the main text but don't think it's worth doing so for headings and links, which become illegible (e.g. dark purple on black).",
-        "In a nutshell, I wanted to offer the most suitable solution for all visually impaired people who can read in black in good conditions without forgetting other visitors. I used a very useful tool that can be downloaded free of charge and that every web developer / web designer should use to comply with the Web Accessibility Initiative (WAI) of the World Wide Web Consortium (W3C): <a href=\"https://www.avh.asso.fr/fr/favoriser-laccessibilite/accessibilite-numerique/outils-utiles\" target=\"_blank\"> a Colour Contrast Analyzer (CCA) (CCA)</a>.",
+        "In a nutshell, I wanted to offer the most suitable solution for all visually impaired people who can read in black in good conditions without forgetting other visitors. I used a very useful tool that can be downloaded free of charge and that every web developer / web designer should use to comply with the Web Accessibility Initiative (WAI) of the World Wide Web Consortium (W3C): <a href=\"https://www.avh.asso.fr/fr/favoriser-laccessibilite/accessibilite-numerique/outils-utiles\" target=\"_blank\"> a Colour Contrast Analyzer (CCA)</a>.",
         "It took a hell of a lot of recklessness on my part the day I decided, a few months before my 60th birthday, to take up web development! It's certainly took a lot for Farouk to accept me as a pupil (laughs). The least I can say, is that I didn't spare him with my perfectionism and my \"no, that's not going to be possible… it'll kill your eyes!\" in response to some of his suggestions for animations to liven up the site.",
         "Why such perfectionism? It's in my DNA, for better or for worse. But there's another reason. For me it's a militant act: I find it unacceptable, in this day and age, that many  web masters, whose job it is to create sites for administrations, medical practices, banks, are so little educated in digital accessibility! I don't even understand how it's possible to be so lacking in common sense. It's unbearable to see so many sites with light writing on light backgrounds. Sites that use white on light blue (or the opposite) are popping up everywhere. The proof is this contrast that can be found everywhere on the website of a medical centre.",
         "There's even worse: bright, vivid yellow or green on a white background. Apart from dazzling, I don't see what the point is!",
         "I've got a lot more to say about digital accessibility… I'll certainly come back to that later.",
-        "👩🏼‍🔧 The rest will be translated soon! 👩🏼‍🔧 Vous avez maintenant toutes les clés en main pour parcourir ce site avec les réglages mis à votre disposition. N'hésitez pas à me faire part des éventuels problèmes rencontrés. Vous pouvez volontiers me signaler des erreurs d'inattention dans l'orthographe, la syntaxe, etc."]
+        "You now have all the keys you need to browse this site using the settings available to you. Do not hesitate to let me know if you encounter any problems. You are more than welcome to point out any careless errors in spelling, syntax, etc."]
       },
       "images": {
-        "span": "L'illustratrice de ce site, les images & photos",
-        "p": ["Il est temps de vous présenter <a href=\"https://chloeroten.wixsite.com/chloeillustree\" target=\"_blank\" >Chloé Roten</a >, une jeune artiste de talent qui a donné vie aux deux chiens-guides de ce site ainsi qu'aux membres de leur famille.",
-        "Chloé et la fille de Karin, une amie que j'ai rencontrée durant nos études d'orthophonie. Karin avait fait un poste sur Facebook avec un magnifique dessin de Chloé. J'ai été voir son instagram et le moins que je saurais dire, c'est que j'ai été conquise.",
-        "J'ai toujours été fascinée par les belles peintures. Même lorsque je voyais de manière satisfaisante, je n'étais pas la partenaire idéale pour jouer au pictionary 🤣. Et c'est super frustrant parce que j'ai toujours eu beaucoup d'images, de couleurs, dans ma tête. J'ai même un vieux rêve inassouvi d'écrire des livres pour enfants avec de beaux dessins !",
-        "Aussi, lorsque l'idée de créer un site a émergé, ce fut une évidence pour moi de demander une illustration à Chloé. Tout s'est rapidement mis en place, elle m'a proposé plusieurs esquisses de Kira en train de me guider, sur plusieurs angles. Une fois mon choix fait, elle a ajouté les autres éléments, apporté les petites corrections demandées, et fait les ajouts souhaités.",
-        "J'étais si contente que j'ai eu envie de lui demander d'autres dessins : un pour représenter mes deux super-héroïnes et l'autre pour imager le livre d'or. Pour ces deux illustrations, ce fut encore plus facile, Chloé avait compris ce que j'avais dans la tête. J'ai accepté ses dessins du premier coup.",
-        "Je n'en suis pas restée là, je lui ai demandé si elle pouvait me faire un logo. J'ai tout autant apprécié le résultats. Ses dessins sont la première chose que mes visiteurs remarquent et complimentent. Ne vous étonnez pas si d'autres illustrations arriveront après coup, d'ailleurs, la bannière pour «L'itinéraire d'un chien-guide» a déjà été commandée !",
-        "Je remercie chaleureusement la <a href=\"https://www.chienguide.ch/fr\" target=\"_blank\"> Fondation romande pour chiens guides d’aveugles</a>, la <a href=\"https://www.blindenhundeschule.ch\" target=\"_blank\"> Fondation école suisse pour chiens d’aveugles Allschwil</a> et la <a href=\"https://www.guidingeyes.org\" target=\"_blank\"> Guiding Eyes for the Blind</a> qui m'ont autorisée à insérer leurs photos© signalées par un *, de leur chien respectif&nbsp;: Yuka, Kira et Panther (le père de Yuka) dans mon site.",
-        " Les photos libres d'utilisation, ont été téléchargées sur le site Pexels.",
-        "Les assemblages de photos et certains dessins pour les bannières ont été réalisés sur Canva où j'ai aussi trouvé quelques photos ! celle qui illustre la dyslexie et celles qui composent la bannière de la page «Besoins spécifiques».",
-        "Les icônes composant les boutons dans la barre de menu ont été optimisés sur Icons8."]
+        "span": "The illustrator of this site, images & photos",
+        "p": ["It's time to introduce you <a href=\"https://chloeroten.wixsite.com/chloeillustree\" target=\"_blank\" >Chloé Roten</a >, a young talented artist that has brought to live the two guide dogs on this site and their family.",
+        "Chloé is Karin's daughter, a friend I met when we were studying speech therapy. Karin had made a post on Facebook with a beautiful drawing of Chloé. I went to see her Instagram and the least I can say, is that I was won over.",
+        "I have always been fascinated by beautiful paintings. Even when I had a relatively good sight, I wasn't the ideal partner to play the pictionary 🤣. And it's super frustrating because I always had a lot of images, colours in my head. Even an old unfulfilled dream to write children's books with beautiful drawings.",
+        "So when the idea of creating a website came up, it was a no-brainer for me to ask Chloé for an illustration. Everything fell into place very quickly, and she came up with several sketches of Kira guiding me, on different angles. Once I'd made my choice, she added the other elements, made the little corrections I'd asked and made the additions I wanted.",
+        "I was so happy that I wanted to ask her for other drawings: one to represent my to super-heroines and the other to introduce the guest book. These two illustrations were even easier, Chloe understood what I had in mind. I accepted her drawings at first value.",
+        "I asked her if she could do a logo for me. I liked the results just as much. Her designs are the first thing my visitors notice and compliment. Don't be surprised if other illustrations come along later, in fact, the banner for \"The life journey of a guide dog\" has been made and others are following",        
+        "My warmest thanks go to the <a href=\"https://www.chienguide.ch/fr\" target=\"_blank\"> Fondation romande pour chiens guides d’aveugles</a>, la <a href=\"https://www.blindenhundeschule.ch/en\" target=\"_blank\"> Fondation école suisse pour chiens d’aveugles Allschwil</a> and lthea <a href=\"https://www.guidingeyes.org\" target=\"_blank\"> Guiding Eyes for the Blind</a> who have given me permission to includ their photos© marked with an *, of their respective dogs: Yuka, Kira and Panther (Yuka's father) on my website.",
+        " The photos are free to use and have been downloaded from the Pexels website.",
+        "The assembly of photos and some drawings for the banners were made on Canva, where I also found some photos, such as the one illustrating dyslexia and the once that make up the banner on the «Special needs» page.",
+        "👩🏼‍🔧 The rest will be translated soon! 👩🏼‍🔧 Les icônes composant les boutons dans la barre de menu ont été optimisés sur Icons8."]
 
       },
       "profs": {
@@ -1418,20 +1418,20 @@
       },
       "grammaire": {
         "span": "Grammaire non validiste svp",
-        "p": []
+        "p": ["👩‍💻 Sera rédigé plus tard.👩‍💻"]
 
       },
       "biblio": {
         "span": "Bibliographie",
-        "p": []
+        "p": ["👩‍💻 Sera rédigé plus tard.👩‍💻"]
 
       },
       "handicap": {
         "span": "Parler du handicap",
-        "p": [] 
+        "p": ["👩‍💻 Sera rédigé plus tard.👩‍💻"] 
       },
       "menuLateral": {
-        "menu": ["Notice", "Pictures", "Profs", "Grammaire", "Biblio", "Handicap"]
+        "menu": ["guided tour", "Pictures", "Teachers", "Grammar", "Bibliography", "Disability"]
       }
     },
     "footer": {
