@@ -1792,3 +1792,29 @@ section.citation > p {
 section.citation > p {
   margin: 50px 0;
 }
+
+/* quiz section */
+
+.hide {
+  display: none;
+}
+
+.open {
+  display: flex;
+}
+
+div > p {
+  display: none;
+}
+
+div#quiz {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.faq {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
