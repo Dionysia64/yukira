@@ -32,7 +32,6 @@ getLang("btn-it", "Italiano");
 getLang("btn-eng", "English");
 getLang("btn-grec", "Ellinika");
 
-
 function switchLanguages(url) {
   switch (url) {
     case "Français":
@@ -58,7 +57,7 @@ function switchLanguages(url) {
 
 async function colorChange(array = ["default", "linear-gradient(120deg, rgb(2, 2, 77), black 50%)", "#fff", "#FFE200", false]) {
   const body = document.getElementById("grey");
-  const links = document.querySelectorAll("a:not(.lien-cards):not(.damier-link):not(div.Histoire > a):not(div.Qui > a):not(div.Yukaa > a):not(div.Kiraa > a)");
+  const links = document.querySelectorAll("a:not(.lien-cards):not(.damier-link):not(#quiz > p.paraph > a)");
   const textes = document.getElementsByTagName("p");
   const span = document.getElementsByTagName("span");
   const blockquote = document.querySelectorAll(".blockquote");
@@ -70,6 +69,7 @@ async function colorChange(array = ["default", "linear-gradient(120deg, rgb(2, 2
   const h5 = document.getElementsByTagName("h5");
   const h6 = document.getElementsByTagName("h6");
   body.style.background = array[1];
+  quizElementsH(array[2], "#quiz > div > h2");
   Array.from(links).forEach((link) => {
     link.style.color = array[3];
     link.addEventListener("focus", function () {
@@ -386,6 +386,7 @@ function changeColorPage(
         logoColorEng(flag);
         logoColorGrg(flag);
         body.style.background = backColor;
+        quizElementsH(frontColor, "#quiz > div > h2");
         Array.from(links).forEach((link) => {
           link.style.color = secondaryColor;
           link.addEventListener("focus", function () {
@@ -518,30 +519,36 @@ function displayLang(data) {
     const newUrl = window.location.pathname + "?" + urlParams.toString() + hash;
     // Met à jour l'historique du navigateur avec la nouvelle URL
     window.history.pushState({}, "", newUrl);
+    const containerQuiz = document.getElementById("quiz");
     retrieveData()
       .then((data) => {
         switch (lang) {
           case "Français":
+            containerQuiz.innerHTML = "";
             displayLang(data.french);
             stateColor = JSON.parse(localStorage.getItem("stateColor"));
             stateColor ? colorChange(stateColor) : colorChange();
             break;
           case "Deutsch":
+            containerQuiz.innerHTML = "";
             displayLang(data.germany);
             stateColor = JSON.parse(localStorage.getItem("stateColor"));
             stateColor ? colorChange(stateColor) : colorChange();
             break;
           case "Italiano":
+            containerQuiz.innerHTML = "";
             displayLang(data.italy);
             stateColor = JSON.parse(localStorage.getItem("stateColor"));
             stateColor ? colorChange(stateColor) : colorChange();
             break;
           case "English":
+            containerQuiz.innerHTML = "";
             displayLang(data.english);
             stateColor = JSON.parse(localStorage.getItem("stateColor"));
             stateColor ? colorChange(stateColor) : colorChange();
             break;
           case "Ellinika":
+            containerQuiz.innerHTML = "";
             displayLang(data.greek);
             stateColor = JSON.parse(localStorage.getItem("stateColor"));
             stateColor ? colorChange(stateColor) : colorChange();
@@ -564,30 +571,36 @@ function displayLang(data) {
       const newUrl = window.location.pathname + "?" + urlParams.toString();
       console.log(newUrl);
       window.history.pushState({}, "", newUrl);
+      const containerQuiz = document.getElementById("quiz");
       retrieveData()
         .then((data) => {
           switch (lang) {
             case "Français":
+              containerQuiz.innerHTML = "";
               displayLang(data.french);
               stateColor = JSON.parse(localStorage.getItem("stateColor"));
               stateColor ? colorChange(stateColor) : colorChange();
               break;
             case "Deutsch":
+              containerQuiz.innerHTML = "";
               displayLang(data.germany);
               stateColor = JSON.parse(localStorage.getItem("stateColor"));
               stateColor ? colorChange(stateColor) : colorChange();
               break;
             case "Italiano":
+              containerQuiz.innerHTML = "";
               displayLang(data.italy);
               stateColor = JSON.parse(localStorage.getItem("stateColor"));
               stateColor ? colorChange(stateColor) : colorChange();
               break;
             case "English":
+              containerQuiz.innerHTML = "";
               displayLang(data.english);
               stateColor = JSON.parse(localStorage.getItem("stateColor"));
               stateColor ? colorChange(stateColor) : colorChange();
               break;
             case "Ellinika":
+              containerQuiz.innerHTML = "";
               displayLang(data.greek);
               stateColor = JSON.parse(localStorage.getItem("stateColor"));
               stateColor ? colorChange(stateColor) : colorChange();
@@ -689,8 +702,11 @@ function displayLang(data) {
   }
 
   function main(data) {
+    const h1 = document.querySelector("h1");
+    h1.innerHTML = data.questions.h1;
     const quiz = data.questions.faq;
     const containerQuiz = document.getElementById("quiz");
+    containerQuiz.classList.add("quest");
     let div;
 
     Object.entries(quiz).forEach(([key, value], index) => {
@@ -726,11 +742,12 @@ function displayLang(data) {
         const p = document.querySelectorAll(".paraph")[index];
         const minus = faq.querySelector("img:nth-child(3)");
         const plus = faq.querySelector("img:nth-child(2)");
-
+        changeColorQuest("#quiz > p.paraph.open > a");
         faq.addEventListener("click", () => {
             p.classList.toggle("open");
             minus.classList.toggle("hide");
             plus.classList.toggle("hide");
+            changeColorQuest("#quiz > p.paraph.open > a");
         });
     });
 }
@@ -750,13 +767,14 @@ function displayLang(data) {
     const h5 = document.getElementsByTagName("h5");
     const h6 = document.getElementsByTagName("h6");
     body.style.background = array[1];
+    quizElementsH(array[2], "#quiz > div > h2");
     Array.from(links).forEach((link) => {
       link.style.color = array[3];
       link.addEventListener("focus", function () {
         link.style.color = "#ffffff";
       });
       link.addEventListener("blur", function () {
-        link.style.color = array[2];
+        link.style.color = array[3];
       });
       link.addEventListener("mouseenter", () => {
         link.style.color = "#ffffff";
@@ -843,5 +861,20 @@ function reset() {
     window.scrollTo({
         top: 0,
         behavior: "smooth"
+    });
+  }
+
+  function quizElementsH(color, selector) {
+    const el = document.querySelectorAll(selector);
+    el.forEach((text) => {
+      text.style.color = color;
+    });
+    return;
+  }
+
+  function changeColorQuest(selector) {
+    const links = document.querySelectorAll(selector);
+    Array.from(links).forEach((link) => {
+      link.classList.add("quests");
     });
   }

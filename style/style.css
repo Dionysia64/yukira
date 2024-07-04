@@ -1723,7 +1723,7 @@ section.video > div.quiz > a {
   padding: unset;
   border: unset;
   border-radius: 50px;
-  background-color: var(--black-text-color);
+  /*background-color: var(--black-text-color);*/
   height: fit-content;
 
 }
@@ -1799,11 +1799,12 @@ section.citation > p {
   display: none;
 }
 
-.open {
+.paraph.open {
   display: flex;
+  flex-direction: column;
 }
 
-div > p {
+div.quest > p {
   display: none;
 }
 
@@ -1817,4 +1818,36 @@ div#quiz {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+}
+
+section.title-questions > h1 {
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+#quiz > div > h2 {
+  font-size: 3rem;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+
+#quiz > p.paraph.open {
+  font-size: 2.9rem;
+  line-height: 2;
+}
+
+#quiz > p.paraph.open > a {
+  display: inline-block;
+  text-decoration: none;
+  width: fit-content;
+}
+
+.quests {
+  color: var(--yellow-text-color);
+  background-color: var(--black-text-color);
+}
+
+.quests:hover {
+  color: var(--white-text-hover);
+  background-color: var(--green-bg-hover);
 }
