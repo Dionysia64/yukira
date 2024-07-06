@@ -1,5 +1,6 @@
 * {
   scroll-behavior: smooth;
+  hyphens: auto;
 }
 
 @font-face {
@@ -1721,7 +1722,7 @@ section.about > div, section.informations > div, section.itinéraire > div {
 
 section.video > div.quiz > a {
   padding: unset;
-  border: unset;
+  /*border: unset;*/
   border-radius: 50px;
   /*background-color: var(--black-text-color);*/
   height: fit-content;
@@ -1850,4 +1851,12 @@ section.title-questions > h1 {
 .quests:hover {
   color: var(--white-text-hover);
   background-color: var(--green-bg-hover);
+}
+
+body .linksHighLights {
+  border: 1px solid black;
+}
+
+body .linksHighDarks {
+  border: 1px solid yellow;
 }

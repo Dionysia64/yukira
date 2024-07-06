@@ -4,18 +4,18 @@ let stateColor = JSON.parse(localStorage.getItem("stateColor")) || ["default","l
 
 /* Change color page */
 
-changeColorPage("noirBlanc", "#fff", "#000", "#0100A9", true);
-changeColorPage("noirJaune", "#FAF1BC", "#000000", "#0100A9", true);
-changeColorPage("brunSaumon", "#FFBF86", "#0100A9", "#64001D", true);
-changeColorPage("mauveBlanc", "#FFFFFF", "#4D00FF", "#64001D", true);
-changeColorPage("blancBleu", "#002639", "#FFFFFF", "#FFE200");
-changeColorPage("jauneBleu", "#002639", "#FFE200", "#FFFFFF");
-changeColorPage("cielBleu", "#002639", "#82FFFF", "#FFFFFF");
-changeColorPage("limeBleu", "#002639", "#00FF00", "#FFFFFF");
-changeColorPage("blancNoir", "#000000", "#FFFFFF", "#FFE200");
-changeColorPage("jauneNoir", "#000000", "#FFE200", "#FFFFFF");
-changeColorPage("cielNoir", "#000000", "#82FFFF", "#FFFFFF");
-changeColorPage("limeNoir", "#000000", "#00FF00", "#FFFFFF");
+changeColorPage("noirBlanc", "#fff", "#000", "#0100A9", true,  handleLinksHighlights);
+changeColorPage("noirJaune", "#FAF1BC", "#000000", "#0100A9", true,  handleLinksHighlights);
+changeColorPage("brunSaumon", "#FFBF86", "#0100A9", "#64001D", true,  handleLinksHighlights);
+changeColorPage("mauveBlanc", "#FFFFFF", "#4D00FF", "#64001D", true,  handleLinksHighlights);
+changeColorPage("blancBleu", "#002639", "#FFFFFF", "#FFE200", false,  handleLinksHighlights);
+changeColorPage("jauneBleu", "#002639", "#FFE200", "#FFFFFF", false,  handleLinksHighlights);
+changeColorPage("cielBleu", "#002639", "#82FFFF", "#FFFFFF", false,  handleLinksHighlights);
+changeColorPage("limeBleu", "#002639", "#00FF00", "#FFFFFF", false,  handleLinksHighlights);
+changeColorPage("blancNoir", "#000000", "#FFFFFF", "#FFE200", false,  handleLinksHighlights);
+changeColorPage("jauneNoir", "#000000", "#FFE200", "#FFFFFF", false,  handleLinksHighlights);
+changeColorPage("cielNoir", "#000000", "#82FFFF", "#FFFFFF", false,  handleLinksHighlights);
+changeColorPage("limeNoir", "#000000", "#00FF00", "#FFFFFF", false,  handleLinksHighlights);
 
 colorChange(stateColor);
 
@@ -30,6 +30,21 @@ getLang("btn-ger", "Deutsch");
 getLang("btn-it", "Italiano");
 getLang("btn-eng", "English");
 getLang("btn-grec", "Ellinika");
+
+function handleLinksHighlights(nameColor) {
+  const links = document.querySelectorAll("a");
+  const btnHighlight = document.querySelector("#daltonien-links");
+  console.log(["blancBleu", "jauneBleu", "cielBleu", "limeBleu", "blancNoir", "jauneNoir", "cielNoir", "limeNoir"].includes(nameColor));
+  btnHighlight.addEventListener("click", () => {
+    links.forEach(link => {
+      if (["noirBlanc", "noirJaune", "brunSaumon", "mauveBlanc"].includes(nameColor)) {
+        link.classList.toggle("linksHighLights");
+      } else if (["blancBleu", "jauneBleu", "cielBleu", "limeBleu", "blancNoir", "jauneNoir", "cielNoir", "limeNoir"].includes(nameColor)){
+        link.classList.toggle("linksHighDarks");
+      }
+  });
+});
+}
 
 
 function switchLanguages(url) {
@@ -341,7 +356,8 @@ function changeColorPage(
   backColor,
   frontColor,
   secondaryColor,
-  flag = false
+  flag = false,
+  callback
 ) {
   const btns = document.querySelectorAll(".dropdown-menu-color > li > button");
   const body = document.getElementById("grey");
@@ -369,6 +385,7 @@ function changeColorPage(
             flag,
           ])
         );
+        callback(nameColor);
         logoColor(flag);
         logoColorGr(flag);
         logoColorIt(flag);
@@ -740,6 +757,8 @@ function main(data) {
     for (let i = 0; i < textSubFooter.length; i++) {
       textSubFooter[i].innerHTML = data.footer.subFooter[i];
     }
+    const urlQuest = document.querySelector("#grey > main > section.video > div.quiz > a");
+    urlQuest.href = data.main.video.quiz.linkQuest;
   }
   
   async function colorChangeDefault(array) {

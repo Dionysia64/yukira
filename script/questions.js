@@ -1,5 +1,5 @@
-let url = new URLSearchParams(window.location.search).get("lang");
 let stateColor = JSON.parse(localStorage.getItem("stateColor")) || ["default","linear-gradient(120deg, rgb(2, 2, 77), black 50%)","#fff", "#FFE200",false];
+url = new URLSearchParams(window.location.search).get("lang");
 
 /* Change color page */
 
@@ -17,7 +17,7 @@ changeColorPage("cielNoir", "#000000", "#82FFFF", "#FFFFFF");
 changeColorPage("limeNoir", "#000000", "#00FF00", "#FFFFFF");
 
 document.addEventListener("DOMContentLoaded", async () => {
-  await colorChange(stateColor)
+  await colorChange(stateColor);
 });
 
 switchLanguages(url);
@@ -50,7 +50,7 @@ function switchLanguages(url) {
       languages("Ellinika");
       break;
     default:
-      languages("Français");
+      console.error("Unknown language");
       break;
   }
 }

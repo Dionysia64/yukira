@@ -4,7 +4,7 @@
         const url = new URLSearchParams(window.location).toString();
         const currentPage = decodeURIComponent(url).split("pages")[1].split(".html")[0];
         switch (currentPage) {
-          case "/about":
+            case "/about":
             links(currentPage);
             break;
             case "/itineraire":
