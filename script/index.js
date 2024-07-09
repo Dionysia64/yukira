@@ -17,7 +17,9 @@ changeColorPage("jauneNoir", "#000000", "#FFE200", "#FFFFFF", false,  handleLink
 changeColorPage("cielNoir", "#000000", "#82FFFF", "#FFFFFF", false,  handleLinksHighlights);
 changeColorPage("limeNoir", "#000000", "#00FF00", "#FFFFFF", false,  handleLinksHighlights);
 
-colorChange(stateColor);
+colorChange(handleLinksHighlights, stateColor);
+
+handleLinksHighlights(stateColor[0]);
 
 switchLanguages(url);
 
@@ -30,21 +32,6 @@ getLang("btn-ger", "Deutsch");
 getLang("btn-it", "Italiano");
 getLang("btn-eng", "English");
 getLang("btn-grec", "Ellinika");
-
-function handleLinksHighlights(nameColor) {
-  const links = document.querySelectorAll("a");
-  const btnHighlight = document.querySelector("#daltonien-links");
-  console.log(["blancBleu", "jauneBleu", "cielBleu", "limeBleu", "blancNoir", "jauneNoir", "cielNoir", "limeNoir"].includes(nameColor));
-  btnHighlight.addEventListener("click", () => {
-    links.forEach(link => {
-      if (["noirBlanc", "noirJaune", "brunSaumon", "mauveBlanc"].includes(nameColor)) {
-        link.classList.toggle("linksHighLights");
-      } else if (["blancBleu", "jauneBleu", "cielBleu", "limeBleu", "blancNoir", "jauneNoir", "cielNoir", "limeNoir"].includes(nameColor)){
-        link.classList.toggle("linksHighDarks");
-      }
-  });
-});
-}
 
 
 function switchLanguages(url) {
@@ -70,7 +57,7 @@ function switchLanguages(url) {
   }
 }
 
-async function colorChange(array = ["default", "linear-gradient(120deg, rgb(2, 2, 77), black 50%)", "#fff", "#FFE200", false]) {
+async function colorChange(callback, array = ["default", "linear-gradient(120deg, rgb(2, 2, 77), black 50%)", "#fff", "#FFE200", false]) {
   const body = document.getElementById("grey");
   const links = document.querySelectorAll("a:not(.lien-cards):not(.damier-link)");
   const textes = document.getElementsByTagName("p");
@@ -81,6 +68,7 @@ async function colorChange(array = ["default", "linear-gradient(120deg, rgb(2, 2
   const h4 = document.querySelectorAll("h4:not(.daminer-original-color)");
   const h5 = document.getElementsByTagName("h5");
   const h6 = document.getElementsByTagName("h6");
+  callback(array[0]);
   body.style.background = array[1];
   figcaption.style.color = array[2];
   Array.from(links).forEach((link) => {
@@ -375,6 +363,7 @@ function changeColorPage(
   btns.forEach((btn) => {
     btn.addEventListener("click", () => {
       if (btn.classList.contains(nameColor)) {
+        callback(nameColor);
         localStorage.setItem(
           "stateColor",
           JSON.stringify([
@@ -385,7 +374,6 @@ function changeColorPage(
             flag,
           ])
         );
-        callback(nameColor);
         logoColor(flag);
         logoColorGr(flag);
         logoColorIt(flag);
@@ -521,27 +509,27 @@ function displayLang(data) {
           case "Français":
             displayLang(data.french);
             stateColor = JSON.parse(localStorage.getItem("stateColor"));
-            stateColor ? colorChange(stateColor) : colorChange();
+            stateColor ? colorChange(handleLinksHighlights, stateColor) : colorChange(handleLinksHighlights);
             break;
           case "Deutsch":
             displayLang(data.germany);
             stateColor = JSON.parse(localStorage.getItem("stateColor"));
-            stateColor ? colorChange(stateColor) : colorChange();
+            stateColor ? colorChange(handleLinksHighlights, stateColor) : colorChange(handleLinksHighlights);
             break;
           case "Italiano":
             displayLang(data.italy);
             stateColor = JSON.parse(localStorage.getItem("stateColor"));
-            stateColor ? colorChange(stateColor) : colorChange();
+            stateColor ? colorChange(handleLinksHighlights, stateColor) : colorChange(handleLinksHighlights);
             break;
           case "English":
             displayLang(data.english);
             stateColor = JSON.parse(localStorage.getItem("stateColor"));
-            stateColor ? colorChange(stateColor) : colorChange();
+            stateColor ? colorChange(handleLinksHighlights, stateColor) : colorChange(handleLinksHighlights);
             break;
           case "Ellinika":
             displayLang(data.greek);
             stateColor = JSON.parse(localStorage.getItem("stateColor"));
-            stateColor ? colorChange(stateColor) : colorChange();
+            stateColor ? colorChange(handleLinksHighlights, stateColor) : colorChange(handleLinksHighlights);
             break;
           default:
             throw new Error("Unknown language");
@@ -567,31 +555,31 @@ function displayLang(data) {
               displayLang(data.french);
               stateColor = JSON.parse(localStorage.getItem("stateColor"));
               
-              stateColor ? colorChange(stateColor) : colorChange();
+              stateColor ? colorChange(handleLinksHighlights, stateColor) : colorChange(handleLinksHighlights);
               break;
             case "Deutsch":
               displayLang(data.germany);
               stateColor = JSON.parse(localStorage.getItem("stateColor"));
               
-              stateColor ? colorChange(stateColor) : colorChange();
+              stateColor ? colorChange(handleLinksHighlights, stateColor) : colorChange(handleLinksHighlights);
               break;
             case "Italiano":
               displayLang(data.italy);
               stateColor = JSON.parse(localStorage.getItem("stateColor"));
               
-              stateColor ? colorChange(stateColor) : colorChange();
+              stateColor ? colorChange(handleLinksHighlights, stateColor) : colorChange(handleLinksHighlights);
               break;
             case "English":
               displayLang(data.english);
               stateColor = JSON.parse(localStorage.getItem("stateColor"));
               
-              stateColor ? colorChange(stateColor) : colorChange();
+              stateColor ? colorChange(handleLinksHighlights, stateColor) : colorChange(handleLinksHighlights);
               break;
             case "Ellinika":
               displayLang(data.greek);
               stateColor = JSON.parse(localStorage.getItem("stateColor"));
               
-              stateColor ? colorChange(stateColor) : colorChange();
+              stateColor ? colorChange(handleLinksHighlights, stateColor) : colorChange(handleLinksHighlights);
               break;
             default:
               throw new Error("Unknown language");
@@ -761,7 +749,7 @@ function main(data) {
     urlQuest.href = data.main.video.quiz.linkQuest;
   }
   
-  async function colorChangeDefault(array) {
+  async function colorChangeDefault(array, callback) {
     const body = document.getElementById("grey");
     const links = document.querySelectorAll(
       "a:not(.lien-cards):not(.damier-link)"
@@ -774,6 +762,7 @@ function main(data) {
     const h4 = document.querySelectorAll("h4:not(.daminer-original-color)");
     const h5 = document.getElementsByTagName("h5");
     const h6 = document.getElementsByTagName("h6");
+    callback("limeNoir");
     body.style.background = array[1];
     figcaption.style.color = array[2];
     Array.from(links).forEach((link) => {
@@ -829,7 +818,7 @@ function main(data) {
       localStorage.removeItem("stateColor");
       stateColor = null;
       switchLanguages(url);
-      colorChangeDefault(["default","linear-gradient(120deg, rgb(2, 2, 77), black 50%)","#fff", "#FFE200",false]);
+      colorChangeDefault(["default","linear-gradient(120deg, rgb(2, 2, 77), black 50%)","#fff", "#FFE200",false], handleLinksHighlights);
     });
   }
   
