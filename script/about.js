@@ -21,7 +21,7 @@ colorChange(handleLinksHighlights, stateColor);
 
 switchLanguages(url);
 
-handleLinksHighlights(stateColor[0]);
+handleLinksHighlights(stateColor[0] = "limeNoir");
 
 reset();
 

@@ -1257,6 +1257,9 @@ button#scrollToTopBtn {
 }
 
 @media all and (max-width: 768px) {
+  div#quiz {
+    width: 100%;
+  }
   button#scrollToTopBtn {
     background-position: center;
     background-color: rgba(50, 50, 50, 0);
@@ -1809,7 +1812,7 @@ div.quest > p {
   display: none;
 }
 
-div#quiz {
+#quiz {
   margin: 0 auto;
   width: 50%;
 }

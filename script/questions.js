@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 switchLanguages(url);
 
-handleLinksHighlights(stateColor[0]);
+handleLinksHighlights(stateColor[0] = "limeNoir");
 
 reset();
 
