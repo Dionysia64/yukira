@@ -19,7 +19,7 @@ changeColorPage("limeNoir", "#000000", "#00FF00", "#FFFFFF", false,  handleLinks
 
 colorChange(handleLinksHighlights, stateColor);
 
-handleLinksHighlights(stateColor[0] = "limeNoir");
+handleLinksHighlights(stateColor[0]);
 
 switchLanguages(url);
 

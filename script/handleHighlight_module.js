@@ -1,4 +1,4 @@
-function handleLinksHighlights(nameColor) {
+function handleLinksHighlights(nameColor = "limeNoir") {
     const links = document.querySelectorAll("a");
     const btnHighlight = document.querySelector("#daltonien-links");
     let isHighlighted = false;
@@ -14,7 +14,8 @@ function handleLinksHighlights(nameColor) {
             link.classList.add("linksHighDarks");
           }
         } else {
-          link.classList.remove("linksHighLights", "linksHighDarks");
+          link.classList.remove("linksHighLights");
+          link.classList.remove("linksHighDarks");
         }
       });
     });
