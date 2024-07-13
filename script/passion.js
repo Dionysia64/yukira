@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 switchLanguages(url);
 
-handleLinksHighlights(stateColor[0] = "limeNoir");
+handleLinksHighlights(stateColor[0]);
 
 reset();
 
@@ -722,7 +722,7 @@ function displayLang(data) {
     const h4 = document.querySelectorAll("h4:not(.daminer-original-color)");
     const h5 = document.getElementsByTagName("h5");
     const h6 = document.getElementsByTagName("h6");
-    callback("limeNoir");
+    callback();
     body.style.background = array[1];
     Array.from(links).forEach((link) => {
       link.style.color = array[3];

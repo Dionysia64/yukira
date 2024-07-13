@@ -509,27 +509,27 @@ function displayLang(data) {
           case "Français":
             displayLang(data.french);
             stateColor = JSON.parse(localStorage.getItem("stateColor"));
-            stateColor ? colorChange(handleLinksHighlights, stateColor) : colorChange(handleLinksHighlights);
+            stateColor ? colorChange(handleLinksHighlights, stateColor) : null;
             break;
           case "Deutsch":
             displayLang(data.germany);
             stateColor = JSON.parse(localStorage.getItem("stateColor"));
-            stateColor ? colorChange(handleLinksHighlights, stateColor) : colorChange(handleLinksHighlights);
+            stateColor ? colorChange(handleLinksHighlights, stateColor) : null;
             break;
           case "Italiano":
             displayLang(data.italy);
             stateColor = JSON.parse(localStorage.getItem("stateColor"));
-            stateColor ? colorChange(handleLinksHighlights, stateColor) : colorChange(handleLinksHighlights);
+            stateColor ? colorChange(handleLinksHighlights, stateColor) : null;
             break;
           case "English":
             displayLang(data.english);
             stateColor = JSON.parse(localStorage.getItem("stateColor"));
-            stateColor ? colorChange(handleLinksHighlights, stateColor) : colorChange(handleLinksHighlights);
+            stateColor ? colorChange(handleLinksHighlights, stateColor) : null;
             break;
           case "Ellinika":
             displayLang(data.greek);
             stateColor = JSON.parse(localStorage.getItem("stateColor"));
-            stateColor ? colorChange(handleLinksHighlights, stateColor) : colorChange(handleLinksHighlights);
+            stateColor ? colorChange(handleLinksHighlights, stateColor) : null;
             break;
           default:
             throw new Error("Unknown language");
@@ -555,31 +555,31 @@ function displayLang(data) {
               displayLang(data.french);
               stateColor = JSON.parse(localStorage.getItem("stateColor"));
               
-              stateColor ? colorChange(handleLinksHighlights, stateColor) : colorChange(handleLinksHighlights);
+              stateColor ? colorChange(handleLinksHighlights, stateColor) : null;
               break;
             case "Deutsch":
               displayLang(data.germany);
               stateColor = JSON.parse(localStorage.getItem("stateColor"));
               
-              stateColor ? colorChange(handleLinksHighlights, stateColor) : colorChange(handleLinksHighlights);
+              stateColor ? colorChange(handleLinksHighlights, stateColor) : null;
               break;
             case "Italiano":
               displayLang(data.italy);
               stateColor = JSON.parse(localStorage.getItem("stateColor"));
               
-              stateColor ? colorChange(handleLinksHighlights, stateColor) : colorChange(handleLinksHighlights);
+              stateColor ? colorChange(handleLinksHighlights, stateColor) : null;
               break;
             case "English":
               displayLang(data.english);
               stateColor = JSON.parse(localStorage.getItem("stateColor"));
               
-              stateColor ? colorChange(handleLinksHighlights, stateColor) : colorChange(handleLinksHighlights);
+              stateColor ? colorChange(handleLinksHighlights, stateColor) : null;
               break;
             case "Ellinika":
               displayLang(data.greek);
               stateColor = JSON.parse(localStorage.getItem("stateColor"));
               
-              stateColor ? colorChange(handleLinksHighlights, stateColor) : colorChange(handleLinksHighlights);
+              stateColor ? colorChange(handleLinksHighlights, stateColor) : null;
               break;
             default:
               throw new Error("Unknown language");
@@ -762,7 +762,7 @@ function main(data) {
     const h4 = document.querySelectorAll("h4:not(.daminer-original-color)");
     const h5 = document.getElementsByTagName("h5");
     const h6 = document.getElementsByTagName("h6");
-    callback("limeNoir");
+    callback();
     body.style.background = array[1];
     figcaption.style.color = array[2];
     Array.from(links).forEach((link) => {
