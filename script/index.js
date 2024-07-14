@@ -21,6 +21,8 @@ colorChange(handleLinksHighlights, stateColor);
 
 handleLinksHighlights(stateColor[0]);
 
+console.log(stateColor[0]);
+
 switchLanguages(url);
 
 reset();
