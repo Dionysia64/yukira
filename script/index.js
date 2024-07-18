@@ -21,8 +21,6 @@ colorChange(handleLinksHighlights, stateColor);
 
 handleLinksHighlights(stateColor[0]);
 
-console.log(stateColor[0]);
-
 switchLanguages(url);
 
 reset();
@@ -511,27 +509,27 @@ function displayLang(data) {
           case "Français":
             displayLang(data.french);
             stateColor = JSON.parse(localStorage.getItem("stateColor"));
-            stateColor ? colorChange(handleLinksHighlights, stateColor) : null;
+            stateColor ? colorChange(handleLinksHighlights, stateColor) : colorChange(handleLinksHighlights);
             break;
           case "Deutsch":
             displayLang(data.germany);
             stateColor = JSON.parse(localStorage.getItem("stateColor"));
-            stateColor ? colorChange(handleLinksHighlights, stateColor) : null;
+            stateColor ? colorChange(handleLinksHighlights, stateColor) : colorChange(handleLinksHighlights);
             break;
           case "Italiano":
             displayLang(data.italy);
             stateColor = JSON.parse(localStorage.getItem("stateColor"));
-            stateColor ? colorChange(handleLinksHighlights, stateColor) : null;
+            stateColor ? colorChange(handleLinksHighlights, stateColor) : colorChange(handleLinksHighlights);
             break;
           case "English":
             displayLang(data.english);
             stateColor = JSON.parse(localStorage.getItem("stateColor"));
-            stateColor ? colorChange(handleLinksHighlights, stateColor) : null;
+            stateColor ? colorChange(handleLinksHighlights, stateColor) : colorChange(handleLinksHighlights);
             break;
           case "Ellinika":
             displayLang(data.greek);
             stateColor = JSON.parse(localStorage.getItem("stateColor"));
-            stateColor ? colorChange(handleLinksHighlights, stateColor) : null;
+            stateColor ? colorChange(handleLinksHighlights, stateColor) : colorChange(handleLinksHighlights);
             break;
           default:
             throw new Error("Unknown language");
@@ -557,31 +555,31 @@ function displayLang(data) {
               displayLang(data.french);
               stateColor = JSON.parse(localStorage.getItem("stateColor"));
               
-              stateColor ? colorChange(handleLinksHighlights, stateColor) : null;
+              stateColor ? colorChange(handleLinksHighlights, stateColor) : colorChange(handleLinksHighlights);
               break;
             case "Deutsch":
               displayLang(data.germany);
               stateColor = JSON.parse(localStorage.getItem("stateColor"));
               
-              stateColor ? colorChange(handleLinksHighlights, stateColor) : null;
+              stateColor ? colorChange(handleLinksHighlights, stateColor) : colorChange(handleLinksHighlights);
               break;
             case "Italiano":
               displayLang(data.italy);
               stateColor = JSON.parse(localStorage.getItem("stateColor"));
               
-              stateColor ? colorChange(handleLinksHighlights, stateColor) : null;
+              stateColor ? colorChange(handleLinksHighlights, stateColor) : colorChange(handleLinksHighlights);
               break;
             case "English":
               displayLang(data.english);
               stateColor = JSON.parse(localStorage.getItem("stateColor"));
               
-              stateColor ? colorChange(handleLinksHighlights, stateColor) : null;
+              stateColor ? colorChange(handleLinksHighlights, stateColor) : colorChange(handleLinksHighlights);
               break;
             case "Ellinika":
               displayLang(data.greek);
               stateColor = JSON.parse(localStorage.getItem("stateColor"));
               
-              stateColor ? colorChange(handleLinksHighlights, stateColor) : null;
+              stateColor ? colorChange(handleLinksHighlights, stateColor) : colorChange(handleLinksHighlights);
               break;
             default:
               throw new Error("Unknown language");

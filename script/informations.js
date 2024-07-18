@@ -359,6 +359,7 @@ function changeColorPage(
   const btns = document.querySelectorAll(".dropdown-menu-color > li > button");
   const body = document.getElementById("grey");
   const links = document.querySelectorAll("a:not(.lien-cards):not(.damier-link):not(div.Histoire > a):not(div.Qui > a):not(div.Yukaa > a):not(div.Kiraa > a)");
+  console.log(links);
   const textes = document.getElementsByTagName("p");
   const span = document.getElementsByTagName("span");
   const blockquote = document.querySelectorAll(".blockquote");
@@ -879,6 +880,7 @@ function reset() {
       switchLanguages(url);
       colorChangeDefault(["default","linear-gradient(120deg, rgb(2, 2, 77), black 50%)","#fff", "#FFE200",false], handleLinksHighlights);
     });
+    return;
   }
   
   /* got To Top */

@@ -529,30 +529,35 @@ function displayLang(data) {
       .then((data) => {
         switch (lang) {
           case "Français":
+            containerQuiz.innerHTML = "";
             displayLang(data.french);
             stateColor = JSON.parse(localStorage.getItem("stateColor"));
             
             stateColor ? colorChange(handleLinksHighlights, stateColor) : colorChange(handleLinksHighlights);
             break;
           case "Deutsch":
+            containerQuiz.innerHTML = "";
             displayLang(data.germany);
             stateColor = JSON.parse(localStorage.getItem("stateColor"));
             
             stateColor ? colorChange(handleLinksHighlights, stateColor) : colorChange(handleLinksHighlights);
             break;
           case "Italiano":
+            containerQuiz.innerHTML = "";
             displayLang(data.italy);
             stateColor = JSON.parse(localStorage.getItem("stateColor"));
             
             stateColor ? colorChange(handleLinksHighlights, stateColor) : colorChange(handleLinksHighlights);
             break;
           case "English":
+            containerQuiz.innerHTML = "";
             displayLang(data.english);
             stateColor = JSON.parse(localStorage.getItem("stateColor"));
             
             stateColor ? colorChange(handleLinksHighlights, stateColor) : colorChange(handleLinksHighlights);
             break;
           case "Ellinika":
+            containerQuiz.innerHTML = "";
             displayLang(data.greek);
             stateColor = JSON.parse(localStorage.getItem("stateColor"));
             
@@ -581,30 +586,35 @@ function displayLang(data) {
         .then((data) => {
           switch (lang) {
             case "Français":
+              containerQuiz.innerHTML = "";
               displayLang(data.french);
               stateColor = JSON.parse(localStorage.getItem("stateColor"));
               
               stateColor ? colorChange(handleLinksHighlights, stateColor) : colorChange(handleLinksHighlights);
               break;
             case "Deutsch":
+              containerQuiz.innerHTML = "";
               displayLang(data.germany);
               stateColor = JSON.parse(localStorage.getItem("stateColor"));
               
               stateColor ? colorChange(handleLinksHighlights, stateColor) : colorChange(handleLinksHighlights);
               break;
             case "Italiano":
+              containerQuiz.innerHTML = "";
               displayLang(data.italy);
               stateColor = JSON.parse(localStorage.getItem("stateColor"));
               
               stateColor ? colorChange(handleLinksHighlights, stateColor) : colorChange(handleLinksHighlights);
               break;
             case "English":
+              containerQuiz.innerHTML = "";
               displayLang(data.english);
               stateColor = JSON.parse(localStorage.getItem("stateColor"));
               
               stateColor ? colorChange(handleLinksHighlights, stateColor) : colorChange(handleLinksHighlights);
               break;
             case "Ellinika":
+              containerQuiz.innerHTML = "";
               displayLang(data.greek);
               stateColor = JSON.parse(localStorage.getItem("stateColor"));
               

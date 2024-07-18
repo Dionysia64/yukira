@@ -3,7 +3,7 @@ let size = JSON.parse(localStorage.getItem("size"));
 
 document.addEventListener("DOMContentLoaded", async () => {
   fontSize(size);
-fontType(police);
+  fontType(police);
 });
 
 function fontSize(size) {

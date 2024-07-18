@@ -187,7 +187,6 @@
       "banniere": {
         "alt": "une bannière de la page, composée de différents éléments dont et l'inscription «info» en braille visuel"
       },
-
       "containerInfos": {
         "h2": [
           "Si vous découvrez ce site...",
@@ -226,7 +225,7 @@
           "Bonjour, j'espère que vous aurez beaucoup de plaisir à parcourir les pages de ce site et que son ergonomie sera satisfaisante pour vous.",
           "Comment ai-je traité les éléments visuels&nbsp;?",
           "J'ai décrit avec soin les 3 illustrations sur la page d'accueil et j'en ferai de même chaque fois qu'une image sera pertinente pour la compréhension d'un texte. En revanche, j'occulterai les images qui sont purement décoratives pour que vous puissiez vous concentrer sur l'essentiel. Concernant les bannières de chaque page, que leur description apporte ou non une valeur ajoutée, je les décrirai faute de réussir à les cacher, parce que lors de mes essais, VoiceOver racontait n'importe quoi&nbsp;! D'autant plus qu'elles seront progressivement illustrées par Chloé.",
-          "Dans l'en-tête, j'ai installé 5 boutons de navigation adaptée. Ils sont alignés à droite des boutons pour changer de langue sur un écran d'ordinateur ou une tablette en mode paysage et sous ces mêmes boutons avec un smartphone ou une tablette en mode portrait. Seul le premier bouton a un intérêt pour vous car il aura pour effet de réduire, de manière importante, le nombre de pages à faire défiler. Pour ce faire, vous pourrez ouvrir ce bouton qui permet de diminuer ou d'agrandir les caractères et choisir la première option du menu déroulant qui s'ouvrira afin de rendre les caractères les plus petits possible. ",
+          "Dans l'en-tête, j'ai installé 5 boutons de navigation adaptée. Ils sont alignés à droite des boutons pour changer de langue sur un écran d'ordinateur ou une tablette en mode paysage et sous ces mêmes boutons avec un smartphone ou une tablette en mode portrait. Seul le premier bouton a un intérêt pour vous car il aura pour effet de réduire, de manière importante, le nombre de pages à faire défiler. Pour ce faire, vous pourrez ouvrir ce bouton qui permet de diminuer ou d'agrandir les caractères et choisir la première option du menu déroulant qui s'ouvrira afin de rendre les caractères les plus petits possible.",
           "Pour des raisons d'ergonomie, le pied de page se présente différemment selon la taille de l'écran. Avec une largeur égale ou supérieure à 1024 px (en principe une tablette en mode paysage), il y a damier avec 3 rangées de 3 boutons. La première ligne dirigeravers nos présentations dans la page «À propos de nous». La deuxième ligne vous enverra, quand à elle, vers la page «L'itinéraire d'un chien-guide» avec une photo de Kira en famille de parrainage, puis une autre avec son harnais de travail, en enfin une de Yuka à la retraite. La troisième ligne est un complément à la deuxième, nous voyons une photo de Yuka et de Kira, chacune avec leur portée, durant leurs premiers jours de vie. Sans oublier une que de David,mon mari qui est très présent auprès de nous.",
           "Qu'il y ait ou non un damier, il y aura, dès que possible, un plan de navigation complet dans le pied de page.",
           "Pour éviter de trop scroller, un bouton, avec un labrador qui regarde vers le haut, a été configuré pour vous permettre de remonter tout au haut du site. Il se situera sous le texte, tout en bas de l'écran si vous utilisez un smartphone ou une tablette en mode portrait. Dans le cas où vous utilisez un ordinateur, une tablette ou un smartphone en mode paysage, vous trouverez ce bouton à droite du texte; en outre, juste au-dessus, apparaîtra un menu  vertical qui vous permettra de vous déplacer d'un élément à l'autre dans la page. Cela dit, il se peut que vous n'y arriviez pas du premier coup, mais cela fonctionnera si vous cliquez une deuxième fois.",
@@ -247,7 +246,10 @@
         "span": "Visiteurs daltoniens",
         "alt": "L'œil d'une femme entouré de feuille aux couleurs d'automne",
         "p": [
-          "Bonjour, j'espère que vous prendrez plaisir à visiter ces pages. Si vous avez une <b>dys-</b> ou une <b>a</b>chromatopsie, je vous recommande de rendre sur «Comment paramétrer l'affichage». Les quatrième et cinquième bouton ont spécialement été installés à votre attention."
+          "Bonjour, j'espère que vous prendrez plaisir à visiter ces pages. Si vous avez une <b>dys-</b> ou une <b>a</b>chromatopsie, je vous recommande de rendre sur «Comment paramétrer l'affichage». Les quatrième et cinquième bouton ont spécialement été installés à votre attention.",
+         "Anche se non esiste alcuna panacea tra i caratteri sviluppati per i lettori dislessici, un carattere mi è parso degno d'interesse: LexieReadable. Vi propongo di provarlo selezionandolo dal secundo pulsante per modificare l'interfaccia. N.B. È possibile scaricarlo gratuitamente.",
+          "Ho scelto per il logo del sito, un carattere che trovo bellissimo ma che si può rivelare poco accessibile secondo il tipo di dislessia. Se non riuscite a decifrarlo, spero che non restiate bloccati in alto e andiate avanti con la vostra lettura. Questo titolo è scritto di nuovo in fondo alla pagina, ma nel caso non lo notiate, ve lo  riporto qui: Disegnami un cane guida, per piacere.",
+          "Spero che vi faccia piacere la lettura e vi risponderò volentieri nel caso vogliate rendermi partecipe delle vostre difficoltà."
         ]
       },
       "notice4": {
@@ -272,7 +274,7 @@
           "permet de sélectionner un affichage par niveaux de gris. Pour des raisons inexpliquées, l'arrière-plan ne se transforme pas en niveau de gris. Aussi je vous recommande d'actionner ce bouton en association avec le troisième. Pour obtenir un contraste optimal, vous pourrez choisir la première option pour un contraste négatif ou la première des 4 dernières options pour un contraste positif.",
           "Le cinquième bouton",
           "            complète le quatrième. Il a été mis en place à l'attention des lecteurs dont la perception des couleurs est émoussée, voire inexistante. ",
-          "Puisque c'est uniquement grâce à une différence de couleur, par rapport au texte, que les liens peuvent être reconnu, il était nécessaire d'ajouter un autre moyen de visibiliser ces derniers&nbsp;: en actionnant ce bouton, tous les liens, sauf ceux du damier, apparaîtront avec un cadre foncé si vous utilisez un contraste négatif et un cadre clair pour un contraste positif.",
+          "Puisque c'est uniquement grâce à une différence de couleur, par rapport au texte, que les liens peuvent être reconnus, il était nécessaire d'ajouter un autre moyen de visibiliser ces derniers&nbsp;: en actionnant ce bouton, tous les liens, sauf ceux du damier, apparaîtront avec un cadre foncé si vous utilisez un contraste négatif et un cadre clair pour un contraste positif.",
           "Pour information, si, après avoir utilisé le cinquième bouton, vous vous servez du troisième pour passer d'un contraste positif à un contraste négatif (ou l'inverse), vous devrez cliquer à nouveau sur le cinquième bouton. L'effet de ce dernier bouton, et c'est également le cas pour le quatrième bouton, ne sera pas mémorisé&nbsp;: lorsque vous changerez de page, vous aurez à le sélectionner à nouveau."
         ]
       },
@@ -307,7 +309,7 @@
       "images": {
         "span": "L'illustratrice de ce site, les images & photos",
         "p": [
-          "Il est temps de vous présenter <a href=\"https://chloeroten.wixsite.com/chloeillustree\" target=\"_blank\" >Chloé Roten</a >, une jeune artiste de talent qui a donné vie aux deux chiens-guides de ce site ainsi qu'aux membres de leur famille.",
+          "Il est temps de vous présenter <a href=\"https://chloeroten.wixsite.com/chloeillustree\" target=\"_blank\" class=\"variable\">Chloé Roten</a >, une jeune artiste de talent qui a donné vie aux deux chiens-guides de ce site ainsi qu'aux membres de leur famille.",
           "Chloé et la fille de Karin, une amie que j'ai rencontrée durant nos études d'orthophonie. Karin avait fait un poste sur Facebook avec un magnifique dessin de Chloé. J'ai été voir son instagram et le moins que je saurais dire, c'est que j'ai été conquise.",
           "J'ai toujours été fascinée par les belles peintures. Même lorsque je voyais de manière satisfaisante, je n'étais pas la partenaire idéale pour jouer au pictionary 🤣. Et c'est super frustrant parce que j'ai toujours eu beaucoup d'images, de couleurs, dans ma tête. J'ai même un vieux rêve inassouvi d'écrire des livres pour enfants avec de beaux dessins&nbsp;!",
           "Aussi, lorsque l'idée de créer un site a émergé, ce fut une évidence pour moi de demander une illustration à Chloé. Tout s'est rapidement mis en place, elle m'a proposé plusieurs esquisses de Kira en train de me guider, sur plusieurs angles. Une fois mon choix fait, elle a ajouté les autres éléments, apporté les petites corrections demandées, et fait les ajouts souhaités.",
@@ -328,15 +330,21 @@
       },
       "grammaire": {
         "span": "Grammaire non validiste svp",
-        "p": ["👩‍💻 Sera rédigé plus tard.👩‍💻"]
+        "p": [
+          "👩‍💻 Sera rédigé plus tard.👩‍💻"
+        ]
       },
       "biblio": {
         "span": "Bibliographie",
-        "p": ["👩‍💻 Sera rédigé plus tard.👩‍💻"]
+        "p": [
+          "👩‍💻 Sera rédigé plus tard.👩‍💻"
+        ]
       },
       "handicap": {
         "span": "Parler du handicap",
-        "p": ["👩‍💻 Sera rédigé plus tard.👩‍💻"]
+        "p": [
+          "👩‍💻 Sera rédigé plus tard.👩‍💻"
+        ]
       },
       "menuLateral": {
         "menu": [
@@ -529,7 +537,12 @@
         "blockquote": "de SAINT-ÉXUPÉRY Antoine, Der kleine Prinz. Übersetzt aus dem französischen Original von Alexander Varell.",
         "paraph": "Ich bin sicher, meine zwei \"Labrad’orettes\" haben mich gezähmt 🥰"
       },
-      "constainerAbout": ["Unsere Geschichte", "Wer bin ich?", "Yuka", "Kira"],
+      "constainerAbout": [
+        "Unsere Geschichte", 
+        "Wer bin ich?", 
+        "Yuka", 
+        "Kira"
+      ],
       "about": {
         "histoire": {
           "title": "Unsere Geschichte",
@@ -738,7 +751,7 @@
       "images": {
         "span": "L'illustratrice de ce site, les images & photos",
         "p": [
-          "Il est temps de vous présenter <a href=\"https://chloeroten.wixsite.com/chloeillustree\" target=\"_blank\" >Chloé Roten</a >, une jeune artiste de talent qui a donné vie aux deux chiens-guides de ce site ainsi qu'aux membres de leur famille.",
+          "Il est temps de vous présenter <a href=\"https://chloeroten.wixsite.com/chloeillustree\" target=\"_blank\" class=\"variable\">Chloé Roten</a >, une jeune artiste de talent qui a donné vie aux deux chiens-guides de ce site ainsi qu'aux membres de leur famille.",
           "Chloé est la fille de Karin, une amie que j'ai rencontrée durant nos études d'orthophonie. Karin avait fait un poste sur Facebook avec un magnifique dessin de Chloé. J'ai été voir son instagram et le moins que je saurais dire, c'est que j'ai été conquise.",
           "J'ai toujours été fascinée par les belles peintures. Même lorsque je voyais de manière satisfaisante, je n'étais pas la partenaire idéale pour jouer au pictionary 🤣. Et c'est super frustrant parce que j'ai toujours eu beaucoup d'images, de couleurs, dans ma tête. J'ai même un vieux rêve inassouvi d'écrire des livres pour enfants avec de beaux dessins !",
           "Aussi, lorsque l'idée de créer un site a émergé, ce fut une évidence pour moi de demander une illustration à Chloé. Tout s'est rapidement mis en place, elle m'a proposé plusieurs esquisses de Kira en train de me guider, sur plusieurs angles. Une fois mon choix fait, elle a ajouté les autres éléments, apporté les petites corrections demandées, et fait les ajouts souhaités.",
@@ -759,15 +772,21 @@
       },
       "grammaire": {
         "span": "Grammaire non validiste svp",
-        "p": ["👩‍💻 Sera rédigé plus tard.👩‍💻"]
+        "p": [
+          "👩‍💻 Sera rédigé plus tard.👩‍💻"
+        ]
       },
       "biblio": {
         "span": "Bibliographie",
-        "p": ["👩‍💻 Sera rédigé plus tard.👩‍💻"]
+        "p": [
+          "👩‍💻 Sera rédigé plus tard.👩‍💻"
+        ]
       },
       "handicap": {
         "span": "Parler du handicap",
-        "p": ["👩‍💻 Sera rédigé plus tard.👩‍💻"]
+        "p": [
+          "👩‍💻 Sera rédigé plus tard.👩‍💻"
+        ]
       },
       "menuLateral": {
         "menu": [
@@ -958,7 +977,12 @@
         "blockquote": "Di SAINT-ÉXUPÉRY Antoine,  Il Piccolo Principe. Tradotto dal francese da Nini Bompiani Bregoli",
         "paraph": "I miei due \"labra d’or\", sono sicura, mi hanno addomesticato 🥰"
       },
-      "constainerAbout": [" La nostra Storia", "Chi sono?", "Yuka", "Kira"],
+      "constainerAbout": [
+        " La nostra Storia",
+         "Chi sono?",
+          "Yuka", 
+          "Kira"
+      ],
       "about": {
         "histoire": {
           "title": " La nostra Storia",
@@ -976,7 +1000,6 @@
             "È il sito che si chiamerà ormai \"Per favore, disegnami un cane guida!\". Il blog sarà rinnovato con un nuovo nome e raconterà i bei momenti che ho condiviso con Yuka e Kira. Senza dimenticare il resto della mia bellissima famigli: David e le nostre due gatte che portano con stile dei nomi presi dalla mitologia greca. La nostra tricolore, nata il 14 luglio 2006, si chiama Euterpe dal nome della Musa della Musica. La nostra tigrata, Urania, dal nome della Musa de l’astronomia et l’astrologia, è nata il 7 giugno 2012. Sincronicità incredibile: Yuka è nata lo stesso giorno di Urania. Quanto a Kira, condivide lo stesso compleanno di Euterpe.",
             "Ora conoscerete la mia piccola famiglia.",
             "Quando mi sarà possibile dal 2023, scriverò gli articoli del blog in francese e in tedesco perché è la lingua principale della scuola di Kira. ",
-
             "Geneva, May 2024"
           ],
           "figcaption": "Ariane e tre dei cani che ha accolto per la Fondazione. È accompagnata da Joey, il suo decimo cucciolo. Alla sua sinistra, Ethos, che guida il giramondo Patrick, il suo padrone. Alla sua destra, Yuka la mia giovane pensionata che passeggia con David."
@@ -1088,8 +1111,8 @@
           "Ciao! Spero che vi faccia molto piacere percorrere le pagine di questo sito e che la sua ergonomia sia gradevole per voi",
           "Come ho trattato gli elementi visivi?",
           "Ho descritto con cura le 3 illustrazioni presenti nella home page e farò lo stesso ogni volta che un'immagine è rilevante per la comprensione del testo. D'altra parte, ometterò le immagini puramente decorative, in modo che possiate concentrarvi sull'essenziale. Per quanto riguarda i banner presenti in ogni pagina, a prescindere dal valore aggiunto o meno della loro descrizione, li descriverò se non posso nasconderli, perché durante i miei test, VoiceOver diceva cose senza senso! Inoltre saranno gradualmente illustrati da Chloé.",
-          "Dans l'en-tête, j'ai installé 5 boutons de navigation adaptée. Ils sont alignés à droite des boutons pour changer de langue sur un écran d'ordinateur ou une tablette en mode paysage et sous ces mêmes boutons avec un smartphone ou une tablette en mode portrait. Seul le premier bouton a un intérêt pour vous car il aura pour effet de réduire, de manière importante, le nombre de pages à faire défiler. Pour ce faire, vous pourrez ouvrir ce bouton qui permet de diminuer ou d'agrandir les caractères et choisir la première option du menu déroulant qui s'ouvrira afin de rendre les caractères les plus petits possible.          ",
-          "Per motivi ergonomici, il piè di pagina si presenta in modo diverso a seconda delle dimensioni dello schermo. Con una larghezza pari o superiore a 1024 px (in linea di massima un tablet in modalità orizzontale), è presente una griglia con 3 file di 3 pulsanti. La prima riga vi porterà alle nostre presentazioni nella pagina \"Su di noi\". La seconda riga porta alla pagina \"Il percorso di un cane guida\", con una foto di Kira nella casa della sua famiglia adottiva, poi un'altra con la pettorina da lavoro e infine una di Yuka in pensione. La terza riga completa la seconda, con una foto di Yuka e Kira, ciascuna con la propria cucciolata, durante i loro primi giorni di vita. E non dimentichiamo qualcosa di David, mio marito, che è sempre molto presente",
+          "Nell'intestazione, ho installato 5 pulsanti per la navigazione adattabile. Sono allineati a destra dei pulsanti per cambiare la lingua nello schermo di un computer o un tablet in modalità orizzontale e questi stessi pulsanti con uno smartphone o un tablet in modalità verticale. Solo il primo pulsante vi interessa perché riduce, in modo rilevante, il numero di pagine da scorrere. Per attivarlo, potete usare il pulsante che permette di diminuire o ingrandire i caratteri e scegliere la prima opzione dal menu a tendina che si aprirà per rendere i caratteri il più piccoli possibile.",
+                    "Per motivi ergonomici, il piè di pagina si presenta in modo diverso a seconda delle dimensioni dello schermo. Con una larghezza pari o superiore a 1024 px (in linea di massima un tablet in modalità orizzontale), è presente una griglia con 3 file di 3 pulsanti. La prima riga vi porterà alle nostre presentazioni nella pagina \"Su di noi\". La seconda riga porta alla pagina \"Il percorso di un cane guida\", con una foto di Kira nella casa della sua famiglia adottiva, poi un'altra con la pettorina da lavoro e infine una di Yuka in pensione. La terza riga completa la seconda, con una foto di Yuka e Kira, ciascuna con la propria cucciolata, durante i loro primi giorni di vita. E non dimentichiamo qualcosa di David, mio marito, che è sempre molto presente",
           "Che ci sia o meno la griglia, appena possibile ci sarà una mappa di navigazione completa nel piè di pagina.",
           "Per evitare di scrollare troppo, un pulsante con un labrador che guarda verso l'alto, è stato configurato per permettervi di salire all'inizio del sito. Si trova sotto il testo in fondo allo schermo se utilizzate un smartphone o un tablet in modalità verticale. Nel caso utilizziate un computer o un smartphone in modalità orizzontale, troverete questo pulsante a destra del testo; inoltre, proprio sopra apparirà un menu verticale che vi permetterà di spostarvi da un elemento all'altro nella pagina. Detto questo, pu essere che non vi arriviate al primo colpo, ma funzionerà se cliccate una seconda volta.",
           "Se ci fosse qualcosa che manca in questa descrizione, se voleste farmi dei suggerimenti per migliorare il sito, non esitate a contattarmi!"
@@ -1109,7 +1132,7 @@
         "span": "Visitatori daltonici",
         "alt": "",
         "p": [
-          "Bonjour, j'espère que vous prendrez plaisir à visiter ces pages. Si vous avez une dys- ou une achromatopsie, je vous recommande de rendre sur «Comment paramétrer l'affichage». Les quatrième et cinquième bouton ont spécialement été installés à votre attention. ",
+          "Buongiorno, spero che vi piaccia visitare queste pagine. Se avete una <b>dis-</b> <b>a</b>cromatopsia, vi consiglio di andare su \"Opzioni interfaccia\". Il quarto e il quinto pulsate sono stati installati apposta per voi.",
           "Anche se non esiste alcuna panacea tra i caratteri sviluppati per i lettori dislessici, un carattere mi è parso degno d'interesse: LexieReadable. Vi propongo di provarlo selezionandolo dal secundo pulsante per modificare l'interfaccia. N.B. È possibile scaricarlo gratuitamente.",
           "Ho scelto per il logo del sito, un carattere che trovo bellissimo ma che si può rivelare poco accessibile secondo il tipo di dislessia. Se non riuscite a decifrarlo, spero che non restiate bloccati in alto e andiate avanti con la vostra lettura. Questo titolo è scritto di nuovo in fondo alla pagina, ma nel caso non lo notiate, ve lo  riporto qui: Disegnami un cane guida, per piacere.",
           "Spero che vi faccia piacere la lettura e vi risponderò volentieri nel caso vogliate rendermi partecipe delle vostre difficoltà."
@@ -1136,10 +1159,9 @@
           "Il quarto pulsante",
           "permette di selezionare una interfaccia sui toni del grigio. Per ragioni inspiegabili, lo sfondo non cambia sui toni del grigio. Quindi vi consiglio di usare questo bottone insieme al terzo. Per ottenere un contrasto ottimale, potreste scegliere la prima opzione per un contrasto negativo o la prima delle 4 ultime opzioni per un contrasto positivo.",
           "Il quinto pulsante",
-          "complète le quatrième. Il a été mis en place à l'attention des lecteurs dont la perception des couleurs est émoussée, voire inexistante.",
-          "Puisque c'est uniquement grâce à une différence de couleur, par rapport au texte, que les liens peuvent être reconnu, il était nécessaire d'ajouter un autre moyen de visibiliser ces derniers&nbsp;: en actionnant ce bouton, tous les liens, sauf ceux du damier, apparaîtront avec un cadre foncé si vous utilisez un contraste négatif et un cadre clair pour un contraste positif.",
-          "Pour information, si, après avoir utilisé le cinquième bouton, vous vous servez du troisième pour passer d'un contraste positif à un contraste négatif (ou l'inverse), vous devrez cliquer à nouveau sur le cinquième bouton. L'effet de ce dernier bouton, et c'est également le cas pour le quatrième bouton, ne sera pas mémorisé&nbsp;: lorsque vous changerez de page, vous aurez à le sélectionner à nouveau."
-        ]
+          "completa il quarto. E stato creato per i lettori la cui percezione dei colori è attenuata o inesistente.",
+          "Dato che è solo grazie alla differenza di colore rispetto al testo, che i link possono essere riconosciuti, è stato necessario aggiungere una strategia per renderli riconoscibili: attivando questo pulsante tutti i link, tranne quelli della griglia, appaiono in un riquadro scuro se usate un contrasto negativo o un riquadro chiaro per un contrasto positivo.",          
+          "Per vostra informazione, se, dopo aver utilizzato il quinto pulsante, usate il terzo per passare da un contrasto positivo a un contrasto negativo (o il contrario), dovrete cliccare di nuovo il quinto pulsante. L'effetto di quest'ultimo bottone, e questo è anche il caso del quarto, non sarà memorizzato: quando cambierete la pagina, dovrete selezionarlo di nuovo ."        ]
       },
       "notice6": {
         "span": "Si possono attivare i comandi interattivi dalla tastiera?",
@@ -1172,7 +1194,7 @@
       "images": {
         "span": "L'illustratrice di questo sito, le immagini e foto",
         "p": [
-          "È tempo di presentarvi <a href=\"https://chloeroten.wixsite.com/chloeillustree\" target=\"_blank\" >Chloé Roten</a >, una giovane artista di talento che ha dato vita ai due cani guida di questo sito così come ai membri della loro famiglia",
+          "È tempo di presentarvi <a href=\"https://chloeroten.wixsite.com/chloeillustree\" target=\"_blank\" class=\"variable\">Chloé Roten</a >, una giovane artista di talento che ha dato vita ai due cani guida di questo sito così come ai membri della loro famiglia",
           "Chloé è la figlia di Karin, una amica che ho conosciuto durante i nostri studi ortofonia. Karin aveva fatto un post su Facebook con un bellissimo disegno di Chloé, con un link al suo profilo Instagram. Ho visitato il profilo e il minimo che posso dire è che mi ha conquistata",
           "Sono sempre stata affascinata dalle belle immagini. Dato che vedevo abbastanza bene, non ero la compagna ideale per giocare a Pictionary 🤣. È molto frustrante perché ci sono sempre state molte immagini e colori nella mia testa. Ho anche un vecchio sogno nel cassetto di scrivere libri per bambini con dei bellissimi disegni!",
           "Quindi quando l'idea di creare un sito è emersa, è stato scontato per me di chiedere una illustrazione a Chloé. Tutto si è rapidamente sistemato, lei mi ha proposto molti schizzi di Kira mentre mi guida, con diverse angolature. Una volta fatta la scelta lei aggiungeva gli altri elementi, facendo le piccole correzioni che chiedevo e le aggiunte necessarie.",
@@ -1194,15 +1216,21 @@
       },
       "grammaire": {
         "span": "Grammaire non validiste svp",
-        "p": ["👩‍💻 Sera rédigé plus tard.👩‍💻"]
+        "p": [
+          "👩‍💻 Sera rédigé plus tard.👩‍💻"
+        ]
       },
       "biblio": {
         "span": "Bibliographie",
-        "p": ["👩‍💻 Sera rédigé plus tard.👩‍💻"]
+        "p": [
+          "👩‍💻 Sera rédigé plus tard.👩‍💻"
+        ]
       },
       "handicap": {
         "span": "Parler du handicap",
-        "p": ["👩‍💻 Sera rédigé plus tard.👩‍💻"]
+        "p": [
+          "👩‍💻 Sera rédigé plus tard.👩‍💻"
+        ]
       },
       "menuLateral": {
         "menu": [
@@ -1393,7 +1421,12 @@
         "blockquote": "de SAINT-ÉXUPÉRY Antoine, The Little Prince, translated from the French by Katherine Woods",
         "paraph": "My two 'labrad'or', I'm sure, have tamed me 🥰 "
       },
-      "constainerAbout": [" Our story", "Who I am?", "Yuka", "Kira"],
+      "constainerAbout": [
+        " Our story", 
+        "Who I am?", 
+        "Yuka", 
+        "Kira"
+      ],
       "about": {
         "histoire": {
           "title": "Our story",
@@ -1521,7 +1554,7 @@
           "Hello! I hope you'll enjoy browsing the pages of this site and that its ergonomics will be satisfactory to you.",
           "How have I handled the visual elements?",
           "I have carefully described the three illustrations on the homepage and will do the same whenever an image is relevant to understanding the text. On the other hand, I will omit images that are purely decorative so that you can concentrate on the essentials. As for the banners on each page, whether or not their description adds value, I'll describe them because I can't hide them. Because during my tests, VoiceOver was talking nonsense! Especially as they will gradually be illustrated by Chloé.",
-          "Dans l'en-tête, j'ai installé 5 boutons de navigation adaptée. Ils sont alignés à droite des boutons pour changer de langue sur un écran d'ordinateur ou une tablette en mode paysage et sous ces mêmes boutons avec un smartphone ou une tablette en mode portrait. Seul le premier bouton a un intérêt pour vous car il aura pour effet de réduire, de manière importante, le nombre de pages à faire défiler. Pour ce faire, vous pourrez ouvrir ce bouton qui permet de diminuer ou d'agrandir les caractères et choisir la première option du menu déroulant qui s'ouvrira afin de rendre les caractères les plus petits possible.",
+          "In the header, I've installed 5 adapted navigation buttons. They are aligned to the right of the buttons for changing the language on a computer screen or a tablet in landscape mode and below these same buttons with a smartphone or a tablet in portrait mode. Only the first button is of interest to you, as it will have the effect of significantly reducing the number of pages you need to scroll through. To do this, you can open this button, which allows you to reduce or increase the size of the characters, and choose the first option in the drop-down menu that opens to make the characters as small as possible.",
           "For ergonomic reasons, the footer is presented differently depending on the size of the screen. With a width equal to or greater than 1024 px (in principle a tablet in landscape mode), there is a checkerboard with 3 rows of 3 buttons. The first line will take you to our presentations in the \"About us\" page. The second line will take you to the \" The life journey of a guide dog\" page, with a photo of Kira in her adoptive family's house, then an other with her working harness, and finally one of Yuka in retirement. The third row is a complement to the second, showing a photo of Yuka and Kira, each with their litter, during their first days of life. And let's not forget something from David, my husband, whose very close to us.",
           "Whether or not there is a checkerboard, as soon as possible, there will be a complete navigation map in the footer.",
           "To avoid to scrolling too much, a button with a labrador looking up, has been configured to allow you to scroll to the very top on the site. It will be located below the text, at the very bottom of the screen if you are using a smartphone or a tablet in portrait mode. If you are using a computer, tablet or smartphone in landscape mode, you will find this button to the right of the text; in addition, a vertical menu will appear just above it allowing you to move from one element to another on the page. That said, you may not get it right the first time, but it will work if you click a second time.",
@@ -1540,9 +1573,9 @@
       },
       "notice3": {
         "span": "Colourblind visitors",
-        "alt": "",
+        "alt": "A woman's eye surrounded by autumn-coloured leaves.",        
         "p": [
-          "Bonjour, j'espère que vous prendrez plaisir à visiter ces pages. Si vous avez une dys- ou une achromatopsie, je vous recommande de rendre sur «Comment paramétrer l'affichage». Les quatrième et cinquième bouton ont spécialement été installés à votre attention.",
+          "Hello, I hope you enjoy visiting these pages. If you have a <b>dys-</b> or a <b>a</b>chromatopsia, I recommend that you go to \"Display settings\". The forth and fifth buttons have been specially installed for you.",
           "Although there is no panacea among the fonts developed for dyslexic readers, one of them struck me as worth testing: LexieReadable. I suggest you try it out by selecting it on the second button to modify the display",
           "I've chosen a font for this site that I think is beautiful, but which may not be very accessible depending on your dyslexia. If you can't make it out, I hope you won't get stuck on it and go on reading. The title is rewritten at the bottom of the page, but in case you haven't noticed, I'm reproducing it here: Please draw me a guide-dog.",
           "I hope you enjoy reading it and I'll be happy to answer any questions you may have if you want to share your difficulties."
@@ -1564,14 +1597,14 @@
           "The second button",
           "allows you to opt for another font: LexieReadable, which I think is worthy of interest for dyslexic people, and the more classic Verdana,",
           "The third button",
-          "lets you change the colour scheme. The are 4 different negative contrasts (dark text on a light background) followed by 8 positive contrasts (light text on a dark blue background for the first 4 choices and on a black background for the last 4 choices).",
+          "lets you change the colour scheme. The ar  e 4 different negative contrasts (dark text on a light background) followed by 8 positive contrasts (light text on a dark blue background for the first 4 choices and on a black background for the last 4 choices).",
           "Logically, the background of each box corresponds to the colour of the proposed background and the colour of the pencil to that of the text. Note well any change of colour in the text means that it's a link (active or under construction). These links are also recognisable because when you hover over them, the text appears in white on a dark green background.",
           "The fourth button",
           "allows you to select a greyscale display. For unexplained reasons, the background doesn't change to greyscale. I recommend that you use this button in conjunction with the third. For optimum contrast, you can select the first option for a negative contrast or the first option from the 4 last options for a positive contrast.",
           "The fifth button",
-          "complète le quatrième. Il a été mis en place à l'attention des lecteurs dont la perception des couleurs est émoussée, voire inexistante. ",
-          "PPuisque c'est uniquement grâce à une différence de couleur, par rapport au texte, que les liens peuvent être reconnu, il était nécessaire d'ajouter un autre moyen de visibiliser ces derniers&nbsp;: en actionnant ce bouton, tous les liens, sauf ceux du damier, apparaîtront avec un cadre foncé si vous utilisez un contraste négatif et un cadre clair pour un contraste positif.",
-          "Pour information, si, après avoir utilisé le cinquième bouton, vous vous servez du troisième pour passer d'un contraste positif à un contraste négatif (ou l'inverse), vous devrez cliquer à nouveau sur le cinquième bouton. L'effet de ce dernier bouton, et c'est également le cas pour le quatrième bouton, ne sera pas mémorisé&nbsp;: lorsque vous changerez de page, vous aurez à le sélectionner à nouveau."
+          "completes the fourth. It has been designed for readers with dull or non-existent colour perception.",
+          "Since links can only be recognised by the difference in colour between them and the text, it was necessary to add another way of making them visible: by pressing this button, all the links except those in the checkerboard will appear with a dark frame if you use negative contrast and a light frame if you use positive contrast.",
+          "For your information, if, after using the fifth button, you use the third to switch from positive to negative contrast (or vice versa), you will need to click the fifth button again. The effect of this last button, and this is also the case for the fourth button, will not be memorised: when you change page, you will have to select it again. "
         ]
       },
       "notice6": {
@@ -1605,7 +1638,7 @@
       "images": {
         "span": "The illustrator of this site, images & photos",
         "p": [
-          "It's time to introduce you <a href=\"https://chloeroten.wixsite.com/chloeillustree\" target=\"_blank\" >Chloé Roten</a >, a young talented artist that has brought to live the two guide dogs on this site and their family.",
+          "It's time to introduce you <a href=\"https://chloeroten.wixsite.com/chloeillustree\" target=\"_blank\" class=\"variable\">Chloé Roten</a >, a young talented artist that has brought to live the two guide dogs on this site and their family.",
           "Chloé is Karin's daughter, a friend I met when we were studying speech therapy. Karin had made a post on Facebook with a beautiful drawing of Chloé. I went to see her Instagram and the least I can say, is that I was won over.",
           "I have always been fascinated by beautiful paintings. Even when I had a relatively good sight, I wasn't the ideal partner to play the pictionary 🤣. And it's super frustrating because I always had a lot of images, colours in my head. Even an old unfulfilled dream to write children's books with beautiful drawings.",
           "So when the idea of creating a website came up, it was a no-brainer for me to ask Chloé for an illustration. Everything fell into place very quickly, and she came up with several sketches of Kira guiding me, on different angles. Once I'd made my choice, she added the other elements, made the little corrections I'd asked and made the additions I wanted.",
@@ -1626,15 +1659,21 @@
       },
       "grammaire": {
         "span": "Grammaire non validiste svp",
-        "p": ["👩‍💻 Sera rédigé plus tard.👩‍💻"]
+        "p": [
+          "👩‍💻 Sera rédigé plus tard.👩‍💻"
+        ]
       },
       "biblio": {
         "span": "Bibliographie",
-        "p": ["👩‍💻 Sera rédigé plus tard.👩‍💻"]
+        "p": [
+          "👩‍💻 Sera rédigé plus tard.👩‍💻"
+        ]
       },
       "handicap": {
         "span": "Parler du handicap",
-        "p": ["👩‍💻 Sera rédigé plus tard.👩‍💻"]
+        "p": [
+          "👩‍💻 Sera rédigé plus tard.👩‍💻"
+        ]
       },
       "menuLateral": {
         "menu": [
@@ -1826,7 +1865,12 @@
         "blockquote": " ΝΤΕ ΣΑΙΝΤ-ΕΞΥΠΕΡΥ, Αντουάν, Ο Μικρός Πρίγκιπας, Γνώση. Μετάφραση: Τάκης Κουνέλης",
         "paraph": "Τα δύο \"λαμπραντ'όρ\" μου, είμαι σίγουρη ότι με έχουν εξημερώσει 🥰 "
       },
-      "constainerAbout": ["Η ιστορία μας", "Ποια είμαι;", "Γιούκα", "Κίρα"],
+      "constainerAbout": [
+        "Η ιστορία μας",
+         "Ποια είμαι;", 
+         "Γιούκα", 
+         "Κίρα"
+        ],
       "about": {
         "histoire": {
           "title": "Η ιστορία μας",
@@ -1916,7 +1960,6 @@
       "banniere": {
         "alt": "Ένα μπάνερ σελίδας φτιαγμένο από διαφορετικά στοιχεία, συμπεριλαμβανομένης της επιγραφής \"Info\" σε γραφή Μπράιγ."
       },
-
       "containerInfos": {
         "h2": [
           "Εάν ανακαλύψετε αυτόν τον ιστότοπο… ",
@@ -1940,7 +1983,7 @@
         "notices": [
           "Μη οπτική πλοήγηση",
           "Δυσλεξικοί επισκέπτες",
-          "Επισκέπτες με <b>δυσ-</b> ή <b>α</b>χρωματοψία ",
+          "Επισκέπτες με δυσ- ή ά-χρωματοψία",
           "Eπισκέπτες με προβλήματα ακοής",
           "Παράμετροι προβολής",
           "Oι διαδραστικές εντολές με το πληκτρολόγιο.",
@@ -1955,7 +1998,7 @@
           "Χαίρετε! Ελπίζω ότι θα σας αρέσει πολύ να διατρέχετε τις σελίδες αυτού του ιστότοπου και ότι θα σας ικανοποιήσει η εργονομία του! ",
           "Πώς χειρίστηκα τα οπτικά στοιχεία;",
           "Περιέγραψα σχολαστικά τις τρεις εικονογραφήσεις στην Αρχική σελίδα, και θα κάνω το ίδιο κάθε φορά που μία εικόνα θα είναι χρήσιμη για την κατανόηση του κειμένου. Αντιθέτως, θα κρύβω τις εικόνες που μόνο εξυπηρετούν διακοσμητικούς στόχους έτσι ώστε να μπορείτε να συγκεντρώνεστε στην ουσία των πραγμάτων.",
-          "            Dans l'en-tête, j'ai installé 5 boutons de navigation adaptée. Ils sont alignés à droite des boutons pour changer de langue sur un écran d'ordinateur ou une tablette en mode paysage et sous ces mêmes boutons avec un smartphone ou une tablette en mode portrait. Seul le premier bouton a un intérêt pour vous car il aura pour effet de réduire, de manière importante, le nombre de pages à faire défiler. Pour ce faire, vous pourrez ouvrir ce bouton qui permet de diminuer ou d'agrandir les caractères et choisir la première option du menu déroulant qui s'ouvrira afin de rendre les caractères les plus petits possible.  ",
+          "Στην επικεφαλίδα, εγκατέστησα 5 προσαρμοσμένα κουμπιά. Δεξιά στοιχισμένα είναι τα κουμπιά για την αλλαγή της γλώσσας μέσα σε μία οθόνη υπολογιστή ή ταμπλέτας σε οριζόντια προβολή ή τα ίδια κουμπιά βρίσκονται κάτω αν οι επισκέπτες του σάιτ χρησιμοποιούν ένα έξυπνο τηλέφωνο ή μία ταμπλέτα σε κάθετη προβολή. Μόνο το πρώτο κουμπί σας ενδιαφέρει, καθώς μειώνει δραστικά τον αριθμό των σελίδων στις οποίες πρέπει να σκρολάρετε. Για να το κάνετε αυτό, μπορείτε να ανοίξετε το κουμπί που μεγαλώνει ή μικραίνει το μέγεθος των χαρακτήρων και να διαλέξετε την πρώτη επιλογή του αναπτυσσόμενου κουμπιού που επιτρέπει να κάνετε τους χαρακτήρες όσο το δυνατόν μικρότερους.",
           "Για λόγους εργονομίας, το υποσέλιδο προβάλλεται διαφορετικά ανάλογα με το μέγεθος της οθόνης. Για μήκος ίσο ή μεγαλύτερο των 1024 πίξελ (κυρίως μία ταμπλέτα σε οριζόντια προβολή) υπάρχει ένας πίνακας με εικόνες, με τρεις σειρές και τρεις στήλες. Η πρώτη σειρά οδηγεί στις παρουσιάσεις μας στην σελίδα \"Σχετικά με εμάς\". Η δεύτερη σειρά θα σας στείλει στο \"Η ζωή ενός σκύλου- οδηγού\" με μία φωτογραφία της Κίρας στην αρχική της οικογένεια και μετά μία άλλη φωτογραφία της Κίρας στην οποία φοράει τον ιμάντα εργασίας της και στο τέλος μία φωτογραφία της Γιούκας στην συνταξιοδότηση. H τρίτη σειρά είναι συμπλήρωμα της δεύτερης, βλέπουμε μία φωτογραφία της Γιούκας και της Κίρας, καθεμία με την μαμά και τα αδέρφια της, τις πρώτες μέρες της ζωής τους. Μην ξεχνώντας, μία φωτογραφία του Νταβίντ, του συζύγου μου που είναι πολύ κοντά σε εμάς.",
           "Είτε υπάρχει, είτε δεν υπάρχει μία σκακιέρα, όσο το δυνατόν γρηγορότερα θα έχουμε το συνολικό Σχέδιο Πλοήγησης.",
           "Για να αποφύγουμε το πολύ σκρολλάρισμα , ένα κουμπί με ένα λαμπραντόρ που κοιτάζει ψηλά , έχει εγκατασταθεί για να σας επιτρέπει να πηγαίνετε στο πάνω μέρος της σελίδας που βρίσκεστε , πατώντας το. Αν χρησιμοποιείτε ένα έξυπνο τηλέφωνο ή ένα τάμπλετ σε κάθετη προβολή, αυτό το κουμπί θα είναι κάτω-κάτω. Στην περίπτωση που χρησιμοποιείτε έναν υπολογιστή , μία ταμπλέτα ή ένα έξυπνο τηλέφωνο σε οριζόντια προβολή, θα βρείτε αυτό το κουμπί στα δεξιά του κειμένου· επιπρόσθετα, ένα κάθετο μενού θα εμφανιστεί ακριβώς από πάνω του, επιτρέποντάς σας να μετακινηθείτε από το ένα στοιχείο στο άλλο. Μια που το έφερε η κουβέντα, ίσως να μη λειτουργήσει με την πρώτη φορά , αλλά θα λειτουργήσει σίγουρα με την δεύτερη!",
@@ -1973,10 +2016,10 @@
         ]
       },
       "notice3": {
-        "span": "Επισκέπτες με <b>δυσ-</b> ή <b>α</b>χρωματοψία ",
+        "span": "Επισκέπτες με δυσ- ή ά-χρωματοψία ",
         "alt": "",
         "p": [
-          "Bonjour, j'espère que vous prendrez plaisir à visiter ces pages. Si vous avez une dys- ou une achromatopsie, je vous recommande de rendre sur «Comment paramétrer l'affichage». Les quatrième et cinquième bouton ont spécialement été installés à votre attention.",
+          "Χαίρετε! Ελπίζω να απολαμβάνετε την επίσκεψή σας σε αυτές τις σελίδες. Αν έχετε δυσ- ή ά-χρωματοψία, σας προτείνω να πάτε στην ενότητα \"Παράμετροι Προβολής\". Το τέταρτο και το πέμπτο κουμπί εγκαταστάθηκαν ειδικά για εσάς.",
           "Παρόλο που δεν υπάρχει πανάκεια στις γραμματοσειρές λατινικών χαρακτήρων που έχουν δημιουργηθεί για δυσλεκτικούς αναγνώστες, μία από αυτές μου φάνηκε άξια δοκιμής: LexieReadable. Σας προτείνω να την δοκιμάσετε επιλέγοντάς την στο δεύτερο κουμπί για να τροποποιήσετε την προβολή. Οι δυσλεκτικοί μαθητές που μαθαίνουν αγγλικά στο σχολείο μπορούν να κατεβάσουν αυτήν την γραμματοσειρά.",
           "Διάλεξα ως λογότυπο αυτής της ιστοσελίδας, μία γραμματοσειρά που βρίσκω φανταστική αλλά ίσως αποδειχτεί λιγότερο προσβάσιμη, ανάλογα με τον τύπο της δυσλεξίας σας. Αν δεν μπορείτε να την αποκρυπτογραφήσετε, ελπίζω να μην μείνετε μπλοκαρισμένοι και να συνεχίσετε την ανάγνωσή σας. Αυτός ο τίτλος, ξαναγράφεται στο κάτω μέρος της σελίδας, αλλά σε περίπτωση που δεν το παρατηρήσατε, σας τον επαναλαμβάνω εδώ: Σε παρακαλώ, ζωγράφισέ μου έναν σκύλο οδηγό!",
           "Ελπίζω ότι θα ευχαριστηθείτε διαβάζοντάς με και θα σας απαντάω με μεγάλη μου χαρά σε οποιαδήποτε απορία ή πρόβλημα που ίσως έχετε."
@@ -2003,9 +2046,10 @@
           "Το τέταρτο κουμπί",
           "σας επιτρέπει να επιλέξετε προβολή στις αποχρώσεις του γκρι. Για ανεξήγητους λόγους, το φόντο δεν αλλάζει σε κάποια απόχρωση του γκρι. Προτείνω να χρησιμοποιήσετε αυτό το κουμπί σε συνδυασμό με το τρίτο. Για βέλτιστη αντίθεση, μπορείτε να επιλέξετε την πρώτη επιλογή για αρνητική αντίθεση ή την πρώτη επιλογή από τις τέσσερις τελευταίες επιλογές για θετική αντίθεση.",
           "Το πέμπτο κουμπί",
-          "Puisque c'est uniquement grâce à une différence de couleur, par rapport au texte, que les liens peuvent être reconnu, il était nécessaire d'ajouter un autre moyen de visibiliser ces derniers&nbsp;: en actionnant ce bouton, tous les liens, sauf ceux du damier, apparaîtront avec un cadre foncé si vous utilisez un contraste négatif et un cadre clair pour un contraste positif.",
-          "Pour information, si, après avoir utilisé le cinquième bouton, vous vous servez du troisième pour passer d'un contraste positif à un contraste négatif (ou l'inverse), vous devrez cliquer à nouveau sur le cinquième bouton. L'effet de ce dernier bouton, et c'est également le cas pour le quatrième bouton, ne sera pas mémorisé&nbsp;: lorsque vous changerez de page, vous aurez à le sélectionner à nouveau.",
-          "Pour information, si, après avoir utilisé le cinquième bouton, vous vous servez du troisième pour passer d'un contraste positif à un contraste négatif, vous devrez cliquer à nouveau sur le cinquième bouton. L'effet de ce dernier bouton ne sera pas mémorisé&nbsp;: lorsque vous changerez de page, vous aurez à le sélectionner à nouveau."        ]
+          "συμπληρώνει το τέταρτο. Έχει σχεδιαστεί για αναγνώστες με θαμπή ή ανύπαρκτη αντίληψη των χρωμάτων. ",
+          "Aπό την στιγμή που τα λινκ αναγνωρίζονται με τη διαφορά χρώματος μεταξύ κειμένου και λινκ, ήταν απαραίτητο να προσθέσω έναν άλλον τρόπο για να τα κάνω ορατά : πατώντας αυτό το κουμπί όλα τα λινκ εκτός από αυτά της σκακιέρας θα εμφανίζονται με ένα σκούρο πλαίσιο γύρω τους αν χρησιμοποιείτε αρνητική αντίθεση και ένα ανοιχτόχρωμο πλαίσιο αν χρησιμοποιείτε θετική αντίθεση.",
+          "Προς πληροφόρησή σας, εάν αφού χρησιμοποιήσετε το πέμπτο κουμπί, πατήσετε το τρίτο για να αλλάξετε από θετική σε αρνητική αντίθεση (ή το αντίστροφο), θα πρέπει να κάνετε κλικ πάλι στο πέμπτο κουμπί. Η επιλογή αυτού του κουμπιού, όπως επίσης και του τέταρτου κουμπιού, δεν θα απομνημονευτούν : όταν αλλάζετε σελίδα, θα πρέπει να το ξαναεπιλέξετε."
+        ]
       },
       "notice6": {
         "span": "Μπορούν οι διαδραστικές εντολές να γίνουν μέσω του πληκτρολογίου;",
@@ -2038,7 +2082,7 @@
       "images": {
         "span": "Η εικονογράφος αυτού του ιστότοπου. Εικόνες και φωτογραφίες",
         "p": [
-          "Είναι η ώρα να σας παρουσιάσω την  <a href=\"https://chloeroten.wixsite.com/chloeillustree\" target=\"_blank\" >Chloé Roten</a >, η οποία έφερε στην ζωή τους δύο σκύλους οδηγούς αυτής της σελίδας, όπως επίσης και τα μέλη των οικογένειών τους.",
+          "Είναι η ώρα να σας παρουσιάσω την  <a href=\"https://chloeroten.wixsite.com/chloeillustree\" target=\"_blank\" class=\"variable\">Chloé Roten</a >, η οποία έφερε στην ζωή τους δύο σκύλους οδηγούς αυτής της σελίδας, όπως επίσης και τα μέλη των οικογένειών τους.",
           "Η Χλόη είναι η κόρη της Κάρεν, μίας φίλης που γνώρισα όταν σπουδάζαμε Ορθοφωνία και Λογοθεραπεία. Η Κάρεν είχε ποστάρει κάτι στο Facebook με ένα καταπληκτικό σχέδιο της Χλόης ακολουθούμενο από ένα λινκ που οδηγούσε στο προφίλ του instagram της. Έριξα μία ματιά στο προφίλ της και το λιγότερο που μπορώ να πω είναι ότι έμεινα με το στόμα ανοιχτό! Ήταν μαγικό!",
           "Πάντα με συνέπαιρναν οι όμορφες ζωγραφιές. Όμως ακόμα κι όταν είχα σχετικά καλύτερη όραση, ποτέ δεν ήμουν καλή παρτενέρ για να παίξεις pictionary 🤣.  Kαι είναι τόσο απογοητευτικό γιατί πάντα είχα πολλές εικόνες και χρώματα στο κεφάλι μου! Ως και ένα παλιό απραγματοποίητο όνειρο να γράψω παιδικά βιβλία με όμορφες ζωγραφιές!",
           "Έτσι, όταν μου ήρθε η ιδέα να δημιουργήσω μία ιστοσελίδα, ήταν προφανές για μένα ότι έπρεπε να ζητήσω εικονογράφηση από την Χλόη. Όλα μπήκαν στην θέση τους γρήγορα, και σκαρφίστηκε πολλά σκίτσα να μου προτείνει με την Κίρα να μου δείχνει τον δρόμο, σε διαφορετικές γωνίες. Από την στιγμή που έκανα την επιλογή μου, εκείνη πρόσθεσε τα υπόλοιπα στοιχεία και έκανε τις μικρές διορθώσεις και προσθήκες που ήθελα.",
@@ -2059,15 +2103,21 @@
       },
       "grammaire": {
         "span": "Grammaire non validiste svp",
-        "p": ["👩‍💻 Sera rédigé plus tard.👩‍💻"]
+        "p": [
+          "👩‍💻 Sera rédigé plus tard.👩‍💻"
+        ]
       },
       "biblio": {
         "span": "Bibliographie",
-        "p": ["👩‍💻 Sera rédigé plus tard.👩‍💻"]
+        "p": [
+          "👩‍💻 Sera rédigé plus tard.👩‍💻"
+        ]
       },
       "handicap": {
         "span": "Parler du handicap",
-        "p": ["👩‍💻 Sera rédigé plus tard.👩‍💻"]
+        "p": [
+          "👩‍💻 Sera rédigé plus tard.👩‍💻"
+        ]
       },
       "menuLateral": {
         "menu": [
