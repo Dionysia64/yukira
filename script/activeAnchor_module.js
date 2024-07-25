@@ -8,7 +8,6 @@ const callback = (entries, observer) => {
 
   // Helper function to add 'anchorActive' class to the target link
   const addActiveClass = (targetId) => {
-    console.log(targetId);
     const targetLink = document.querySelectorAll(`a[href="#${targetId}"]`);
     if (targetLink) {
       links.forEach(link => {

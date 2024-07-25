@@ -664,6 +664,19 @@ function displayLang(data) {
     })
     const histoire = document.querySelector("#histoire > div:nth-child(1) > span");
     histoire.innerHTML = data.mainAbout.about.histoire.title;
+    const links = document.querySelectorAll("section.about > div > a");
+    links[0].href = data.mainAbout.about.histoire.href1;
+    links[0].innerHTML = data.mainAbout.about.histoire.link1;
+    links[1].href = data.mainAbout.about.histoire.href2;
+    links[1].innerHTML = data.mainAbout.about.histoire.link2;
+    links[2].href = data.mainAbout.about.qui.href3;
+    links[2].innerHTML = data.mainAbout.about.qui.link3;
+    links[3].href = data.mainAbout.about.qui.href4;
+    links[3].innerHTML = data.mainAbout.about.qui.link4;
+    links[4].href = data.mainAbout.about.qui.href5;
+    links[4].innerHTML = data.mainAbout.about.qui.link5;
+    links[5].href = data.mainAbout.about.yukaa.href6;
+    links[5].innerHTML = data.mainAbout.about.yukaa.link6;
     const paragraphesHistoire = document.querySelectorAll("#histoire > p");
     paragraphesHistoire.forEach((paragraph, index) => {
       paragraph.innerHTML = data.mainAbout.about.histoire.paragraphes[index];

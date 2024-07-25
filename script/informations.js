@@ -359,7 +359,6 @@ function changeColorPage(
   const btns = document.querySelectorAll(".dropdown-menu-color > li > button");
   const body = document.getElementById("grey");
   const links = document.querySelectorAll("a:not(.lien-cards):not(.damier-link):not(div.Histoire > a):not(div.Qui > a):not(div.Yukaa > a):not(div.Kiraa > a)");
-  console.log(links);
   const textes = document.getElementsByTagName("p");
   const span = document.getElementsByTagName("span");
   const blockquote = document.querySelectorAll(".blockquote");
@@ -712,6 +711,15 @@ function displayLang(data) {
     paragraph8.forEach((paragraph, index) => {
       paragraph.innerHTML = data.informations.notice7.p[index];
     });
+    const title9 = document.querySelector("#notice_8 > div:nth-child(1) > span");
+    title9.innerHTML = data.informations.notice7.span;
+    const paragraph9 = document.querySelectorAll("#notice_8 > p");
+    paragraph9.forEach((paragraph, index) => {
+      paragraph.innerHTML = data.informations.notice8.p[index];
+    });
+    const lienWAI = document.querySelector("#notice_8 > a");
+    lienWAI.innerHTML = data.informations.notice8.link;
+    lienWAI.href = data.informations.notice8.href;
     const titleImages = document.querySelector("#images > div:nth-child(1) > span");
     titleImages.innerHTML = data.informations.images.span;
     const paragraphImages = document.querySelectorAll("#images > p");
@@ -746,6 +754,18 @@ function displayLang(data) {
     menuLateral.forEach((menu, index) => {
       menu.innerHTML = data.informations.menuLateral.menu[index];
     });
+    /*const link1 = document.querySelector("#images > a:nth-child(3)")
+    const link2 = document.querySelector("#images > a:nth-child(14)")
+    const link3 = document.querySelector('#images > a:nth-child(16)');
+    const link4 = document.querySelector('#images > a:nth-child(18)');
+    link1.href = data.informations.images.href1;
+    link1.innerHTML = data.informations.images.link1;
+    link2.href = data.informations.images.href2;
+    link2.innerHTML = data.informations.images.link2;
+    link3.href = data.informations.images.href3;
+    link3.innerHTML = data.informations.images.link3;
+    link4.href = data.informations.images.href4;
+    link4.innerHTML = data.informations.images.link4;*/
   }
 
   function footer(data) {
