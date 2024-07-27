@@ -127,7 +127,7 @@
           "href3": "https://www.optic-picto.ch/index.php",
           "link3": "Karin Schwarz",
           "href4": "https://www.ucba.ch",
-          "link4": "l’UCBA (Union centrale pour le bien des aveugles)",
+          "link4": "l’UCBA (Union centrale pour le bien des aveugles),",
           "href5": "https://youtu.be/h7oEuaQqJpU?si=vrN7eFPEUselRcHV",
           "link5": "Soprano, Forrest, Chasseur d'étoiles, 2021",
           "paragraphes": [
@@ -140,7 +140,7 @@
             "Je suis née avec un strabisme congénital, une anisométropie et un nystagmus latent avec déviation verticale dissociée. Mon amblyopie à l’œil droit a été découverte tardivement, à 3 ans, lorsque j’ai enfin été vue en consultation par un ophtalmologue. Mon acuité visuelle à l’œil gauche était alors sub-normale.",
             "C’est à l’adolescence que l’acuité de mon œil gauche a commencé à baisser. Un glaucome bilatéral à angle ouvert a été diagnostiqué le mois de mes 30 ans.",
             "J’étais quadra lorsque j’ai poussé la porte d’un service dédié à la déficience visuelle.",
-            "J’approchais de la cinquantaine lorsque ma super opticienne, ", ", spécialisée en basse vision et formatrice à ", ", a su mettre des mots sur des symptômes gênants que j’éprouvais depuis l’enfance et que personne n’avait su expliquer. J’ai un syndrome fort peu connu, le syndrome de Meares-Irlen (ou d’Irlen). Il sera décrit ailleurs dans ce site.",
+            "J’approchais de la cinquantaine lorsque ma super opticienne, ", ", spécialisée en basse vision et formatrice à", " a su mettre des mots sur des symptômes gênants que j’éprouvais depuis l’enfance et que personne n’avait su expliquer. J’ai un syndrome fort peu connu, le syndrome de Meares-Irlen (ou d’Irlen). Il sera décrit ailleurs dans ce site.",
             "Il faut dire que les symptômes inexpliqués dès l’enfance sont un peu ma marque de fabrique. J’ai reçu plusieurs diagnostics à l’âge adulte. Je n’en indiquerai que deux qui ont été posés à l’aube de la cinquantaine&nbsp;: un trouble du spectre autistique (TSA) et un syndrome d’Ehlers-Danlos de type hypermobile (SEDh).",
             "Si je nomme ces spécificités, c’est parce qu’elles font partie de moi, ont un impact dans ma façon d’être, de gérer mon quotidien, de communiquer et d’exprimer ma ma créativité. Ce site en sera le reflet immédiat et j’aurai l’occasion d’y revenir pour expliquer ces syndromes, qui concernent d’autres personnes déficientes visuelles, et partager quelques astuces et articles.",
             "Portrait chinois&nbsp;:",
@@ -161,7 +161,7 @@
         "yukaa": {
           "title": "Yuka",
           "href6": "https://www.guidingeyes.org/",
-          "link6": "Guiding Eyes for the Blind", 
+          "link6": "Guiding Eyes for the Blind.ucba", 
           "paragraphes": [
             "Comme tous les chiens de la Fondation romande pour chiens guides d’aveugles, Yuka est un labrador. C’est une femelle de couleur noire, née le 7 juin 2012.",
             "Son père, Panther, est issu de la ", "J'ai reçu une magnifique photo de leur part, accompagnée du commentaire suivant&nbsp;: «Voici Guiding Eyes Panther 🙂 C'est un beau garçon et il a eu 146 chiots avant d'être mis à la retraite&nbsp;!»",
@@ -192,7 +192,77 @@
     },
     "itineraire": {
       "banniere": {
-        "alt": "Une bannière dessinée par Chloé montrant l'évolution d'un chiot, labrador noir, puis il est en classe avec un labrador beuge et un berger allemand, enfin il me guide et finalement il est confortablement installé sur une chaise longue, un verre cocktail et une paille en direction de sa gueule. C'est l'heure de la retraite qui a sonné !"
+        "alt": "Une bannière dessinée par Chloé montrant l'évolution d'un chiot, labrador noir, puis il est en classe avec un labrador beige et un berger allemand, enfin il me guide et finalement il est confortablement installé sur une chaise longue, un verre cocktail et une paille en direction de sa gueule. C'est l'heure de la retraite qui a sonné !"
+      },
+      "citation": {
+        "blockquote": {
+          "p": "“Chère Dionysia, merci du fond du cœur pour votre message. Cela fait 5 ans et demi que nous nous investissons comme famille de parrainage, et après Sofia et Tosca, toutes les deux réformées, Yuka est devenue le premier ange à 4 pattes qui a partagé un morceau de notre chemin de Vie. C'est une chienne adorable et très pot de colle, attachante et fidèle. Je vous souhaite un immense bonheur avec elle. Nous ne sommes qu'un maillon d'une formidable chaîne de solidarité depuis la naissance d'un petit chiot qui deviendra un jour un formidable chien-guide et un compagnon de tous les instants. J'espère que vous partagerez avec elle la même belle complicité basée sur le respect et la confiance mutuelle, j'en suis sûre ! Aujourd'hui, nous avons rendu à Brenles Ambre, notre 4ème petite filleule. Je vous promets de vous contacter rapidement, mais ces prochains jours seront un peu pour nous dans l'attente du futur d'Ambre. Je vous ferai parvenir des photos de la jeunesse de Yuka dans notre famille, et en voici deux de son premier jour chez nous dans notre jardin le 10 août 2012. Je vous souhaite une douce première nuit peuplée de rêves d'avenir avec votre Yuka. Toute mon amitié.”",
+          "footer": "Ariane, famille de parrainage de Yuka"
+        },
+        "p": ["Oh oui, Ariane, tout ce que tu m'écrivais dans ton premier WhatsApp, à propos de ma Yukalinette d'amour, et bien plus, s'est réalisé 🥰.", "En ce 7 juin 2024, jour des 12 ans de Yuka (et d'Uranie, notre tigrée), je vais vous conter la fabuleuse histoire d'un chien-guide.", "J'ai souvent l'occasion d'expliquer à des passants par quel processus nos adorables canidés sont devenus des anges à 4 pattes qui nous guident avec amour.", "C'est ce que je m'apprête à faire ici."]
+      },
+      "containerPath": {
+        "h2": ["Naissance d'un futur chien-guide", "Futur chien-guide en famille de parrainage", "Chien-guide en formation", "Chien-guide diplômé", "Chien-guide en poste", "Chien-guide retraité"]
+      },
+      "itinéraire": {
+        "nursery": {
+          "span": "Naissance d'un futur chien-guide",
+          "paraphs": [
+            "La trajectoire de nos héros à 4 pattes, d'où qu'ils viennent, est relativement similaire.",
+            "En Suisse par exemple, nous avons 4 écoles de chiens-guides membres de l'IGDF ( l'International Guide Dog Federation).",
+            "Les écoles de Yuka et de Kira, à savoir la fondation romande pour chiens guides d'aveugles et la Fondation école suisse pour chiens d'aveugles Allschwil ont leur propre élevage.",
+            "C'est dans la nursery de leur école respective que mes deux jolies noiraudes ont été photographiées avec leur portée. Les deux écoles élèvent et forment principalement des labradors Retriever, la race emblématique du chien-guide. Ce chien intelligent, adaptable, débonnaire, est le plus répandu parmi les chiens-guides en Suisse et au niveau mondial.",
+            "Les deux autres écoles helvètes, la Verein für Blindenhunde und Mobilitätshilfen (VBM) à Liestal et la Stiftung Ostschweizerische Blindenführhundeschule (OBS) à Goldach, préfèrent s'adresser à des éleveurs expérimentés. Toutes deux forment diverses races de chien, telles que des labradors et goldens Retriever, des bergers allemands, des bergers blancs suisses, des barbets…",
+            "Gérer un élevage implique une grande responsabilité éthiquement parlant et de grandes connaissances en matière de génétique. Les personnes qui gèrent l'élevage sont chargées de sélectionner les chiens qui deviendront parents et organiser les combinaisons en fonction des génotypes et phénotypes. Il va sans dire que ce travail nécessite une connaissance approfondie sur le comportement des chiens et les maladies canines et un travail rigoureux pour s'assurer du bien-être des parents et de leur progéniture.",
+            "Afin de diversifier un maximum les gènes, les écoles de chiens-guides européennes et américaines collaborent étroitement. C'est ainsi par exemple que l'école de Yuka a accueilli, durant 6 mois, en 2012, Panther, un labrador Retriever noir issu de la Guiding Eyes for the Blind.",
+            "Ce magnifique étalon s'est accouplé avec Shila, qui a eu sa première portée : Yuka et ses 7 frères et sœurs.",
+            "Tout comme les autres chiens de leur école, les chiens d'élevage vivent dans une famille. Cette dernière s'engage à amener le chien parfois à plusieurs reprises, pour les saillies. Par la suite, les femelles gestantes seront bien entendu suivies par un vétérinaire.",
+            "La famille neuchâteloise, chez qui vit Shila, m'a envoyé une magnifique radiographie, faite le 25 mai 2012, dans laquelle au moins sept têtes étaient visibles. Il n'était pas exclu qu'une huitième puisse être cachée sous les intestins maternels. Ce pronostic était juste puisqu'il y a eu 4 mâles et 4 femelles.",
+            "Ce jour-là, Shila était sur le départ pour la nursery qui l'avait vu naître 3 ans plus tôt, et où elle allait mettre bas le 7 juin. Dans la photo ci-dessous, nous voyons la portée de Shila en pleine têtée.",
+            "Yuka et ses frères et sœurs s'apprêtaient à passer leurs 10 premières semaines avec leur mère. Pour la famille de Shila, cela impliquait une séparation de 12 semaines.",
+            "C'est cette même magie qui a eu cours, 8 ans plus tard, à Allschwil, l'école de Kira. Voici Ulka, avec, qui sait, Kira ? Ou un petit de la portée. C'est précisément aujourd'hui, le 14 juillet 2024, alors que je suis occupée à rédiger la suite de cette présentation, que Kira fête ses 4 ans.",
+            "Ce n'est pas à la portée de Kira que j'ai pu faire des papouilles lors de ma visite à Allschwil au début du processus de demande d'un chien-guide, puisque les petits avaient déjà tous 4 mois. Ils avaient tous été confiés à leur famille de parrainage respective.",
+            "Pour moi, la visite de la nursery a été un moment extrêmement émouvant.",
+            "Il m'est impossible de résister à la tentation de partager ce petit film, fait par Stéphanie, qui m'avait reçue à la Fondation, alors que deux petits aventuriers avaient tenté de s'emparer de ma canne blanche lorsque je tentais (sûrement sans conviction) de repartir."
+          ],
+          "liens": [
+            "IGDF ( l'International Guide Dog Federation)",
+            "fondation romande pour chiens guides d'aveugles",
+            "Fondation école suisse pour chiens d'aveugles Allschwil",
+            "Verein für Blindenhunde und Mobilitätshilfen (VBM)",
+            "Stiftung Ostschweizerische Blindenführhundeschule (OBS)",
+            "Guiding Eyes for the Blind"
+          ]
+        },
+        "parrainage": {
+          "span": "Futur chien-guide en famille de parrainage",
+          "paraphs": [
+            "👩‍💻 En cours de rédaction.👩‍💻"
+          ],
+          "liens": []
+        },
+        "formation": {
+          "span": "Chien-guide en formation",
+          "paraphs": [
+            "👩‍💻 En cours de rédaction.👩‍💻"
+          ],
+          "liens": []
+        },
+        "diplôme": {
+          "span": "Chien-guide diplômé",
+          "paraphs": ["👩‍💻 En cours de rédaction.👩‍💻"],
+          "liens": []
+        },
+        "travail": {
+          "span": "Chien-guide en poste",
+          "paraphs": ["👩‍💻 En cours de rédaction.👩‍💻"],
+          "liens": []
+        },
+        "retraite": {
+          "span": "Chien-guide retraité",
+          "paraphs": ["👩‍💻 En cours de rédaction.👩‍💻"],
+          "liens": []
+        }
       }
     },
     "informations": {
@@ -380,7 +450,7 @@
         "q1": "Les mâles peuvent-ils aussi être des chiens-guides&nbsp;?",
         "r1": "À ma grande surprise, cette question m'a été posée à plusieurs reprises. Oui, bien sûr, les mâles et les femelles peuvent l'un comme l'autre faire d'excellents chiens-guides&nbsp;! Le tempérament du chien, son envie et son aptitude à travailler sont bien plus déterminants que le sexe du chien.",
         "q2": "Quelles sont les races les plus sélectionnées pour devenir chien-guide&nbsp;?",
-        "r2": "Le Labrador Retriever est la race la plus communément citée par le public et certainement la plus répandue dans le monde. Les autres races de chiens-guides sont des Golden Retriever, des hybrides de ces deux races, des flat coated, des bergers allemands, des caniches royaux, des bergers australiens, des border-collies, des bouviers bernois, des Saint-Pierre (mixte entre des labradors et des bouviers bernois), des bergers blancs suisse,... la liste n'est pas terminée. J'ai trouvé un article, pour ceux qui lisent l'anglais, très intéressant&nbsp;: <a href=\"https://www.thewildest.com/dog-behavior/guide-dog-breeds\" target=\"_blank\">Are There Differences Between Guide Dog Breeds?</a> Des détenteurs qui ont eu plusieurs chiens-guides de races différentes y racontent leurs différentes expériences. J'ai retrouvé des comportements décrits chez les labradors avec mes deux noiraudes. Yuka s'approchait des obstacles, s'arrêtait pour que je puisse les découvrir et ignorait mes demandes d'avancer jusqu'à ce que je lui aie bien montré que j'avais compris. Kira, le fait aussi, mais à ma grande surprise, tout récemment, me guidant pour la première fois sur un trajet inconnu, comportant des travaux, elle s'est mise à anticiper les obstacles latéraux en corrigeant sa trajectoire en avance, ce qui nous a permis d'avancer de manière très fluide sur un chemin quelque peu sinueux. J'avais été épatée et enchantée. Ce comportement ressemble à celui de bergers, si je me réfère à un des témoignages de ce document. Comme quoi, on ne peut pas toujours généraliser...",
+        "r2": "Le Labrador Retriever est la race la plus communément citée par le public et certainement la plus répandue dans le monde. Les autres races de chiens-guides sont des Golden Retriever, des hybrides de ces deux races, des flat coated, des bergers allemands, des caniches royaux, des bergers australiens, des border-collies, des bouviers bernois, des Saint-Pierre (mixte entre des labradors et des bouviers bernois), des bergers blancs suisse,... la liste n'est pas terminée. <br><br>J'ai trouvé un article, pour ceux qui lisent l'anglais, très intéressant&nbsp;: <a href=\"https://www.thewildest.com/dog-behavior/guide-dog-breeds\" target=\"_blank\">Are There Differences Between Guide Dog Breeds?</a> Des détenteurs qui ont eu plusieurs chiens-guides de races différentes y racontent leurs différentes expériences. <br><br>J'ai retrouvé des comportements décrits chez les labradors avec mes deux noiraudes. Yuka s'approchait des obstacles, s'arrêtait pour que je puisse les découvrir et ignorait mes demandes d'avancer jusqu'à ce que je lui aie bien montré que j'avais compris. Kira, le fait aussi, mais à ma grande surprise, tout récemment, me guidant pour la première fois sur un trajet inconnu, comportant des travaux, elle s'est mise à anticiper les obstacles latéraux en corrigeant sa trajectoire en avance, ce qui nous a permis d'avancer de manière très fluide sur un chemin quelque peu sinueux. J'avais été épatée et enchantée. Ce comportement ressemble à celui de bergers, si je me réfère à un des témoignages de ce document. Comme quoi, on ne peut pas toujours généraliser...",
         "q3": "Est-ce qu'un petit chien peut aussi devenir un chien-guide s'il en a les aptitudes&nbsp;?",
         "r3": "Non, ce n'est pas possible, pour des raisons de sécurité. Il pourrait en revanche devenir chien d'assistance ou d'alerte médicale. Si un grand chien-guide peut être remis à une personne de taille modeste, l'inverse ne peut être vrai&nbsp;: il est important que le chien dépasse les genoux de la personne qu'il guide. La taille usuelle des chiens-guides varie entre 50 et 70 cm au garrot.",
         "q4": "Combien de signaux verbaux connaissent les chiens-guides&nbsp;?",
@@ -638,6 +708,76 @@
     "itineraire": {
       "banniere": {
         "alt": "Der Seitenbanner, gezeichnet von Chloé, zeigt den Lebensweg eines schwarzen Labradors. Zuerst sieht man ihn als Welpen, dann ist er in der Schulklasse mit einem beigen Labrador und einem deutschen Schäferhund, danach führt er mich und schlussendlich liegt er gemütlich auf einem Liegestuhl mit einem Cocktail Glass in seiner Pfote und dem Trinkhalm in Richtung seiner Schnauze."
+      },
+      "citation": {
+        "blockquote": {
+          "p": "“Chère Dionysia, merci du fond du cœur pour votre message. Cela fait 5 ans et demi que nous nous investissons comme famille de parrainage, et après Sofia et Tosca, toutes les deux réformées, Yuka est devenue le premier ange à 4 pattes qui a partagé un morceau de notre chemin de Vie. C'est une chienne adorable et très pot de colle, attachante et fidèle. Je vous souhaite un immense bonheur avec elle. Nous ne sommes qu'un maillon d'une formidable chaîne de solidarité depuis la naissance d'un petit chiot qui deviendra un jour un formidable chien-guide et un compagnon de tous les instants. J'espère que vous partagerez avec elle la même belle complicité basée sur le respect et la confiance mutuelle, j'en suis sûre ! Aujourd'hui, nous avons rendu à Brenles Ambre, notre 4ème petite filleule. Je vous promets de vous contacter rapidement, mais ces prochains jours seront un peu pour nous dans l'attente du futur d'Ambre. Je vous ferai parvenir des photos de la jeunesse de Yuka dans notre famille, et en voici deux de son premier jour chez nous dans notre jardin le 10 août 2012. Je vous souhaite une douce première nuit peuplée de rêves d'avenir avec votre Yuka. Toute mon amitié.”",
+          "footer": "Ariane, famille de parrainage de Yuka"
+        },
+        "p": ["Oh oui, Ariane, tout ce que tu m'écrivais dans ton premier WhatsApp, à propos de ma Yukalinette d'amour, et bien plus, s'est réalisé 🥰.", "En ce 7 juin 2024, jour des 12 ans de Yuka (et d'Uranie, notre tigrée), je vais vous conter la fabuleuse histoire d'un chien-guide.", "J'ai souvent l'occasion d'expliquer à des passants par quel processus nos adorables canidés sont devenus des anges à 4 pattes qui nous guident avec amour.", "C'est ce que je m'apprête à faire ici."]
+      },
+      "containerPath": {
+        "h2": ["Naissance d'un futur chien-guide", "Futur chien-guide en famille de parrainage", "Chien-guide en formation", "Chien-guide diplômé", "Chien-guide en poste", "Chien-guide retraité"]
+      },
+      "itinéraire": {
+        "nursery": {
+          "span": "Naissance d'un futur chien-guide",
+          "paraphs": [
+            "La trajectoire de nos héros à 4 pattes, d'où qu'ils viennent, est relativement similaire.",
+            "En Suisse par exemple, nous avons 4 écoles de chiens-guides membres de l'IGDF ( l'International Guide Dog Federation).",
+            "Les écoles de Yuka et de Kira, à savoir la fondation romande pour chiens guides d'aveugles et la Fondation école suisse pour chiens d'aveugles Allschwil ont leur propre élevage.",
+            "C'est dans la nursery de leur école respective que mes deux jolies noiraudes ont été photographiées avec leur portée. Les deux écoles élèvent et forment principalement des labradors Retriever, la race emblématique du chien-guide. Ce chien intelligent, adaptable, débonnaire, est le plus répandu parmi les chiens-guides en Suisse et au niveau mondial.",
+            "Les deux autres écoles helvètes, la Verein für Blindenhunde und Mobilitätshilfen (VBM) à Liestal et la Stiftung Ostschweizerische Blindenführhundeschule (OBS) à Goldach, préfèrent s'adresser à des éleveurs expérimentés. Toutes deux forment diverses races de chien, telles que des labradors et goldens Retriever, des bergers allemands, des bergers blancs suisses, des barbets…",
+            "Gérer un élevage implique une grande responsabilité éthiquement parlant et de grandes connaissances en matière de génétique. Les personnes qui gèrent l'élevage sont chargées de sélectionner les chiens qui deviendront parents et organiser les combinaisons en fonction des génotypes et phénotypes. Il va sans dire que ce travail nécessite une connaissance approfondie sur le comportement des chiens et les maladies canines et un travail rigoureux pour s'assurer du bien-être des parents et de leur progéniture.",
+            "Afin de diversifier un maximum les gènes, les écoles de chiens-guides européennes et américaines collaborent étroitement. C'est ainsi par exemple que l'école de Yuka a accueilli, durant 6 mois, en 2012, Panther, un labrador Retriever noir issu de la Guiding Eyes for the Blind.",
+            "Ce magnifique étalon s'est accouplé avec Shila, qui a eu sa première portée : Yuka et ses 7 frères et sœurs.",
+            "Tout comme les autres chiens de leur école, les chiens d'élevage vivent dans une famille. Cette dernière s'engage à amener le chien parfois à plusieurs reprises, pour les saillies. Par la suite, les femelles gestantes seront bien entendu suivies par un vétérinaire.",
+            "La famille neuchâteloise, chez qui vit Shila, m'a envoyé une magnifique radiographie, faite le 25 mai 2012, dans laquelle au moins sept têtes étaient visibles. Il n'était pas exclu qu'une huitième puisse être cachée sous les intestins maternels. Ce pronostic était juste puisqu'il y a eu 4 mâles et 4 femelles.",
+            "Ce jour-là, Shila était sur le départ pour la nursery qui l'avait vu naître 3 ans plus tôt, et où elle allait mettre bas le 7 juin. Dans la photo ci-dessous, nous voyons la portée de Shila en pleine têtée.",
+            "Yuka et ses frères et sœurs s'apprêtaient à passer leurs 10 premières semaines avec leur mère. Pour la famille de Shila, cela impliquait une séparation de 12 semaines.",
+            "C'est cette même magie qui a eu cours, 8 ans plus tard, à Allschwil, l'école de Kira. Voici Ulka, avec, qui sait, Kira ? Ou un petit de la portée. C'est précisément aujourd'hui, le 14 juillet 2024, alors que je suis occupée à rédiger la suite de cette présentation, que Kira fête ses 4 ans.",
+            "Ce n'est pas à la portée de Kira que j'ai pu faire des papouilles lors de ma visite à Allschwil au début du processus de demande d'un chien-guide, puisque les petits avaient déjà tous 4 mois. Ils avaient tous été confiés à leur famille de parrainage respective.",
+            "Pour moi, la visite de la nursery a été un moment extrêmement émouvant.",
+            "Il m'est impossible de résister à la tentation de partager ce petit film, fait par Stéphanie, qui m'avait reçue à la Fondation, alors que deux petits aventuriers avaient tenté de s'emparer de ma canne blanche lorsque je tentais (sûrement sans conviction) de repartir."
+          ],
+          "liens": [
+            "IGDF ( l'International Guide Dog Federation)",
+            "fondation romande pour chiens guides d'aveugles",
+            "Fondation école suisse pour chiens d'aveugles Allschwil",
+            "Verein für Blindenhunde und Mobilitätshilfen (VBM)",
+            "Stiftung Ostschweizerische Blindenführhundeschule (OBS)",
+            "Guiding Eyes for the Blind"
+          ]
+        },
+        "parrainage": {
+          "span": "Futur chien-guide en famille de parrainage",
+          "paraphs": [
+            "👩‍💻 En cours de rédaction.👩‍💻"
+          ],
+          "liens": []
+        },
+        "formation": {
+          "span": "Chien-guide en formation",
+          "paraphs": [
+            "👩‍💻 En cours de rédaction.👩‍💻"
+          ],
+          "liens": []
+        },
+        "diplôme": {
+          "span": "Chien-guide diplômé",
+          "paraphs": ["👩‍💻 En cours de rédaction.👩‍💻"],
+          "liens": []
+        },
+        "travail": {
+          "span": "Chien-guide en poste",
+          "paraphs": ["👩‍💻 En cours de rédaction.👩‍💻"],
+          "liens": []
+        },
+        "retraite": {
+          "span": "Chien-guide retraité",
+          "paraphs": ["👩‍💻 En cours de rédaction.👩‍💻"],
+          "liens": []
+        }
       }
     },
     "informations": {
@@ -1084,6 +1224,76 @@
     "itineraire": {
       "banniere": {
         "alt": "Il banner della pagina disegnato da Chloé mostra la crescita di un cucciolo, un labrador nero. In seguito è in classe con un labrador beige e un pastore tedesco. Dopo mi fa da guida e a la fine è comodamente sdraiato su una sdraio con un cocktail e la cannuccia verso la bocca. È l'ora di andare in pensione!"
+      },
+      "citation": {
+        "blockquote": {
+          "p": "“Chère Dionysia, merci du fond du cœur pour votre message. Cela fait 5 ans et demi que nous nous investissons comme famille de parrainage, et après Sofia et Tosca, toutes les deux réformées, Yuka est devenue le premier ange à 4 pattes qui a partagé un morceau de notre chemin de Vie. C'est une chienne adorable et très pot de colle, attachante et fidèle. Je vous souhaite un immense bonheur avec elle. Nous ne sommes qu'un maillon d'une formidable chaîne de solidarité depuis la naissance d'un petit chiot qui deviendra un jour un formidable chien-guide et un compagnon de tous les instants. J'espère que vous partagerez avec elle la même belle complicité basée sur le respect et la confiance mutuelle, j'en suis sûre ! Aujourd'hui, nous avons rendu à Brenles Ambre, notre 4ème petite filleule. Je vous promets de vous contacter rapidement, mais ces prochains jours seront un peu pour nous dans l'attente du futur d'Ambre. Je vous ferai parvenir des photos de la jeunesse de Yuka dans notre famille, et en voici deux de son premier jour chez nous dans notre jardin le 10 août 2012. Je vous souhaite une douce première nuit peuplée de rêves d'avenir avec votre Yuka. Toute mon amitié.”",
+          "footer": "Ariane, famille de parrainage de Yuka"
+        },
+        "p": ["Oh oui, Ariane, tout ce que tu m'écrivais dans ton premier WhatsApp, à propos de ma Yukalinette d'amour, et bien plus, s'est réalisé 🥰.", "En ce 7 juin 2024, jour des 12 ans de Yuka (et d'Uranie, notre tigrée), je vais vous conter la fabuleuse histoire d'un chien-guide.", "J'ai souvent l'occasion d'expliquer à des passants par quel processus nos adorables canidés sont devenus des anges à 4 pattes qui nous guident avec amour.", "C'est ce que je m'apprête à faire ici."]
+      },
+      "containerPath": {
+        "h2": ["Naissance d'un futur chien-guide", "Futur chien-guide en famille de parrainage", "Chien-guide en formation", "Chien-guide diplômé", "Chien-guide en poste", "Chien-guide retraité"]
+      },
+      "itinéraire": {
+        "nursery": {
+          "span": "Naissance d'un futur chien-guide",
+          "paraphs": [
+            "La trajectoire de nos héros à 4 pattes, d'où qu'ils viennent, est relativement similaire.",
+            "En Suisse par exemple, nous avons 4 écoles de chiens-guides membres de l'IGDF ( l'International Guide Dog Federation).",
+            "Les écoles de Yuka et de Kira, à savoir la fondation romande pour chiens guides d'aveugles et la Fondation école suisse pour chiens d'aveugles Allschwil ont leur propre élevage.",
+            "C'est dans la nursery de leur école respective que mes deux jolies noiraudes ont été photographiées avec leur portée. Les deux écoles élèvent et forment principalement des labradors Retriever, la race emblématique du chien-guide. Ce chien intelligent, adaptable, débonnaire, est le plus répandu parmi les chiens-guides en Suisse et au niveau mondial.",
+            "Les deux autres écoles helvètes, la Verein für Blindenhunde und Mobilitätshilfen (VBM) à Liestal et la Stiftung Ostschweizerische Blindenführhundeschule (OBS) à Goldach, préfèrent s'adresser à des éleveurs expérimentés. Toutes deux forment diverses races de chien, telles que des labradors et goldens Retriever, des bergers allemands, des bergers blancs suisses, des barbets…",
+            "Gérer un élevage implique une grande responsabilité éthiquement parlant et de grandes connaissances en matière de génétique. Les personnes qui gèrent l'élevage sont chargées de sélectionner les chiens qui deviendront parents et organiser les combinaisons en fonction des génotypes et phénotypes. Il va sans dire que ce travail nécessite une connaissance approfondie sur le comportement des chiens et les maladies canines et un travail rigoureux pour s'assurer du bien-être des parents et de leur progéniture.",
+            "Afin de diversifier un maximum les gènes, les écoles de chiens-guides européennes et américaines collaborent étroitement. C'est ainsi par exemple que l'école de Yuka a accueilli, durant 6 mois, en 2012, Panther, un labrador Retriever noir issu de la Guiding Eyes for the Blind.",
+            "Ce magnifique étalon s'est accouplé avec Shila, qui a eu sa première portée : Yuka et ses 7 frères et sœurs.",
+            "Tout comme les autres chiens de leur école, les chiens d'élevage vivent dans une famille. Cette dernière s'engage à amener le chien parfois à plusieurs reprises, pour les saillies. Par la suite, les femelles gestantes seront bien entendu suivies par un vétérinaire.",
+            "La famille neuchâteloise, chez qui vit Shila, m'a envoyé une magnifique radiographie, faite le 25 mai 2012, dans laquelle au moins sept têtes étaient visibles. Il n'était pas exclu qu'une huitième puisse être cachée sous les intestins maternels. Ce pronostic était juste puisqu'il y a eu 4 mâles et 4 femelles.",
+            "Ce jour-là, Shila était sur le départ pour la nursery qui l'avait vu naître 3 ans plus tôt, et où elle allait mettre bas le 7 juin. Dans la photo ci-dessous, nous voyons la portée de Shila en pleine têtée.",
+            "Yuka et ses frères et sœurs s'apprêtaient à passer leurs 10 premières semaines avec leur mère. Pour la famille de Shila, cela impliquait une séparation de 12 semaines.",
+            "C'est cette même magie qui a eu cours, 8 ans plus tard, à Allschwil, l'école de Kira. Voici Ulka, avec, qui sait, Kira ? Ou un petit de la portée. C'est précisément aujourd'hui, le 14 juillet 2024, alors que je suis occupée à rédiger la suite de cette présentation, que Kira fête ses 4 ans.",
+            "Ce n'est pas à la portée de Kira que j'ai pu faire des papouilles lors de ma visite à Allschwil au début du processus de demande d'un chien-guide, puisque les petits avaient déjà tous 4 mois. Ils avaient tous été confiés à leur famille de parrainage respective.",
+            "Pour moi, la visite de la nursery a été un moment extrêmement émouvant.",
+            "Il m'est impossible de résister à la tentation de partager ce petit film, fait par Stéphanie, qui m'avait reçue à la Fondation, alors que deux petits aventuriers avaient tenté de s'emparer de ma canne blanche lorsque je tentais (sûrement sans conviction) de repartir."
+          ],
+          "liens": [
+            "IGDF ( l'International Guide Dog Federation)",
+            "fondation romande pour chiens guides d'aveugles",
+            "Fondation école suisse pour chiens d'aveugles Allschwil",
+            "Verein für Blindenhunde und Mobilitätshilfen (VBM)",
+            "Stiftung Ostschweizerische Blindenführhundeschule (OBS)",
+            "Guiding Eyes for the Blind"
+          ]
+        },
+        "parrainage": {
+          "span": "Futur chien-guide en famille de parrainage",
+          "paraphs": [
+            "👩‍💻 En cours de rédaction.👩‍💻"
+          ],
+          "liens": []
+        },
+        "formation": {
+          "span": "Chien-guide en formation",
+          "paraphs": [
+            "👩‍💻 En cours de rédaction.👩‍💻"
+          ],
+          "liens": []
+        },
+        "diplôme": {
+          "span": "Chien-guide diplômé",
+          "paraphs": ["👩‍💻 En cours de rédaction.👩‍💻"],
+          "liens": []
+        },
+        "travail": {
+          "span": "Chien-guide en poste",
+          "paraphs": ["👩‍💻 En cours de rédaction.👩‍💻"],
+          "liens": []
+        },
+        "retraite": {
+          "span": "Chien-guide retraité",
+          "paraphs": ["👩‍💻 En cours de rédaction.👩‍💻"],
+          "liens": []
+        }
       }
     },
     "informations": {
@@ -1528,6 +1738,76 @@
     "itineraire": {
       "banniere": {
         "alt": "Bannières"
+      },
+      "citation": {
+        "blockquote": {
+          "p": "“Chère Dionysia, merci du fond du cœur pour votre message. Cela fait 5 ans et demi que nous nous investissons comme famille de parrainage, et après Sofia et Tosca, toutes les deux réformées, Yuka est devenue le premier ange à 4 pattes qui a partagé un morceau de notre chemin de Vie. C'est une chienne adorable et très pot de colle, attachante et fidèle. Je vous souhaite un immense bonheur avec elle. Nous ne sommes qu'un maillon d'une formidable chaîne de solidarité depuis la naissance d'un petit chiot qui deviendra un jour un formidable chien-guide et un compagnon de tous les instants. J'espère que vous partagerez avec elle la même belle complicité basée sur le respect et la confiance mutuelle, j'en suis sûre ! Aujourd'hui, nous avons rendu à Brenles Ambre, notre 4ème petite filleule. Je vous promets de vous contacter rapidement, mais ces prochains jours seront un peu pour nous dans l'attente du futur d'Ambre. Je vous ferai parvenir des photos de la jeunesse de Yuka dans notre famille, et en voici deux de son premier jour chez nous dans notre jardin le 10 août 2012. Je vous souhaite une douce première nuit peuplée de rêves d'avenir avec votre Yuka. Toute mon amitié.”",
+          "footer": "Ariane, famille de parrainage de Yuka"
+        },
+        "p": ["Oh oui, Ariane, tout ce que tu m'écrivais dans ton premier WhatsApp, à propos de ma Yukalinette d'amour, et bien plus, s'est réalisé 🥰.", "En ce 7 juin 2024, jour des 12 ans de Yuka (et d'Uranie, notre tigrée), je vais vous conter la fabuleuse histoire d'un chien-guide.", "J'ai souvent l'occasion d'expliquer à des passants par quel processus nos adorables canidés sont devenus des anges à 4 pattes qui nous guident avec amour.", "C'est ce que je m'apprête à faire ici."]
+      },
+      "containerPath": {
+        "h2": ["Naissance d'un futur chien-guide", "Futur chien-guide en famille de parrainage", "Chien-guide en formation", "Chien-guide diplômé", "Chien-guide en poste", "Chien-guide retraité"]
+      },
+      "itinéraire": {
+        "nursery": {
+          "span": "Naissance d'un futur chien-guide",
+          "paraphs": [
+            "La trajectoire de nos héros à 4 pattes, d'où qu'ils viennent, est relativement similaire.",
+            "En Suisse par exemple, nous avons 4 écoles de chiens-guides membres de l'IGDF ( l'International Guide Dog Federation).",
+            "Les écoles de Yuka et de Kira, à savoir la fondation romande pour chiens guides d'aveugles et la Fondation école suisse pour chiens d'aveugles Allschwil ont leur propre élevage.",
+            "C'est dans la nursery de leur école respective que mes deux jolies noiraudes ont été photographiées avec leur portée. Les deux écoles élèvent et forment principalement des labradors Retriever, la race emblématique du chien-guide. Ce chien intelligent, adaptable, débonnaire, est le plus répandu parmi les chiens-guides en Suisse et au niveau mondial.",
+            "Les deux autres écoles helvètes, la Verein für Blindenhunde und Mobilitätshilfen (VBM) à Liestal et la Stiftung Ostschweizerische Blindenführhundeschule (OBS) à Goldach, préfèrent s'adresser à des éleveurs expérimentés. Toutes deux forment diverses races de chien, telles que des labradors et goldens Retriever, des bergers allemands, des bergers blancs suisses, des barbets…",
+            "Gérer un élevage implique une grande responsabilité éthiquement parlant et de grandes connaissances en matière de génétique. Les personnes qui gèrent l'élevage sont chargées de sélectionner les chiens qui deviendront parents et organiser les combinaisons en fonction des génotypes et phénotypes. Il va sans dire que ce travail nécessite une connaissance approfondie sur le comportement des chiens et les maladies canines et un travail rigoureux pour s'assurer du bien-être des parents et de leur progéniture.",
+            "Afin de diversifier un maximum les gènes, les écoles de chiens-guides européennes et américaines collaborent étroitement. C'est ainsi par exemple que l'école de Yuka a accueilli, durant 6 mois, en 2012, Panther, un labrador Retriever noir issu de la Guiding Eyes for the Blind.",
+            "Ce magnifique étalon s'est accouplé avec Shila, qui a eu sa première portée : Yuka et ses 7 frères et sœurs.",
+            "Tout comme les autres chiens de leur école, les chiens d'élevage vivent dans une famille. Cette dernière s'engage à amener le chien parfois à plusieurs reprises, pour les saillies. Par la suite, les femelles gestantes seront bien entendu suivies par un vétérinaire.",
+            "La famille neuchâteloise, chez qui vit Shila, m'a envoyé une magnifique radiographie, faite le 25 mai 2012, dans laquelle au moins sept têtes étaient visibles. Il n'était pas exclu qu'une huitième puisse être cachée sous les intestins maternels. Ce pronostic était juste puisqu'il y a eu 4 mâles et 4 femelles.",
+            "Ce jour-là, Shila était sur le départ pour la nursery qui l'avait vu naître 3 ans plus tôt, et où elle allait mettre bas le 7 juin. Dans la photo ci-dessous, nous voyons la portée de Shila en pleine têtée.",
+            "Yuka et ses frères et sœurs s'apprêtaient à passer leurs 10 premières semaines avec leur mère. Pour la famille de Shila, cela impliquait une séparation de 12 semaines.",
+            "C'est cette même magie qui a eu cours, 8 ans plus tard, à Allschwil, l'école de Kira. Voici Ulka, avec, qui sait, Kira ? Ou un petit de la portée. C'est précisément aujourd'hui, le 14 juillet 2024, alors que je suis occupée à rédiger la suite de cette présentation, que Kira fête ses 4 ans.",
+            "Ce n'est pas à la portée de Kira que j'ai pu faire des papouilles lors de ma visite à Allschwil au début du processus de demande d'un chien-guide, puisque les petits avaient déjà tous 4 mois. Ils avaient tous été confiés à leur famille de parrainage respective.",
+            "Pour moi, la visite de la nursery a été un moment extrêmement émouvant.",
+            "Il m'est impossible de résister à la tentation de partager ce petit film, fait par Stéphanie, qui m'avait reçue à la Fondation, alors que deux petits aventuriers avaient tenté de s'emparer de ma canne blanche lorsque je tentais (sûrement sans conviction) de repartir."
+          ],
+          "liens": [
+            "IGDF ( l'International Guide Dog Federation)",
+            "fondation romande pour chiens guides d'aveugles",
+            "Fondation école suisse pour chiens d'aveugles Allschwil",
+            "Verein für Blindenhunde und Mobilitätshilfen (VBM)",
+            "Stiftung Ostschweizerische Blindenführhundeschule (OBS)",
+            "Guiding Eyes for the Blind"
+          ]
+        },
+        "parrainage": {
+          "span": "Futur chien-guide en famille de parrainage",
+          "paraphs": [
+            "👩‍💻 En cours de rédaction.👩‍💻"
+          ],
+          "liens": []
+        },
+        "formation": {
+          "span": "Chien-guide en formation",
+          "paraphs": [
+            "👩‍💻 En cours de rédaction.👩‍💻"
+          ],
+          "liens": []
+        },
+        "diplôme": {
+          "span": "Chien-guide diplômé",
+          "paraphs": ["👩‍💻 En cours de rédaction.👩‍💻"],
+          "liens": []
+        },
+        "travail": {
+          "span": "Chien-guide en poste",
+          "paraphs": ["👩‍💻 En cours de rédaction.👩‍💻"],
+          "liens": []
+        },
+        "retraite": {
+          "span": "Chien-guide retraité",
+          "paraphs": ["👩‍💻 En cours de rédaction.👩‍💻"],
+          "liens": []
+        }
       }
     },
     "informations": {
@@ -1680,10 +1960,10 @@
         ]
       },
       "profs": {
-        "span": "Mes super profs",
+        "span": "My super teachers",
         "p": [
-          "À l'instar Chloé, mes profs ont joué un rôle essentiel dans la création de ce site qui serait monolingue et bien boiteux sans le savoir-faire de mon prof de développement web et de l'aide incontournable à la traduction de mes 4 profs de langue. Et je suis heureuse d'avoir également pu compter sur la relecture attentive de l'homme de ma vie, londonien et prof d'anglais retraité.",
-          "Je peux bien sûr me lancer dans une explication du pourquoi et du comment je me suis lancée dans la révision de toutes ces langues en même temps mais ça risque d'être un peu long, aussi je m'en abstiendrai. Je me contenterai de présenter chacun de mes profs, chronologiquement, afin de tous les remercier, car ils me permettent de suivre des cours de qualité, dans la bonne humeur. Chaque carte que j'ai assemblée sur Canva vous dirigera sur leur page sur Preply. La localisation que j'ai indiquée est celle d'où ils sont issus."
+          "Like Chloé, my teachers have played an essential role in the creation of this site which would be monolingual and well lame without the know-how of my web development teacher and inescapable help to the translation of my 4 language teachers. And I am happy to have been able to count on the attentive proofreading of the man in my life, a retired English teacher from London.",
+          "I could, of course, launch into an explanation of why and how I started revising all these languages at the same time, but that might be a bit long, so I'll refrain from doing so. I'll just introduce each of my teachers, chronologically, to thank them all, because they make it possible for me to follow quality courses, in good humour. Each card that I've assembled on Canva will direct you to their page on Preply. The location I have indicated is where they come from."
         ]
       },
       "grammaire": {
@@ -1710,20 +1990,23 @@
       }
     },
     "questions": {
-      "h1": "Questions fréquentes ",
+      "h1": "Frequently asked questions",
       "faq": {
-        "q1": "Question1",
-        "r1": "Réponse1",
-        "q2": "Question2",
-        "r2": "Réponse2",
-        "q3": "Question3",
-        "r3": "Réponse3",
-        "q4": "Question4",
-        "r4": "Réponse4",
-        "q5": "Question5",
-        "r5": "Réponse5",
-        "q6": "Question6",
-        "r6": "Réponse6"
+        "q1": "Can males also be guide dogs?",
+        "r1": "To my surprise, I've been asked this question several times. Yes, of course, both males and females can make excellent guide dogs! The dog's temperament, desire and ability to work are much more decisive than its sex.",
+        "q2": "Which breeds are the most popular to become guide dogs?",
+        "r2": "The Labrador Retriever is the most commonly cited by the public and certainly the most widespread in the world. Others guide dog breeds include Golden Retrievers, hybrids of these two breeds, Flat-Coated, German Shepherds, Royal Poodles, Australian Shepherds, Border Collies, Bernese Mountain dogs, Saint-Pierre (a mix of Labradors and Bernese Mountain dogs), and Swiss White Shepherds,…  the list goes on. I have found an very interesting article: <a href=\"https://www.thewildest.com/dog-behavior/guide-dog-breeds\" target=\"_blank\">Are There Differences Between Guide Dog Breeds?</a> In it, owners who have had several guide dogs of different breeds talk about their different experiences. I found the same behaviours described for Labradors with my two black dogs. Yuka would approach obstacles, stop to let me discover them and ignore my requests to move on until I made it clear that I understood. Kira does this too, but to my great surprise, just recently, when guiding me for the first time on unfamiliar route, involving some building work, she started to anticipate the lateral obstacles, by correcting her trajectory in advance, which enabled as to forward very smoothly on a somewhat winding road. I was amazed and delighted. This behaviour resembles that of Shepherds, if I refer to one of the testimonies in this document. So you can't always generalise…",
+
+        "q3": "👩🏼‍🔧 The rest will be translated soon! 👩🏼‍🔧 Est-ce qu'un petit chien peut aussi devenir un chien-guide s'il en a les aptitudes&nbsp;?",
+        "r3": "Non, ce n'est pas possible, pour des raisons de sécurité. Il pourrait en revanche devenir chien d'assistance ou d'alerte médicale. Si un grand chien-guide peut être remis à une personne de taille modeste, l'inverse ne peut être vrai&nbsp;: il est important que le chien dépasse les genoux de la personne qu'il guide. La taille usuelle des chiens-guides varie entre 50 et 70 cm au garrot.",
+        "q4": "Combien de signaux verbaux connaissent les chiens-guides&nbsp;?",
+        "r4": "Lors de sa remise, le chien-guide comprend environ une cinquantaine de signaux verbaux (ordres d'obéissance de base et de direction). Mais il peut en apprendre bien davantage, et c'est ce qu'il pourra faire avec son détenteur si ce dernier désire en rajouter. Les 4 écoles suisses utilisent un italien simplifié. La Fondation école suisse pour chiens d’aveugles Allschwil explique pourquoi dans sa propre <a href=\"https://www.blindenhundeschule.ch/fr/contact/faq\" target=\"_blank\">FAQ </a> ",
+        "q5": "Comment notre chien fait-il son travail&nbsp;? Il suffit de lui dire «vas à tel endroit» pour qu'il nous guide à destination&nbsp;?",
+        "r5": "On me l'a déjà posée maintes fois. La réponse&nbsp;? Alors... non, notre chien n'est pas un chauffeur de taxi (rire). Nous devons avoir nos itinéraires bien en tête (il en va de notre autonomie) et indiquer au fur et à mesure où aller (vas à gauche, cherche le passage piéton, un abribus (un banc), la porte…). Le chien de son côté va suivre nos instructions et parfois les court-circuiter&nbsp;: c'est ce qu'on appelle la désobéissance intelligente (par exemple, sur notre chemin habituel, il y a de nouveaux travaux et nous lui demandons d'avancer tout droit vers un trou béant… Il va devoir nous faire comprendre pourquoi nous ne pouvons pas aller dans la direction demandée ou simplement nous permettre de contourner l'obstacle sans mise en danger s'il y a de la place à côté. <br> <br> Mais cela dit, oui, nos chiens savent parfaitement où nous allons, c'est évident&nbsp;! Ils ont une mémoire phénoménale et apprennent à la vitesse de l'éclair. Un exemple&nbsp;? Une expérience incroyable. Lors de nos premières vacances avec Yuka, mon mari et moi sommes allés à Marseille. Je l'avais depuis 4 mois. Le premier soir, nous sommes allés à la mer en bus, au Prado. Pour le retour, nous avons découvert, tout déconfits, qu'il n'y avait plus de bus. La nuit était tombée et nous ne savions pas véritablement le chemin. Mais Yuka, si&nbsp;! C'est elle qui nous a ramenés à l'hôtel alors qu'elle ne l'avait jamais parcouru à pieds&nbsp!",
+        "q6": "Comment le chien-guide fait-il pour nous dire quand nous pouvons traverser la route&nbsp;?",
+        "r6": "Notre chien a d'énormes capacités, mais pas celle d'analyser le trafic. C'est à nous de savoir le faire, d'écouter et de donner l'ordre de traverser (le mieux quand nous en avons la possibilité, est de choisir un passage piéton sécurisé par des feux tricolores. En Suisse, ils sont équipés d'une borne tactile qui vibre lorsque c'est vert (nous demandons le giallo ou le lampada, selon l'école). En France par exemple, les déficients visuels peuvent obtenir un boîtier qui permet à la fois d'actionner le bouton pour demander à traverser la rue et de sonoriser les feux). Ce que peut faire le chien, en revanche, c'est de s'arrêter avant que nous allions sur la route si nous le faisons involontairement. Ils cherchent toujours à rester sur le trottoir ou de le regagner le plus vite possible s'il faut momentanément emprunter la route pour contourner un obstacle.",
+        "q7": "Comment un chien-guide sait-il quand il est au travail&nbsp;?",
+        "r7": "Cette question importante sera abordée avec la question <a href=\"https://dessine-moi1chien-guide.com/pages/chien-guide-au-travail.html\"> «Savez-vous pourquoi il ne faut jamais distraire un chien-guide au travail&nbsp;?» </a> actuellement en rédaction. En avez-vous une idée&nbsp;? Vous pouvez m'envoyer vos réponses par e-mail (les adresses se trouvent dans le pied de page)."
       }
     },
     "footer": {
@@ -1972,6 +2255,76 @@
     "itineraire": {
       "banniere": {
         "alt": "Το μπάνερ της σελίδας ζωγραφισμένο από την Χλόη, δείχνει την ανάπτυξη ενός κουταβιού, ενός μαύρου λαμπραντόρ, στη συνέχεια είναι στην τάξη με ένα μπεζ λαμπραντόρ και ένα γερμανικό ποιμενικό, έπειτα με καθοδηγεί και στο τέλος είναι ξαπλωμένο σε μία ξαπλώστρα έχοντας ένα μπλε μαξιλάρι κάτω από το κεφάλι του , με ένα κοκτέιλ με καλαμάκι με κατεύθυνση προς το στόμα του. Είναι ώρα για σύνταξη!"
+      },
+      "citation": {
+        "blockquote": {
+          "p": "“Chère Dionysia, merci du fond du cœur pour votre message. Cela fait 5 ans et demi que nous nous investissons comme famille de parrainage, et après Sofia et Tosca, toutes les deux réformées, Yuka est devenue le premier ange à 4 pattes qui a partagé un morceau de notre chemin de Vie. C'est une chienne adorable et très pot de colle, attachante et fidèle. Je vous souhaite un immense bonheur avec elle. Nous ne sommes qu'un maillon d'une formidable chaîne de solidarité depuis la naissance d'un petit chiot qui deviendra un jour un formidable chien-guide et un compagnon de tous les instants. J'espère que vous partagerez avec elle la même belle complicité basée sur le respect et la confiance mutuelle, j'en suis sûre ! Aujourd'hui, nous avons rendu à Brenles Ambre, notre 4ème petite filleule. Je vous promets de vous contacter rapidement, mais ces prochains jours seront un peu pour nous dans l'attente du futur d'Ambre. Je vous ferai parvenir des photos de la jeunesse de Yuka dans notre famille, et en voici deux de son premier jour chez nous dans notre jardin le 10 août 2012. Je vous souhaite une douce première nuit peuplée de rêves d'avenir avec votre Yuka. Toute mon amitié.”",
+          "footer": "Ariane, famille de parrainage de Yuka"
+        },
+        "p": ["Oh oui, Ariane, tout ce que tu m'écrivais dans ton premier WhatsApp, à propos de ma Yukalinette d'amour, et bien plus, s'est réalisé 🥰.", "En ce 7 juin 2024, jour des 12 ans de Yuka (et d'Uranie, notre tigrée), je vais vous conter la fabuleuse histoire d'un chien-guide.", "J'ai souvent l'occasion d'expliquer à des passants par quel processus nos adorables canidés sont devenus des anges à 4 pattes qui nous guident avec amour.", "C'est ce que je m'apprête à faire ici."]
+      },
+      "containerPath": {
+        "h2": ["Naissance d'un futur chien-guide", "Futur chien-guide en famille de parrainage", "Chien-guide en formation", "Chien-guide diplômé", "Chien-guide en poste", "Chien-guide retraité"]
+      },
+      "itinéraire": {
+        "nursery": {
+          "span": "Naissance d'un futur chien-guide",
+          "paraphs": [
+            "La trajectoire de nos héros à 4 pattes, d'où qu'ils viennent, est relativement similaire.",
+            "En Suisse par exemple, nous avons 4 écoles de chiens-guides membres de l'IGDF ( l'International Guide Dog Federation).",
+            "Les écoles de Yuka et de Kira, à savoir la fondation romande pour chiens guides d'aveugles et la Fondation école suisse pour chiens d'aveugles Allschwil ont leur propre élevage.",
+            "C'est dans la nursery de leur école respective que mes deux jolies noiraudes ont été photographiées avec leur portée. Les deux écoles élèvent et forment principalement des labradors Retriever, la race emblématique du chien-guide. Ce chien intelligent, adaptable, débonnaire, est le plus répandu parmi les chiens-guides en Suisse et au niveau mondial.",
+            "Les deux autres écoles helvètes, la Verein für Blindenhunde und Mobilitätshilfen (VBM) à Liestal et la Stiftung Ostschweizerische Blindenführhundeschule (OBS) à Goldach, préfèrent s'adresser à des éleveurs expérimentés. Toutes deux forment diverses races de chien, telles que des labradors et goldens Retriever, des bergers allemands, des bergers blancs suisses, des barbets…",
+            "Gérer un élevage implique une grande responsabilité éthiquement parlant et de grandes connaissances en matière de génétique. Les personnes qui gèrent l'élevage sont chargées de sélectionner les chiens qui deviendront parents et organiser les combinaisons en fonction des génotypes et phénotypes. Il va sans dire que ce travail nécessite une connaissance approfondie sur le comportement des chiens et les maladies canines et un travail rigoureux pour s'assurer du bien-être des parents et de leur progéniture.",
+            "Afin de diversifier un maximum les gènes, les écoles de chiens-guides européennes et américaines collaborent étroitement. C'est ainsi par exemple que l'école de Yuka a accueilli, durant 6 mois, en 2012, Panther, un labrador Retriever noir issu de la Guiding Eyes for the Blind.",
+            "Ce magnifique étalon s'est accouplé avec Shila, qui a eu sa première portée : Yuka et ses 7 frères et sœurs.",
+            "Tout comme les autres chiens de leur école, les chiens d'élevage vivent dans une famille. Cette dernière s'engage à amener le chien parfois à plusieurs reprises, pour les saillies. Par la suite, les femelles gestantes seront bien entendu suivies par un vétérinaire.",
+            "La famille neuchâteloise, chez qui vit Shila, m'a envoyé une magnifique radiographie, faite le 25 mai 2012, dans laquelle au moins sept têtes étaient visibles. Il n'était pas exclu qu'une huitième puisse être cachée sous les intestins maternels. Ce pronostic était juste puisqu'il y a eu 4 mâles et 4 femelles.",
+            "Ce jour-là, Shila était sur le départ pour la nursery qui l'avait vu naître 3 ans plus tôt, et où elle allait mettre bas le 7 juin. Dans la photo ci-dessous, nous voyons la portée de Shila en pleine têtée.",
+            "Yuka et ses frères et sœurs s'apprêtaient à passer leurs 10 premières semaines avec leur mère. Pour la famille de Shila, cela impliquait une séparation de 12 semaines.",
+            "C'est cette même magie qui a eu cours, 8 ans plus tard, à Allschwil, l'école de Kira. Voici Ulka, avec, qui sait, Kira ? Ou un petit de la portée. C'est précisément aujourd'hui, le 14 juillet 2024, alors que je suis occupée à rédiger la suite de cette présentation, que Kira fête ses 4 ans.",
+            "Ce n'est pas à la portée de Kira que j'ai pu faire des papouilles lors de ma visite à Allschwil au début du processus de demande d'un chien-guide, puisque les petits avaient déjà tous 4 mois. Ils avaient tous été confiés à leur famille de parrainage respective.",
+            "Pour moi, la visite de la nursery a été un moment extrêmement émouvant.",
+            "Il m'est impossible de résister à la tentation de partager ce petit film, fait par Stéphanie, qui m'avait reçue à la Fondation, alors que deux petits aventuriers avaient tenté de s'emparer de ma canne blanche lorsque je tentais (sûrement sans conviction) de repartir."
+          ],
+          "liens": [
+            "IGDF ( l'International Guide Dog Federation)",
+            "fondation romande pour chiens guides d'aveugles",
+            "Fondation école suisse pour chiens d'aveugles Allschwil",
+            "Verein für Blindenhunde und Mobilitätshilfen (VBM)",
+            "Stiftung Ostschweizerische Blindenführhundeschule (OBS)",
+            "Guiding Eyes for the Blind"
+          ]
+        },
+        "parrainage": {
+          "span": "Futur chien-guide en famille de parrainage",
+          "paraphs": [
+            "👩‍💻 En cours de rédaction.👩‍💻"
+          ],
+          "liens": []
+        },
+        "formation": {
+          "span": "Chien-guide en formation",
+          "paraphs": [
+            "👩‍💻 En cours de rédaction.👩‍💻"
+          ],
+          "liens": []
+        },
+        "diplôme": {
+          "span": "Chien-guide diplômé",
+          "paraphs": ["👩‍💻 En cours de rédaction.👩‍💻"],
+          "liens": []
+        },
+        "travail": {
+          "span": "Chien-guide en poste",
+          "paraphs": ["👩‍💻 En cours de rédaction.👩‍💻"],
+          "liens": []
+        },
+        "retraite": {
+          "span": "Chien-guide retraité",
+          "paraphs": ["👩‍💻 En cours de rédaction.👩‍💻"],
+          "liens": []
+        }
       }
     },
     "informations": {

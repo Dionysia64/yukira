@@ -660,6 +660,15 @@ function displayLang(data) {
   function itineraires(data) {
     const img = document.querySelector(".banniere").getElementsByTagName("img")[0];
     img.alt = data.itineraire.banniere.alt;
+    const blockquote = document.querySelector("section.citation > blockquote > p");
+    const footer = document.querySelector("section.citation > blockquote > footer");
+    blockquote.innerHTML = data.itineraire.citation.blockquote.p;
+    footer.innerHTML = data.itineraire.citation.blockquote.footer;
+    const paragraphs = document.querySelectorAll("#grey > main > section.citation > p");
+    paragraphs.forEach((paragraph, index) => {
+      paragraph.innerHTML = data.itineraire.citation.p[index];
+    })
+    const h2s = document.querySelector("section.containerPath > div > div.Yukaa > a > div > h2");
   }
 
   function footer(data) {
@@ -825,99 +834,3 @@ function reset() {
         behavior: "smooth"
     });
   }
-
-/* Slider */
-
-// Déclaration des slides avec les images et les taglines correspondantes
-const slides = [
-    {
-      image: "0-000-070-nursery.png",
-    },
-    {
-      image: "0-000-070-parrainage.png",
-    },
-    {
-      image: "0-000-070-formation.png",
-    },
-    {
-      image: "0-000-070-examen.png",
-    },
-    {
-      image: "0-000-070-mission.png",
-    },
-    {
-      image: "0-000-070-retraite.png",
-    },
-   
-  ];
-  
-  let currentSlideIndex = 0; // Initialisation de l'index du slide actuel
-  
-  // Fonction pour gérer le clic sur les flèches gauche et droite
-  function clickOnArrow(element, callback) {
-    const arrow = document.getElementById(element);
-    arrow.addEventListener("click", () => {
-      // Si la flèche gauche est cliquée, décrémenter l'index du slide, en bouclant à la fin si nécessaire
-      if (element === "arrow-left" && currentSlideIndex !== 0) {
-        currentSlideIndex = currentSlideIndex - 1;
-      } else if (element === "arrow-left" && currentSlideIndex === 0) {
-        currentSlideIndex = slides.length - 1;
-      } else if (element === "arrow-right" && currentSlideIndex !== slides.length - 1) {
-        // Si la flèche droite est cliquée, incrémenter l'index du slide, en bouclant au début si nécessaire
-        currentSlideIndex = currentSlideIndex + 1;
-      } else if (element === "arrow-right" && currentSlideIndex === slides.length - 1) {
-        currentSlideIndex = 0;
-      }
-      // Afficher le slide correspondant à l'index mis à jour
-      callback(currentSlideIndex);
-      // Mettre à jour le dot correspondant au slide affiché
-      dotSlides(currentSlideIndex);
-    });
-  }
-  
-  // Ajouter les dots pour chaque slide et gérer le clic sur chaque dot
-  function addDots(callback) {
-    const dotsContainer = document.querySelector(".dots");
-    slides.forEach((slide, index) => {
-      const dot = document.createElement("div");
-      dot.classList.add("dot");
-      dot.setAttribute("data-index", index);
-      dot.tabIndex = -1;
-      dotsContainer.appendChild(dot);
-      // Ajouter un écouteur d'événement pour le clic sur chaque dot
-      dot.addEventListener("click", () => {
-        // Mettre à jour l'index du slide actuel et afficher le slide correspondant
-        currentSlideIndex = index;
-        callback(currentSlideIndex);
-        // Mettre à jour le dot correspondant au slide affiché
-        dotSlides(currentSlideIndex);
-      });
-    });
-    // Sélectionner le premier dot au chargement de la page
-    dotSlides(0);
-  }
-  
-  // Mettre à jour l'affichage des dots pour indiquer quel slide est actuellement affiché
-  function dotSlides(index) {
-    const dots = document.querySelectorAll(".dot");
-    // Réinitialiser la classe dot_selected pour tous les dots
-    dots.forEach((dot) => {
-      dot.classList.remove("dot_selected");
-    });
-    // Ajouter la classe dot_selected au dot correspondant au slide actuellement affiché
-    const currentDot = document.querySelector(`.dot[data-index="${index}"]`);
-    currentDot.classList.add("dot_selected");
-  }
-  
-  // Afficher le slide correspondant à l'index donné
-  function displayImgOnSlide(index) {
-    const img = document.querySelector("#banner > img.banner-img");
-    // Mettre à jour la source de l'image et le texte du tagline du slide
-    img.src = `../images/${slides[index].image}`;
-  }
-  
-  // Ajouter des écouteurs d'événements pour les flèches gauche et droite
-  clickOnArrow("arrow-left", displayImgOnSlide);
-  clickOnArrow("arrow-right", displayImgOnSlide);
-  // Ajouter les dots et gérer le clic sur chaque dot
-  addDots(displayImgOnSlide);

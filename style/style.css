@@ -323,6 +323,10 @@ footer {
   height: 100%;
 }
 
+.video-itinéraire {
+  width: 100%;
+  padding-bottom: 50%;
+}
 
 .sub-container {
   width: 100%;
@@ -1756,7 +1760,8 @@ section.itinéraire a,
 #histoire > a,
 #quiSuisJe > a,
 #yukaa > a,
-#notice_8 > a
+#notice_8 > a,
+#quiz > p.paraph.open > a
  {
   text-decoration: none;
   font-size: 2.5rem;
@@ -1767,7 +1772,17 @@ section.itinéraire a,
 #histoire > p,
 #quiSuisJe > p,
 #yukaa > p,
-#notice_8 > p:nth-child(5) {
+#notice_8 > p:nth-child(5),
+#nursery > p:nth-child(4),
+#nursery > p:nth-child(6),
+#nursery > p:nth-child(8),
+#nursery > p:nth-child(12),
+#nursery > p:nth-child(14),
+#nursery > p:nth-child(18),
+#nursery > p:nth-child(10),
+#nursery > p:nth-child(16),
+#nursery > p:nth-child(20),
+#quiz > p.paraph.open {
   margin: 0;
   display: initial;
 }
@@ -1861,7 +1876,6 @@ section.title-questions > h1 {
 }
 
 #quiz > p.paraph.open > a {
-  display: inline-block;
   text-decoration: none;
   width: fit-content;
 }
