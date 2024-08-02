@@ -712,7 +712,7 @@ function displayLang(data) {
       paragraph.innerHTML = data.informations.notice7.p[index];
     });
     const title9 = document.querySelector("#notice_8 > div:nth-child(1) > span");
-    title9.innerHTML = data.informations.notice7.span;
+    title9.innerHTML = data.informations.notice8.span;
     const paragraph9 = document.querySelectorAll("#notice_8 > p");
     paragraph9.forEach((paragraph, index) => {
       paragraph.innerHTML = data.informations.notice8.p[index];

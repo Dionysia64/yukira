@@ -1769,9 +1769,13 @@ section.itinéraire a,
 }
 
 #images > p,
-#histoire > p,
-#quiSuisJe > p,
-#yukaa > p,
+#histoire > p:nth-child(3),
+#histoire > p:nth-child(13),
+#quiSuisJe > p:nth-child(13),
+#quiSuisJe > p:nth-child(15),
+#quiSuisJe > p:nth-child(17),
+#quiSuisJe > p:nth-child(24),
+#yukaa > p:nth-child(3),
 #notice_8 > p:nth-child(5),
 #nursery > p:nth-child(4),
 #nursery > p:nth-child(6),
@@ -1782,7 +1786,9 @@ section.itinéraire a,
 #nursery > p:nth-child(10),
 #nursery > p:nth-child(16),
 #nursery > p:nth-child(20),
-#quiz > p.paraph.open {
+#quiz > p.paraph.open,
+#quiSuisJe > p:nth-child(26),
+#histoire > p:nth-child(5) {
   margin: 0;
   display: initial;
 }
@@ -1896,8 +1902,4 @@ body .linksHighLights {
 
 body .linksHighDarks {
   border: 1px solid yellow;
-}
-
-.variable {
-  color
 }
