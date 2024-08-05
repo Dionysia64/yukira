@@ -1886,12 +1886,13 @@ section.title-questions > h1 {
   width: fit-content;
 }
 
-.quests {
+.quests  {
   color: var(--yellow-text-color);
   background-color: var(--black-text-color);
 }
 
-.quests:hover {
+.quests:hover,
+section.title-questions > *:not(#quiz) {
   color: var(--white-text-hover);
   background-color: var(--green-bg-hover);
 }
@@ -1902,4 +1903,20 @@ body .linksHighLights {
 
 body .linksHighDarks {
   border: 1px solid yellow;
+}
+
+section.title-questions > h2 {
+ text-align: center;
+ color: var(--white-text-hover);
+ margin: 0;
+ font-size: 2.5rem;
+}
+
+section.title-questions > h1 {
+  padding: 0 0 25px 0;
+  margin: unset;
+}
+
+section.title-questions {
+  margin: 50px 50px;
 }

@@ -846,3 +846,14 @@ function main(data) {
         behavior: "smooth"
     });
   }
+
+  highLightQuiz();
+
+  function highLightQuiz() {
+    const quest = document.querySelector("#quiz > a");
+    const btn = document.querySelector("#grey > header > nav > ul > li:nth-child(7)");
+    btn.addEventListener("click", () => {
+        quest.style.backgroundColor = "#116E69";
+        quest.style.color = "#fff";
+    })
+  }

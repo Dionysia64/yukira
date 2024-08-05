@@ -754,10 +754,10 @@ function displayLang(data) {
     menuLateral.forEach((menu, index) => {
       menu.innerHTML = data.informations.menuLateral.menu[index];
     });
-    /*const link1 = document.querySelector("#images > a:nth-child(3)")
-    const link2 = document.querySelector("#images > a:nth-child(14)")
-    const link3 = document.querySelector('#images > a:nth-child(16)');
-    const link4 = document.querySelector('#images > a:nth-child(18)');
+    const link1 = document.querySelector("#images > a:nth-child(3)");
+    const link2 = document.querySelector("#images > a:nth-child(13)");
+    const link3 = document.querySelector("#images > a:nth-child(15)");
+    const link4 = document.querySelector("#images > a:nth-child(17)");
     link1.href = data.informations.images.href1;
     link1.innerHTML = data.informations.images.link1;
     link2.href = data.informations.images.href2;
@@ -765,7 +765,7 @@ function displayLang(data) {
     link3.href = data.informations.images.href3;
     link3.innerHTML = data.informations.images.link3;
     link4.href = data.informations.images.href4;
-    link4.innerHTML = data.informations.images.link4;*/
+    link4.innerHTML = data.informations.images.link4;
   }
 
   function footer(data) {
