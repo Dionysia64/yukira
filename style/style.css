@@ -608,9 +608,9 @@ div.illustration > figure > figcaption > a:hover, div.illustration > figure > fi
   color: var(--yellow-text-color);
 }
 
-.quiz > a:hover, .quiz > a:focus-visible {
+.quiz > a:hover, .quiz > a:focus-visible, .highLightQuiz {
   background-color: var(--green-bg-hover);
-  color: var(--white-text-hover);
+  color: var(--white-text-hover)!important;
 }
 
 .quiz > p {
@@ -1766,6 +1766,7 @@ section.itinéraire a,
   text-decoration: none;
   font-size: 2.5rem;
   line-height: 2.5;
+  padding: 0 10px;
 }
 
 #images > p,
@@ -1919,4 +1920,24 @@ section.title-questions > h1 {
 
 section.title-questions {
   margin: 50px 50px;
+}
+
+section.informations p,
+section.informations a,
+section.about p,
+section.about a,
+section.itinéraire p,
+section.itinéraire a,
+section.title-questions p,
+section.title-questions a
+ {
+  word-spacing: 10px;
+}
+
+#quiz > p.paraph.open > img {
+  width: 100%;
+}
+
+#grey > header > nav > ul > li.none {
+  display: none;
 }

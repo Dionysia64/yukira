@@ -64,7 +64,7 @@ async function colorChange(callback, array = ["default", "linear-gradient(120deg
   const span = document.getElementsByTagName("span");
   const blockquote = document.querySelectorAll(".blockquote");
   const figcaptions = document.getElementsByTagName("figcaption");
-  const h1 = document.getElementsByTagName("h1");
+  const h1 = document.querySelector("h1:not(.notColor)");
   const h2 = document.getElementsByTagName("h2:not(section.containerAbout > div > a");
   const h3 = document.querySelectorAll("h3:not(.daminer-original-color)");
   const h4 = document.querySelectorAll("h4:not(.daminer-original-color)");
@@ -365,7 +365,7 @@ function changeColorPage(
   const span = document.getElementsByTagName("span");
   const blockquote = document.querySelectorAll(".blockquote");
   const figcaptions = document.getElementsByTagName("figcaption");
-  const h1 = document.getElementsByTagName("h1");
+  const h1 = document.querySelector("h1:not(.notColor)");
   const h2 = document.getElementsByTagName("h2:not(section.containerAbout > div > a");
   const h3 = document.querySelectorAll("h3:not(.daminer-original-color)");
   const h4 = document.querySelectorAll("h4:not(.daminer-original-color)");
@@ -775,7 +775,7 @@ function displayLang(data) {
     const span = document.getElementsByTagName("span");
     const blockquote = document.querySelectorAll(".blockquote");
     const figcaptions = document.getElementsByTagName("figcaption");
-    const h1 = document.getElementsByTagName("h1");
+    const h1 = document.querySelector("h1:not(.notColor)");
     const h2 = document.getElementsByTagName("h2:not(section.containerAbout > div > a");
     const h3 = document.querySelectorAll("h3:not(.daminer-original-color)");
     const h4 = document.querySelectorAll("h4:not(.daminer-original-color)");

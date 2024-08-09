@@ -24,7 +24,8 @@
         "Passion chiens",
         "Besoins spécifiques",
         "Adresses",
-        "Informations"
+        "Informations",
+        "<img loading=\"lazy\" src=\"data:image/png;base64,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\" alt=\"quiz\" aria-hidden=\"true\"/>"
       ],
       "linksMenu": [
         "pages/about.html?lang=Français",
@@ -32,7 +33,8 @@
         "pages/passion-chiens.html?lang=Français",
         "pages/besoins.html?lang=Français",
         "pages/adresses.html?lang=Français",
-        "pages/informations.html?lang=Français"
+        "pages/informations.html?lang=Français",
+        "pages/questions.html?lang=Français"
       ]
     },
     "main": {
@@ -388,7 +390,7 @@
       "notice8": {
         "span": "Pourquoi ce site a-t-il été conçu ainsi&nbsp;? ",
         "href": "https://www.avh.asso.fr/fr/favoriser-laccessibilite/accessibilite-numerique/outils-utiles",
-        "link": "ein Farbkontrast-Analysator (CCA).",
+        "link": "un analyseur des contrastes de couleurs (CCA).",
         "p": [
           "Le défi que j'ai cherché à relever tout au long de l'élaboration de ce site, avec l'aide de Farouk, mon prof de développement web, consistait à rendre mes contenus accessibles. Pas juste accessibles, en fait, mais agréables à lire, tant pour les internautes déficients visuels que pour ceux qui voient bien.",
           "Il serait dommage de faire fuir les personnes qui voient bien et celles dont les besoins sont diamétralement opposés à ceux des personnes malvoyantes, notamment en raison d'un TSA, d'une dyslexie, d'un syndrome d'Irlen, parfois les trois en même temps&nbsp;! Certaines d'entre elles tolèrent très mal les contrastes élevés, surtout sur un arrière-plan foncé&nbsp;!",
@@ -472,7 +474,7 @@
         "q5": "Comment notre chien fait-il son travail&nbsp;? Il suffit de lui dire «vas à tel endroit» pour qu'il nous guide à destination&nbsp;?",
         "r5": "On me l'a déjà posée maintes fois. La réponse&nbsp;? Alors... non, notre chien n'est pas un chauffeur de taxi (rire). Nous devons avoir nos itinéraires bien en tête (il en va de notre autonomie) et indiquer au fur et à mesure où aller (vas à gauche, cherche le passage piéton, un abribus (un banc), la porte…). Le chien de son côté va suivre nos instructions et parfois les court-circuiter&nbsp;: c'est ce qu'on appelle la désobéissance intelligente (par exemple, sur notre chemin habituel, il y a de nouveaux travaux et nous lui demandons d'avancer tout droit vers un trou béant… Il va devoir nous faire comprendre pourquoi nous ne pouvons pas aller dans la direction demandée ou simplement nous permettre de contourner l'obstacle sans mise en danger s'il y a de la place à côté. <br> <br> Mais cela dit, oui, nos chiens savent parfaitement où nous allons, c'est évident&nbsp;! Ils ont une mémoire phénoménale et apprennent à la vitesse de l'éclair. Un exemple&nbsp;? Une expérience incroyable. Lors de nos premières vacances avec Yuka, mon mari et moi sommes allés à Marseille. Je l'avais depuis 4 mois. Le premier soir, nous sommes allés à la mer en bus, au Prado. Pour le retour, nous avons découvert, tout déconfits, qu'il n'y avait plus de bus. La nuit était tombée et nous ne savions pas véritablement le chemin. Mais Yuka, si&nbsp;! C'est elle qui nous a ramenés à l'hôtel alors qu'elle ne l'avait jamais parcouru à pieds&nbsp!",
         "q6": "Comment le chien-guide fait-il pour nous dire quand nous pouvons traverser la route&nbsp;?",
-        "r6": "Notre chien a d'énormes capacités, mais pas celle d'analyser le trafic. C'est à nous de savoir le faire, d'écouter et de donner l'ordre de traverser (le mieux quand nous en avons la possibilité, est de choisir un passage piéton sécurisé par des feux tricolores. En Suisse, ils sont équipés d'une borne tactile qui vibre lorsque c'est vert (nous demandons le giallo ou le lampada, selon l'école). En France par exemple, les déficients visuels peuvent obtenir un boîtier qui permet à la fois d'actionner le bouton pour demander à traverser la rue et de sonoriser les feux). Ce que peut faire le chien, en revanche, c'est de s'arrêter avant que nous allions sur la route si nous le faisons involontairement. Ils cherchent toujours à rester sur le trottoir ou de le regagner le plus vite possible s'il faut momentanément emprunter la route pour contourner un obstacle.",
+        "r6": "Notre chien-guide a d'énormes capacités, mais pas celle d'analyser le trafic. C'est à nous de savoir le faire en nous servant de notre ouïe et de donner l'ordre de traverser à notre chien. <br><br>Le mieux quand nous en avons la possibilité, est de choisir un passage piéton sécurisé par des feux tricolores. En Suisse, ces feux sont équipés d'une borne tactile qui vibre lorsque c'est vert (nous demandons à notre chien de nous guider au «giallo» ou au «lampada», selon l'école). En France par exemple, les déficients visuels peuvent obtenir un boîtier qui permet à la fois d'actionner le bouton pour demander à traverser la rue et de sonoriser les feux). <br><br> Si le chien-guide ne sait pas quand nous pouvons traverser, il peut toutefois se montrer capable d'empêcher un accident. <br><br> C'est ce qui est arrivé à Coralie, une de mes amies. Elle avait donné l'ordre à sa magnifique et adorable Isis de traverser la route. Ce qu'elle ignorait à ce moment là, c'est qu'une  voiture électrique, dont le faible bruit était totalement neutralisé par le fond sonore de l'environnement, était en train d'arriver sur le passage piéton. Sa femelle berger allemand a su s'arrêter et empêcher son humaine de continuer à Avancer. <br><br> Ci-dessous, une photo d'Isis et de Yuka, toutes deux retraitées maintenant, dormant côte à côte dans un vieux train transformé en restaurant, en Alsace. <img src=\"../../images/yuka-et-isis.JPG\">",
         "q7": "Comment un chien-guide sait-il quand il est au travail&nbsp;?",
         "r7": "Cette question importante sera abordée avec la question <a href=\"https://dessine-moi1chien-guide.com/pages/chien-guide-au-travail.html\"> «Savez-vous pourquoi il ne faut jamais distraire un chien-guide au travail&nbsp;?» </a> actuellement en rédaction. En avez-vous une idée&nbsp;? Vous pouvez m'envoyer vos réponses par e-mail (les adresses se trouvent dans le pied de page)."
       }
@@ -570,7 +572,8 @@
         "Leidenschaft für Hunde",
         "Besondere Bedürfnisse",
         "Adressen",
-        "Infos"
+        "Infos",
+        "<img loading=\"lazy\" src=\"data:image/png;base64,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\" alt=\"quiz\" aria-hidden=\"true\"/>"
       ],
       "linksMenu": [
         "pages/about.html?lang=Deutsch",
@@ -578,7 +581,8 @@
         "pages/passion-chiens.html?lang=Deutsch",
         "pages/besoins.html?lang=Deutsch",
         "pages/adresses.html?lang=Deutsch",
-        "pages/informations.html?lang=Deutsch"
+        "pages/informations.html?lang=Deutsch",
+        "pages/questions.html?lang=Deutsch"
       ]
     },
     "main": {
@@ -936,46 +940,46 @@
 "Viele Websites, bei denen die Webmaster sich die Mühe gemacht haben, angepasste Navigationstools zu installieren, erscheinen mir enttäuschend… Sie bieten nur eine Wahl, die nicht immer zufriedenstellend ist. Die Farbänderungen decken nicht die gesamte Seite ab. Einige lassen einfach die Bilder verschwinden, was ich schade finde. Andere machen ihre Arbeit sehr schlecht (z.B.: positiver Kontrast mit grauer Schrift auf schwarzem Hintergrund. Aber warum nicht einfach eine weiße Schrift wählen, um einen maximalen Kontrast zu bieten? Es gibt auch diejenigen, die nur die Farbe des Haupttextes ändern, aber nicht die Überschriften und Links, die dann unleserlich werden (z. B. dunkelviolett auf schwarz).",
 "Kurz gesagt, ich wollte für jede sehbehinderte Person das Beste bieten, die unter guten Bedingungen mit den Augen lesen kann, ohne die anderen Besucher zu vergessen. Ich habe ein sehr nützliches Tool verwendet, das man kostenlos herunterladen kann und das jeder Webentwickler/Webdesigner verwenden sollte, um die Web Accessibility Initiative (WAI) des World Wide Web Consortiums (W3C) zu respektieren:",
 "Es gehörte eine gehörige Portion Dummheit dazu, mich einige Monate vor meinem 60. Geburtstag zu entschliessen, mich in die Webentwicklung einzuarbeiten! Es erforderte sicherlich auch eine kleine Portion Dummheit von Farouk, mich als Schülerin zu akzeptieren (lacht). Man könnte sagen, ich habe ihn mit meinem angeborenen Perfektionismus und meinen Antworten „Nein, das wird nicht möglich sein… das killt die Augen!“ auf seine Vorschläge die Website zu verschönern, sicherlich nicht geschont.",
-          "👩🏼‍🔧 Der Rest wird bald übersetzt!👩🏼‍🔧Pourquoi un tel perfectionnisme ? C'est dans mon ADN, pour le meilleur et pour le pire. Mais il y a une autre raison. Pour moi c'est un acte militant&nbsp;: je trouve inacceptable, à l'heure actuelle, que tant de web-masters, dont c'est le métier, qui créent des sites pour des administrations, des cabinets médicaux, des banques, soient si peu instruits en matière d'accessibilité numérique ! Je ne comprends même pas comment c'est possible de manquer à ce point de bon sens. C'est insupportable de voir tant de sites avec des écritures claires sur fonds clairs. Des sites qui utilisent du blanc sur bleu clair (ou l'inverse) fleurissent partout.",
-          "Il y a encore pire, l'écriture jaune, ou vert, très claire, vive, sur fond blanc. À part éblouir, je ne vois pas à quoi ça sert.",
-          "J'aurais encore fort à dire sur l'accessibilité numérique… j'y reviendrai certainement plus tard.",
-          "Vous avez maintenant toutes les clés en main pour parcourir ce site avec les réglages mis à votre disposition. N'hésitez pas à me faire part des éventuels problèmes rencontrés. Vous pouvez volontiers me signaler des erreurs d'inattention dans l'orthographe, la syntaxe, etc."
-        ]
-      },
-      "images": {
-        "span": "Die Illustratorin dieser Seite, Bilder & Fotos",        
-        "href1": "https://chloeroten.wixsite.com/chloeillustree",
-        "link1": "Chloé Roten,",
-        "href2": "https://www.chienguide.ch/fr",
-        "link2": "Fondation romande pour chiens guides d’aveugles",
-        "href3": "https://www.blindenhundeschule.ch",
-        "link3": "Stiftung Schweizerische Schule für Blindenführhunde Allschwil.",
-        "href4": "https://www.guidingeyes.org",
-        "link4": "Guiding Eyes for the Blind",
-        "p": [
-          "Il est temps de vous présenter",
-          ", une jeune artiste de talent qui a donné vie aux deux chiens-guides de ce site ainsi qu'aux membres de leur famille.",
-          "Chloé est la fille de Karin, une amie que j'ai rencontrée durant nosétudes d'orthophonie. Karin avait fait un poste sur Facebook avec unmagnifique dessin de Chloé. J'ai été voir son instagram et le moinsque je saurais dire, c'est que j'ai été conquise.",
-          "J'ai toujours été fascinée par les belles peintures. Même lorsque je voyais de manière satisfaisante, je n'étais pas la partenaire idéalepour jouer au pictionary 🤣. Et c'est super frustrant parce que j'ai toujours eu beaucoup d'images, de couleurs, dans ma tête. J'ai même un vieux rêve inassouvi d'écrire des livres pour enfants avec de beaux dessins&nbsp;!",
-          "Aussi, lorsque l'idée de créer un site a émergé, ce fut une évidence pour moi de demander une illustration à Chloé. Tout s'est rapidement mis en place, elle m'a proposé plusieurs esquisses de Kira en train de me guider, sur plusieurs angles. Une fois mon choix fait, elle a ajouté les autres éléments, apporté les petites corrections demandées, et fait les ajouts souhaités.",
-          "J'étais si contente que j'ai eu envie de lui demander d'autres dessins&nbsp;: un pour représenter mes deux super-héroïnes et l'autre pour imager le livre d'or. Pour ces deux illustrations, cefut encore plus facile, Chloé avait compris ce que j'avais dans latête. J'ai accepté ses dessins du premier coup.",
-          "Je n'en suis pas restée là, je lui ai demandé si elle pouvait me faire un logo. J'ai tout autant apprécié le résultats. Ses dessinssont la première chose que mes visiteurs remarquent etcomplimentent. Ne vous étonnez pas si d'autres illustrationsarriveront après coup, d'ailleurs, la bannière pour «L'itinéraired'un chien-guide» a déjà été commandée&nbsp;!",
-          "Je remercie chaleureusement la",
-          ", la",
-          "et la ",
-          "m'ont autorisée à insérer leurs photos© de leur chien respectif&nbsp;: Yuka, Kira et Panther (le père de Yuka) dans mon site. <br><br>",
-          "Les photos libres d'utilisation, ont été téléchargées sur le sitePexels.",
-          "Les assemblages de photos et certains dessins pour les bannières ontété réalisés sur Canva où j'ai aussi trouvé quelques photos&nbsp;:celle qui illustre la dyslexie et celles qui composent la bannièrede la page «Besoins spécifiques».",
-          "Les icônes composant les boutons dans la barre de menu ont étéoptimisés sur Icons8."
-        ]
-      },
-      "profs": {
-        "span": "Meine Superlehrer",
-        "p": [
-          "À l'instar Chloé, mes profs ont joué un rôle essentiel dans la création de ce site qui serait monolingue et bien boiteux sans le savoir-faire de mon prof de développement web et de l'aide incontournable à la traduction de mes 4 profs de langue. Et je suis heureuse d'avoir également pu compter sur la relecture attentive de l'homme de ma vie, londonien et prof d'anglais retraité.",
-          "Je peux bien sûr me lancer dans une explication du pourquoi et du comment je me suis lancée dans la révision de toutes ces langues en même temps mais ça risque d'être un peu long, aussi je m'en abstiendrai. Je me contenterai de présenter chacun de mes profs, chronologiquement, afin de tous les remercier, car ils me permettent de suivre des cours de qualité, dans la bonne humeur. Chaque carte que j'ai assemblée sur Canva vous dirigera sur leur page sur Preply. La localisation que j'ai indiquée est celle d'où ils sont issus."
-        ]
-      },
+"Warum ein solcher Perfektionismus? Das liegt in meiner DNA, zum Guten und zum Schlechten. Aber es gibt noch einen anderen Grund. Für mich ist es ein militanter Akt: Ich finde es inakzeptabel, dass heutzutage so viele Webmaster, die von Berufs wegen Websites für Verwaltungen, Arztpraxen und Banken erstellen, so wenig über digitale Barrierefreiheit wissen! Ich verstehe überhaupt nicht, wie es möglich ist, so wenig gesunden Menschenverstand zu haben. Es ist unerträglich, so viele Websites mit heller Schrift auf hellem Hintergrund zu sehen. Websites, die Weiß auf Hellblau (oder umgekehrt) verwenden, sind überall zu finden.",
+"Es gibt noch Schlimmeres: gelbe oder grüne, sehr helle und leuchtende Schrift auf weißem Hintergrund. Außer zum Blenden sehe ich keinen Nutzen darin.",
+"Ich hätte noch viel mehr zur digitalen Barrierefreiheit zu sagen… ich werde sicher später darauf zurückkommen.",
+"Sie haben jetzt alle Werkzeuge in der Hand, um diese Website mit den zur Verfügung gestellten Einstellungen zu durchstöbern. Zögern Sie nicht, mir eventuelle Probleme mitzuteilen. Sie können mich gerne auf Rechtschreib- und Grammatikfehler hinweisen."
+]
+},
+"images": {
+"span": "Die Illustratorin dieser Seite, Bilder & Fotos",
+"href1": "https://chloeroten.wixsite.com/chloeillustree",
+"link1": "Chloé Roten,",
+"href2": "https://www.chienguide.ch/fr",
+"link2": "Fondation romande pour chiens guides d’aveugles",
+"href3": "https://www.blindenhundeschule.ch",
+"link3": "Stiftung Schweizerische Schule für Blindenführhunde Allschwil",
+"href4": "https://www.guidingeyes.org",
+"link4": "Guiding Eyes for the Blind",
+"p": [
+"Es ist an der Zeit, Ihnen",
+"eine junge talentierte Künstlerin vorzustellen, die den beiden Blindenführhunden dieser Seite sowie den Mitgliedern ihrer Familie Leben eingehaucht hat.",
+"Chloé ist die Tochter von Karin, einer Freundin, die ich während unseres Logopädie-Studiums kennengelernt habe. Karin hatte einen Facebook-Post mit einem wunderschönen Bild von Chloé veröffentlicht. Ich habe mir ihr Instagram angesehen und kann nur sagen, dass ich begeistert war.",
+"Ich war schon immer fasziniert von schönen Gemälden. Selbst als ich noch gut sehen konnte, war ich keine ideale Partnerin für Pictionary 🤣. Und das ist super frustrierend, weil ich immer viele Bilder und Farben im Kopf habe. Ich habe sogar einen alten Traum, Kinderbücher mit schönen Zeichnungen zu schreiben!",
+"Als die Idee entstand, eine Website zu erstellen, war es für mich selbstverständlich, Chloé um eine Illustration zu bitten. Alles hat sich schnell zusammengefügt, sie hat mir mehrere Skizzen aus verschiedenen Blickwinkeln präsentiert,  wie Kira mich führt.Nachdem ich meine Wahl getroffen hatte, fügte sie die anderen Elemente hinzu und passte die gewünschten kleinen Korrekturen und Ergänzungen an.",
+"Ich war so zufrieden, dass ich sie bat, weitere Zeichnungen anzufertigen: eine, um meine beiden Superheldinnen darzustellen und eine andere, um das goldene Buch zu illustrieren. Bei diesen beiden Illustrationen war es noch einfacher, Chloé hatte verstanden, was ich im Kopf hatte. Ich habe ihre Zeichnungen sofort akzeptiert.",
+"Ich habe es nicht dabei belassen und habe sie gefragt, ob sie mir ein Logo machen könnte. Ich habe die Ergebnisse genauso geschätzt. Ihre Zeichnungen sind das Erste, was meine Besucher bemerken und loben. Wundern Sie sich nicht, wenn in Zukunft weitere Illustrationen hinzukommen. Das Banner für „Der Weg eines Blindenführhundes“ kann man bereits auf der Website sehen!",
+"Ich danke herzlich der",
+", der",
+"und der ",
+"die mir erlaubt haben, ihre Fotos© von ihrem jeweiligen Hund – Yuka, Kira und Panther (der Vater von Yuka) – auf meiner Website zu verwenden. <br><br>",
+"Die frei verfügbaren Fotos wurden von der Website Pexels heruntergeladen.",
+"Die Fotomontagen und einige Zeichnungen für die Banner wurden auf Canva erstellt, wo ich auch einige Fotos gefunden habe: das, das die Dyslexie illustriert und die, die das Banner der Seite „Besondere Bedürfnisse“ bilden.",
+"Die Icons, die die Schaltflächen in der Menüleiste bilden, wurden auf Icons8 optimiert."
+]
+},
+"profs": {
+"span": "Meine Superlehrer",
+"p": [
+"Wie Chloé haben auch meine Lehrer eine wesentliche Rolle bei der Erstellung dieser Website gespielt, die ohne das Fachwissen meines Webentwicklungslehrers und die unverzichtbare Hilfe meiner vier Sprachlehrer einsprachig und ziemlich holprig wäre. Und ich freue mich, dass ich auch auf die aufmerksame Korrektur des Mannes meines Lebens, eines pensionierten Londoner Englischlehrers, zählen konnte.",
+"Ich könnte natürlich eine Erklärung dafür geben, warum und wie ich mich entschieden habe, alle diese Sprachen gleichzeitig zu überarbeiten, aber das könnte etwas lang werden, also werde ich es lassen. Ich begnüge mich damit, jeden meiner Lehrer chronologisch vorzustellen, um ihnen allen zu danken, denn sie ermöglichen es mir, qualitativ hochwertige Kurse in guter Stimmung zu besuchen. Jede Karte, die ich auf Canva zusammengestellt habe, führt Sie zu ihrer Seite auf Preply. Die angegebene Lokalisierung ist die, aus der sie stammen."
+]
+},
       "grammaire": {
         "span": "Grammaire non validiste svp",
         "p": ["👩‍💻 Sera rédigé plus tard.👩‍💻"]
@@ -1112,7 +1116,8 @@
         "Passione cane",
         "Particolarità",
         "Indirizzi",
-        "Informazioni"
+        "Informazioni",
+        "<img loading=\"lazy\" src=\"data:image/png;base64,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\" alt=\"quiz\" aria-hidden=\"true\"/>"
       ],
       "linksMenu": [
         "pages/about.html?lang=Italiano",
@@ -1120,7 +1125,8 @@
         "pages/passion-chiens.html?lang=Italiano",
         "pages/besoins.html?lang=Italiano",
         "pages/adresses.html?lang=Italiano",
-        "pages/informations.html?lang=Italiano"
+        "pages/informations.html?lang=Italiano",
+        "pages/questions.html?lang=Italiano"
       ]
     },
     "main": {
@@ -1656,7 +1662,8 @@
         "Dog passion",
         "Specific needs",
         "Addresses",
-        "Informations"
+        "Informations",
+        "<img loading=\"lazy\" src=\"data:image/png;base64,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\" alt=\"quiz\" aria-hidden=\"true\"/>"
       ],
       "linksMenu": [
         "pages/about.html?lang=English",
@@ -1664,7 +1671,8 @@
         "pages/passion-chiens.html?lang=English",
         "pages/besoins.html?lang=English",
         "pages/adresses.html?lang=English",
-        "pages/informations.html?lang=English"
+        "pages/informations.html?lang=English",
+        "pages/questions.html?lang=English"
       ]
     },
     "main": {
@@ -2198,7 +2206,8 @@
         "Kυνοφιλία",
         "Ειδικές ανάγκες",
         "Διευθύνσεις",
-        "Πληροφορίες"
+        "Πληροφορίες",
+        "<img loading=\"lazy\" src=\"data:image/png;base64,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\" alt=\"quiz\" aria-hidden=\"true\"/>"
       ],
       "linksMenu": [
         "pages/about.html?lang=Ellinika",
@@ -2206,7 +2215,8 @@
         "pages/passion-chiens.html?lang=Ellinika",
         "pages/besoins.html?lang=Ellinika",
         "pages/adresses.html?lang=Ellinika",
-        "pages/informations.html?lang=Ellinika"
+        "pages/informations.html?lang=Ellinika",
+        "pages/questions.html?lang=Ellinika"
       ]
     },
     "main": {

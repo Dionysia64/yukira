@@ -1,5 +1,4 @@
 let url = new URLSearchParams(window.location.search).get("lang");
-console.log(url);
 let stateColor = JSON.parse(localStorage.getItem("stateColor")) || ["default","linear-gradient(120deg, rgb(2, 2, 77), black 50%)","#fff", "#FFE200",false];
 
 /* Change color page */
@@ -639,6 +638,7 @@ function displayLang(data) {
   
   function menu(data) {
     const menuArrays = document.querySelectorAll("nav > ul.menu > li > a");
+    console.log(menuArrays[6]);
     for (let i = 0; i < data.header.menu.length; i++) {
       menuArrays[i].innerHTML = data.header.menu[i];
       menuArrays[i].href = data.header.linksMenu[i].split('/').splice(1, 1).join('/');

@@ -851,9 +851,8 @@ function main(data) {
 
   function highLightQuiz() {
     const quest = document.querySelector("#quiz > a");
-    const btn = document.querySelector("#grey > header > nav > ul > li:nth-child(7)");
+    const btn = document.querySelector("#grey > header > nav > ul > li:nth-child(8) > a");
     btn.addEventListener("click", () => {
-        quest.style.backgroundColor = "#116E69";
-        quest.style.color = "#fff";
+      quest.classList.add("highLightQuiz");
     })
   }
