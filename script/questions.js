@@ -94,9 +94,9 @@ async function colorChange(callback, array = ["default", "linear-gradient(120deg
   Array.from(figcaptions).forEach((figcaption) => {
     figcaption.style.color = array[2];
   });
-  Array.from(h1).forEach((text) => {
+  /*Array.from(h1).forEach((text) => {
     text.style.color = array[2];
-  });
+  });*/
   Array.from(h2).forEach((text) => {
     text.style.color = array[2];
   });
@@ -413,9 +413,9 @@ function changeColorPage(
         Array.from(figcaptions).forEach((figcaption) => {
           figcaption.style.color = frontColor;
         });
-        Array.from(h1).forEach((text) => {
+        /*Array.from(h1).forEach((text) => {
           text.style.color = frontColor;
-        });
+        });*/
         Array.from(h2).forEach((text) => {
           text.style.color = frontColor;
         });
@@ -805,9 +805,9 @@ function displayLang(data) {
     Array.from(figcaptions).forEach((figcaption) => {
       figcaption.style.color = array[2];
     });
-    Array.from(h1).forEach((text) => {
+    /*Array.from(h1).forEach((text) => {
       text.style.color = array[2];
-    });
+    });*/
     Array.from(h2).forEach((text) => {
       text.style.color = array[2];
     });
