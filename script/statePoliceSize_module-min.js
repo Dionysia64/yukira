@@ -1,0 +1,1 @@
+let police=JSON.parse(localStorage.getItem("police")),size=JSON.parse(localStorage.getItem("size"));function fontSize(e){document.querySelector(":not(.container)").style.fontSize=e}function fontType(e){document.getElementById("grey").classList.add(e)}document.addEventListener("DOMContentLoaded",async()=>{fontSize(size),fontType(police)});
