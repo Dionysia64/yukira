@@ -1250,7 +1250,22 @@ button#scrollToTopBtn {
   gap: 50px;
 }
 
-#menuLateral > li > a, #menuLateralInfo > li > a {
+#menuLateralItineraire {
+  width: 241px;
+  height: 250px;
+  position: fixed;
+  bottom: 235px;
+  right: 159px;
+  display: none;
+  list-style-type: none;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 2.5rem;
+  gap: 50px;
+}
+
+#menuLateral > li > a, #menuLateralInfo > li > a, #menuLateralItineraire > li > a {
   text-decoration: none;
 }
 
@@ -1675,7 +1690,8 @@ section.citation > div > p  {
 
 main > section.about > div > p > a:not(a[href="#"]):hover, main > section.about > div > p > a:not(a[href="#"]):focus-visible,
 #menuLateral > li > a:hover, #menuLateral > li > a:focus-visible,
-#menuLateralInfo > li > a:hover, #menuLateralInfo > li > a:focus-visible {
+#menuLateralInfo > li > a:hover, #menuLateralInfo > li > a:focus-visible,
+#menuLateralItineraire > li > a:hover, #menuLateralItineraire > li > a:focus-visible {
   background-color: var(--green-bg-hover);
   color: var(--white-text-hover);
 }
@@ -1789,7 +1805,8 @@ section.itinéraire a,
 #nursery > p:nth-child(20),
 #quiz > p.paraph.open,
 #quiSuisJe > p:nth-child(26),
-#histoire > p:nth-child(5) {
+#histoire > p:nth-child(5),
+section.itinéraire > div > p:nth-child(10) {
   margin: 0;
   display: initial;
 }

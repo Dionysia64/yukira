@@ -810,14 +810,18 @@ function reset() {
   window.addEventListener("scroll", scrollFunction);
   
   const scrollToTopBtn = document.getElementById("scrollToTopBtn");
-  const menuLateral = document.getElementById("menuLateral");
+  const menuLateral = document.getElementById("menuLateralItineraire");
   
   scrollToTopBtn.addEventListener("click", () => {
     scrollToTop();
   });
   
   function scrollFunction() {
+    const scrollPosition = window.innerHeight + window.scrollY;
+    const footerPosition = document.querySelector('footer').offsetTop;
+
     // Vérification de l'existence de l'élément scrollToTopBtn
+    const scrollToTopBtn = document.getElementById('scrollToTopBtn');
     if (scrollToTopBtn) {
         if (window.scrollY > 4000) {
             scrollToTopBtn.style.display = "block";
@@ -825,6 +829,17 @@ function reset() {
             scrollToTopBtn.style.display = "none";
         }
     }
+    // Vérification de l'existence de l'élément menuLateral
+    if (menuLateral) {
+      if (window.scrollY < 6000) {
+        menuLateral.style.display = "none";
+      } else if (window.scrollY < 17000) {
+        menuLateral.style.display = "flex";
+      } else if(window.scrollY > 17000) {
+        menuLateral.style.display = "none";
+      }
+  }
+  console.log(window.scrollY);
 }
 
   
