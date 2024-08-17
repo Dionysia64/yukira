@@ -817,9 +817,6 @@ function reset() {
   });
   
   function scrollFunction() {
-    const scrollPosition = window.innerHeight + window.scrollY;
-    const footerPosition = document.querySelector('footer').offsetTop;
-
     // Vérification de l'existence de l'élément scrollToTopBtn
     const scrollToTopBtn = document.getElementById('scrollToTopBtn');
     if (scrollToTopBtn) {
@@ -835,11 +832,10 @@ function reset() {
         menuLateral.style.display = "none";
       } else if (window.scrollY < 17000) {
         menuLateral.style.display = "flex";
-      } else if(window.scrollY > 17000) {
+      } else if(window.scrollY > 20000) {
         menuLateral.style.display = "none";
       }
   }
-  console.log(window.scrollY);
 }
 
   

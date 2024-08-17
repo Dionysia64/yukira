@@ -1250,6 +1250,21 @@ button#scrollToTopBtn {
   gap: 50px;
 }
 
+#menuLateralPassion {
+  width: 241px;
+  height: 250px;
+  position: fixed;
+  bottom: 235px;
+  right: 159px;
+  display: none;
+  list-style-type: none;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 2.5rem;
+  gap: 50px;
+}
+
 #menuLateralItineraire {
   width: 241px;
   height: 250px;
@@ -1265,12 +1280,12 @@ button#scrollToTopBtn {
   gap: 50px;
 }
 
-#menuLateral > li > a, #menuLateralInfo > li > a, #menuLateralItineraire > li > a {
+#menuLateral > li > a, #menuLateralInfo > li > a, #menuLateralItineraire > li > a,#menuLateralPassion > li > a {
   text-decoration: none;
 }
 
 @media all and (max-width: 1300px) {
-  #menuLateral, #menuLateralInfo {
+  #menuLateral, #menuLateralInfo, #menuLateralItineraire, #menuLateralPassion {
     display: none!important;
   }
 }
@@ -1691,7 +1706,8 @@ section.citation > div > p  {
 main > section.about > div > p > a:not(a[href="#"]):hover, main > section.about > div > p > a:not(a[href="#"]):focus-visible,
 #menuLateral > li > a:hover, #menuLateral > li > a:focus-visible,
 #menuLateralInfo > li > a:hover, #menuLateralInfo > li > a:focus-visible,
-#menuLateralItineraire > li > a:hover, #menuLateralItineraire > li > a:focus-visible {
+#menuLateralItineraire > li > a:hover, #menuLateralItineraire > li > a:focus-visible,
+#menuLateralPassion > li > a:hover, #menuLateralPassion > li > a:focus-visible {
   background-color: var(--green-bg-hover);
   color: var(--white-text-hover);
 }
@@ -1957,4 +1973,8 @@ section.title-questions a
 
 #grey > header > nav > ul > li.none {
   display: none;
+}
+
+#menuLateralPassion > li {
+  width: 350px;
 }

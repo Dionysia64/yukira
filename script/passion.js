@@ -795,7 +795,7 @@ function reset() {
   window.addEventListener("scroll", scrollFunction);
   
   const scrollToTopBtn = document.getElementById("scrollToTopBtn");
-  const menuLateral = document.getElementById("menuLateral");
+  const menuLateral = document.getElementById("menuLateralPassion");
   
   scrollToTopBtn.addEventListener("click", () => {
     scrollToTop();
@@ -810,6 +810,17 @@ function reset() {
             scrollToTopBtn.style.display = "none";
         }
     }
+        // Vérification de l'existence de l'élément menuLateral
+        if (menuLateral) {
+          if (window.scrollY < 6630) {
+            menuLateral.style.display = "none";
+          } else if (window.scrollY < 17000) {
+            menuLateral.style.display = "flex";
+          } else if(window.scrollY > 26000) {
+            menuLateral.style.display = "none";
+          }
+          console.log(window.scrollY);
+      }
 }
 
   

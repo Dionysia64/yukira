@@ -1,6 +1,7 @@
 // Callback function to execute when intersection changes
 const callback = (entries, observer) => {
-  const links = document.getElementById("menuLateral")?.querySelectorAll("li a") || document.getElementById("menuLateralInfo")?.querySelectorAll("li a") || document.getElementById("menuLateralItineraire")?.querySelectorAll("li a"); // Target links directly
+  const links = (document.getElementById("menuLateral")?.querySelectorAll("li a") || document.getElementById("menuLateralInfo")?.querySelectorAll("li a")) || (document.getElementById("menuLateralItineraire")?.querySelectorAll("li a") ||  document.getElementById("menuLateralPassion")?.querySelectorAll("li a")); // Target links directly
+  
   // Helper function to remove 'anchorActive' class from all links
   const removeActiveClasses = () => {
     links.forEach(link => link.classList.remove('anchorActive'));
