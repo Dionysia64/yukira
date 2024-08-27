@@ -617,13 +617,13 @@ function displayLang(data) {
   
   function head(data) {
     const lang = document.getElementsByTagName("html")[0];
-    lang.lang = data.head.lang;
+    lang.lang = data.head.about.lang;
     const title = document.getElementsByTagName("title")[0];
-    title.innerHTML = data.head.title;
+    title.innerHTML = data.head.about.title;
     const metaTags = document.getElementsByTagName("meta");
     for (let i = 0; i < metaTags.length; i++) {
       if (metaTags[i].getAttribute("name") === "description") {
-        metaTags[i].content = data.head.description;
+        metaTags[i].content = data.head.about.description;
       }
     }
   }
@@ -664,19 +664,21 @@ function displayLang(data) {
     })
     const histoire = document.querySelector("#histoire > div:nth-child(1) > span");
     histoire.innerHTML = data.mainAbout.about.histoire.title;
-    const links = document.querySelectorAll("section.about > div > a");
-    links[0].href = data.mainAbout.about.histoire.href1;
-    links[0].innerHTML = data.mainAbout.about.histoire.link1;
-    links[1].href = data.mainAbout.about.histoire.href2;
-    links[1].innerHTML = data.mainAbout.about.histoire.link2;
-    links[2].href = data.mainAbout.about.qui.href3;
-    links[2].innerHTML = data.mainAbout.about.qui.link3;
-    links[3].href = data.mainAbout.about.qui.href4;
-    links[3].innerHTML = data.mainAbout.about.qui.link4;
-    links[4].href = data.mainAbout.about.qui.href5;
-    links[4].innerHTML = data.mainAbout.about.qui.link5;
-    links[5].href = data.mainAbout.about.yukaa.href6;
-    links[5].innerHTML = data.mainAbout.about.yukaa.link6;
+    const linksHistoire = document.querySelectorAll("#histoire > a");
+    linksHistoire.forEach((link, index) => {
+      link.href = data.mainAbout.about.histoire.href[index];
+      link.textContent = data.mainAbout.about.histoire.link[index];
+    });
+    const linksQui = document.querySelectorAll("#quiSuisJe > a");
+    linksQui.forEach((link, index) => {
+      link.href = data.mainAbout.about.qui.href[index];
+      link.textContent = data.mainAbout.about.qui.link[index];
+    });
+    const linksyuka = document.querySelectorAll("#yukaa > a");
+    linksyuka.forEach((link, index) => {
+      link.href = data.mainAbout.about.yukaa.href[index];
+      link.textContent = data.mainAbout.about.yukaa.link[index];
+    });
     const paragraphesHistoire = document.querySelectorAll("#histoire > p");
     paragraphesHistoire.forEach((paragraph, index) => {
       paragraph.innerHTML = data.mainAbout.about.histoire.paragraphes[index];

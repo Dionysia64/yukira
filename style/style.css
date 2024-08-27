@@ -1280,12 +1280,27 @@ button#scrollToTopBtn {
   gap: 50px;
 }
 
-#menuLateral > li > a, #menuLateralInfo > li > a, #menuLateralItineraire > li > a,#menuLateralPassion > li > a {
+#menuLateralBesoins {
+  width: 241px;
+  height: 250px;
+  position: fixed;
+  bottom: 235px;
+  right: 160px;
+  display: none;
+  list-style-type: none;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 2.5rem;
+  gap: 50px;
+}
+
+#menuLateral > li > a, #menuLateralInfo > li > a, #menuLateralItineraire > li > a, #menuLateralPassion > li > a, #menuLateralBesoins > li > a {
   text-decoration: none;
 }
 
 @media all and (max-width: 1300px) {
-  #menuLateral, #menuLateralInfo, #menuLateralItineraire, #menuLateralPassion {
+  #menuLateral, #menuLateralInfo, #menuLateralItineraire, #menuLateralPassion, #menuLateralBesoins {
     display: none!important;
   }
 }
@@ -1669,7 +1684,7 @@ section.citation > div > p {
   margin: 0 auto;
 }
 
-section.informations, section.itinéraire {
+section.informations, section.itinéraire, section.besoins, section.adresses, section.passion {
   width: 40%;
   margin: 0 auto;
 }
@@ -1682,12 +1697,15 @@ section.informations, section.itinéraire {
 
 .about > div > p, .informations > div > p,
 .about > div > p, .itinéraire > div > p,
+.adresses > div > p, .passion > div > p,
 section.citation > p,
-section.citation > div > p  {
+section.citation > div > p,
+.besoins > div > p  {
   font-size: 2.5rem;
 }
 
-.informations > div > p, .itinéraire > div > p, section.citation > div > p  {
+.informations > div > p, .itinéraire > div > p, section.citation > div > p,
+.besoins > div > p, .adresses > div > p, .passion > div > p {
   line-height: 2.5;
 }
 
@@ -1707,6 +1725,7 @@ main > section.about > div > p > a:not(a[href="#"]):hover, main > section.about 
 #menuLateral > li > a:hover, #menuLateral > li > a:focus-visible,
 #menuLateralInfo > li > a:hover, #menuLateralInfo > li > a:focus-visible,
 #menuLateralItineraire > li > a:hover, #menuLateralItineraire > li > a:focus-visible,
+#menuLateralBesoins > li > a:hover, #menuLateralBesoins > li > a:focus-visible,
 #menuLateralPassion > li > a:hover, #menuLateralPassion > li > a:focus-visible {
   background-color: var(--green-bg-hover);
   color: var(--white-text-hover);
@@ -1746,7 +1765,9 @@ section.containerAbout > div > a {
 }
 
 section.about > div > div > span, section.informations > div > div > span,
-section.about > div > div > span, section.itinéraire > div > div > span {
+section.about > div > div > span, section.itinéraire > div > div > span,
+section.adresses > div > div > span, section.passion > div > div > span,
+section.besoins > div > div > span {
   font-size: 3.5rem;
   font-weight: 700;
 }
@@ -1755,7 +1776,8 @@ section.citation > blockquote > p:nth-child(4) {
   margin: 0 0 0 0;
 }
 
-section.about > div, section.informations > div, section.itinéraire > div {
+section.about > div, section.informations > div, section.itinéraire > div,
+section.besoins > div, section.adresses > div, section.passion > div {
   margin: 150px 0 0 0;
 }
 
@@ -1789,6 +1811,9 @@ section.containerAbout > div > a {
 
 section.informations a,
 section.itinéraire a,
+section.adresses a,
+section.passion a,
+section.besoins a,
 #histoire > a,
 #quiSuisJe > a,
 #yukaa > a,
@@ -1802,13 +1827,6 @@ section.itinéraire a,
 }
 
 #images > p,
-#histoire > p:nth-child(3),
-#histoire > p:nth-child(13),
-#quiSuisJe > p:nth-child(13),
-#quiSuisJe > p:nth-child(15),
-#quiSuisJe > p:nth-child(17),
-#quiSuisJe > p:nth-child(24),
-#yukaa > p:nth-child(3),
 #notice_8 > p:nth-child(5),
 #nursery > p:nth-child(4),
 #nursery > p:nth-child(6),
@@ -1820,31 +1838,40 @@ section.itinéraire a,
 #nursery > p:nth-child(16),
 #nursery > p:nth-child(20),
 #quiz > p.paraph.open,
-#quiSuisJe > p:nth-child(26),
-#histoire > p:nth-child(5),
-section.itinéraire > div > p:nth-child(10) {
+section.itinéraire > div > p:nth-child(10),
+section.passion > div > p:nth-child(10),
+.lien-adjust {
   margin: 0;
   display: initial;
 }
 
 section.informations a:hover,
 section.itinéraire a:hover,
+section.adresses a:hover,
+section.passion a:hover,
 section.about a:hover,
+section.besoins a:hover,
 section.informations a:focus-visible,
 section.itinéraire a:focus-visible,
-section.about a:focus-visible  {
+section.adresses a:focus-visible,
+section.passion a:focus-visible,
+section.about a:focus-visible,
+section.besoins a:focus-visible {
   background-color: var(--green-bg-hover);
   color: var(--white-text-hover);
 }
 
 section.informations > div > figure > img, section.informations > div > div > img, section.informations > div > a > div > img,
-section.itinéraire > div > figure > img, section.itinéraire > div > div > img, section.itinéraire > div > a > div > img  {
+section.itinéraire > div > figure > img, section.itinéraire > div > div > img, section.itinéraire > div > a > div > img,
+section.adresses > div > figure > img, section.adresses > div > div > img, section.adresses > div > a > div > img,
+section.passion > div > figure > img, section.passion > div > div > img, section.passion > div > a > div > img,
+section.besoins > div > figure > img, section.besoins > div > div > img, section.besoins > div > a > div > img   {
   max-width: 100%;
   transition: all 2s ease-in-out;
 }
 
 @media all and (max-width: 768px) {
-  section.informations, section.itinéraire {
+  section.informations, section.itinéraire, section.besoins, section.adresses, section.passion {
     width: 100%;
   }
   section.containerInfos > div,   section.containerPath > div {
@@ -1860,7 +1887,8 @@ section.itinéraire > div > figure > img, section.itinéraire > div > div > img,
   scroll-margin: -10px 0 0 0;
 }
 
-section.itinéraire > div > div:nth-child(1) {
+section.itinéraire > div > div:nth-child(1),
+section.passion > div > div:nth-child(1) {
   margin: 0 0 150px 0;
 }
 
@@ -1961,6 +1989,12 @@ section.about p,
 section.about a,
 section.itinéraire p,
 section.itinéraire a,
+section.adresses p,
+section.adresses a,
+section.passion p,
+section.passion a,
+section.besoins p,
+section.besoins a,
 section.title-questions p,
 section.title-questions a
  {

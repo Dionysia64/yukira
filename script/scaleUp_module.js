@@ -7,6 +7,8 @@ if (window.innerWidth >= 768) {
     scaleUp("section.informations > div > a > div > img");
     scaleUp("section.itinéraire > div > figure > img");
     scaleUp("section.itinéraire > div > div > img");
+    scaleUp("section.besoins > div > figure > img");
+    scaleUp("section.besoins > div > div > img");
   }
   
   function scaleUp(selector) {

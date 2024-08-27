@@ -616,13 +616,13 @@ function displayLang(data) {
   
   function head(data) {
     const lang = document.getElementsByTagName("html")[0];
-    lang.lang = data.head.lang;
+    lang.lang = data.head.besoin.lang;
     const title = document.getElementsByTagName("title")[0];
-    title.innerHTML = data.head.title;
+    title.innerHTML = data.head.besoin.title;
     const metaTags = document.getElementsByTagName("meta");
     for (let i = 0; i < metaTags.length; i++) {
       if (metaTags[i].getAttribute("name") === "description") {
-        metaTags[i].content = data.head.description;
+        metaTags[i].content = data.head.besoin.description;
       }
     }
   }
@@ -786,7 +786,7 @@ function reset() {
   window.addEventListener("scroll", scrollFunction);
   
   const scrollToTopBtn = document.getElementById("scrollToTopBtn");
-  const menuLateral = document.getElementById("menuLateral");
+  const menuLateral = document.getElementById("menuLateralBesoins");
   
   scrollToTopBtn.addEventListener("click", () => {
     scrollToTop();
@@ -801,6 +801,17 @@ function reset() {
             scrollToTopBtn.style.display = "none";
         }
     }
+        // Vérification de l'existence de l'élément menuLateral
+        if (menuLateral) {
+          if (window.scrollY < 3500) {
+            menuLateral.style.display = "none";
+          } else if (window.scrollY >= 3500 && window.scrollY <= 30000) {
+            menuLateral.style.display = "flex";
+          } else if (window.scrollY >= 30000) {
+            menuLateral.style.display = "none";
+          } 
+    }
+    console.log(window.scrollY);
 }
 
   

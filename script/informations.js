@@ -615,13 +615,13 @@ function displayLang(data) {
   
   function head(data) {
     const lang = document.getElementsByTagName("html")[0];
-    lang.lang = data.head.lang;
+    lang.lang = data.head.information.lang;
     const title = document.getElementsByTagName("title")[0];
-    title.innerHTML = data.head.title;
+    title.innerHTML = data.head.information.title;
     const metaTags = document.getElementsByTagName("meta");
     for (let i = 0; i < metaTags.length; i++) {
       if (metaTags[i].getAttribute("name") === "description") {
-        metaTags[i].content = data.head.description;
+        metaTags[i].content = data.head.information.description;
       }
     }
   }
