@@ -32,7 +32,7 @@
           "article", 
           "Savez-vous pourquoi il ne faut jamais distraire un chien-guide au travail&nbsp;?", 
           "Savez-vous pourquoi il ne faut jamais distraire un chien-guide au travail&nbsp;? Il en va de la sécurité du chien-guide et de son maître",
-          "../images/0-000-001-illustration-fr.png",
+          "../images/0-000-001-ne-pas-deranger-un-chien-guide-au-travail-fr.jpg",
           "S'il te plait, dessine-moi un chien-guide !",
           "fr_CH"
           ]
@@ -49,7 +49,7 @@
           "article", 
           "Savez-vous pourquoi il ne faut jamais distraire un chien-guide au travail&nbsp;?", 
           "Savez-vous pourquoi il ne faut jamais distraire un chien-guide au travail&nbsp;? Il en va de la sécurité du chien-guide et de son maître",
-          "../images/0-000-001-illustration-fr.png",
+          "../images/0-000-001-ne-pas-deranger-un-chien-guide-au-travail-fr.jpg",
           "S'il te plait, dessine-moi un chien-guide !",
           "fr_CH"
           ]
@@ -66,7 +66,7 @@
           "article", 
           "Savez-vous pourquoi il ne faut jamais distraire un chien-guide au travail&nbsp;?", 
           "Savez-vous pourquoi il ne faut jamais distraire un chien-guide au travail&nbsp;? Il en va de la sécurité du chien-guide et de son maître",
-          "../images/0-000-001-illustration-fr.png",
+          "../images/0-000-001-ne-pas-deranger-un-chien-guide-au-travail-fr.jpg",
           "S'il te plait, dessine-moi un chien-guide !",
           "fr_CH"
           ]
@@ -83,7 +83,7 @@
           "article", 
           "Savez-vous pourquoi il ne faut jamais distraire un chien-guide au travail&nbsp;?", 
           "Savez-vous pourquoi il ne faut jamais distraire un chien-guide au travail&nbsp;? Il en va de la sécurité du chien-guide et de son maître",
-          "../images/0-000-001-illustration-fr.png",
+          "../images/0-000-001-ne-pas-deranger-un-chien-guide-au-travail-fr.jpg",
           "S'il te plait, dessine-moi un chien-guide !",
           "fr_CH"
           ]
@@ -100,7 +100,7 @@
           "article", 
           "Savez-vous pourquoi il ne faut jamais distraire un chien-guide au travail&nbsp;?", 
           "Savez-vous pourquoi il ne faut jamais distraire un chien-guide au travail&nbsp;? Il en va de la sécurité du chien-guide et de son maître",
-          "../images/0-000-001-illustration-fr.png",
+          "../images/0-000-001-ne-pas-deranger-un-chien-guide-au-travail-fr.jpg",
           "S'il te plait, dessine-moi un chien-guide !",
           "fr_CH"
           ]
@@ -117,7 +117,7 @@
           "article", 
           "Savez-vous pourquoi il ne faut jamais distraire un chien-guide au travail&nbsp;?", 
           "Savez-vous pourquoi il ne faut jamais distraire un chien-guide au travail&nbsp;? Il en va de la sécurité du chien-guide et de son maître",
-          "../images/0-000-001-illustration-fr.png",
+          "../images/0-000-001-ne-pas-deranger-un-chien-guide-au-travail-fr.jpg",
           "S'il te plait, dessine-moi un chien-guide !",
           "fr_CH"
           ]
@@ -134,7 +134,7 @@
           "article", 
           "Savez-vous pourquoi il ne faut jamais distraire un chien-guide au travail&nbsp;?", 
           "Savez-vous pourquoi il ne faut jamais distraire un chien-guide au travail&nbsp;? Il en va de la sécurité du chien-guide et de son maître",
-          "../images/0-000-001-illustration-fr.png",
+          "../images/0-000-001-ne-pas-deranger-un-chien-guide-au-travail-fr.jpg",
           "S'il te plait, dessine-moi un chien-guide !",
           "fr_CH"
           ]
@@ -864,26 +864,26 @@
     "head": {
       "index": {
         "lang": "de-CH",
-        "langues": "Deutsch",
+        "langues": "allemand",
         "title": "Bitte… zeichne mir einen Blindenführhund!",
         "description": "Als glückliche Halterin eines Blindenführhundes, die durch seine Anwesenheit verändert wurde, liegt es mir am Herzen, meine Erfahrung und mein Wissen zu teilen, um Menschen zu sensibilisieren.",
         "facebook": {
           "meta": [
-            "https://dessine-moi1chien-guide.com/index.html?lang=Deutsch", 
-            "Artikel", 
-            "deutsch", 
-            "kommt nachher",
-            "https://dessine-moi1chien-guide.com/images/0-000-014-illustration-de",
-            "Bitte zeichne mir",
+            "https://dessine-moi1chien-guide.com/index.html?lang=Deutsch",
+            "article", 
+            "Wissen Sie, warum man einen Blindenführhund bei der Arbeit nie ablenken sollte?",
+            "Wissen Sie, warum man einen Blindenführhund bei der Arbeit nie ablenken sollte? Es geht um die Sicherheit des Blindenführhundes und seines Besitzers.",
+            "https://dessine-moi1chien-guide.com/images/0-000-001-ne-pas-deranger-un-chien-guide-au-travail-fr.jpg",
+            "Bitte, zeichne mir einen Blindenführhund!",
             "1863592504071537",
             "de_CH",
             "Dionysia Tissot"
-            ]
+          ]
         }
       },
       "about": {
-        "lang": "fr-CH",
-        "langues": "français",
+        "lang": "de-CH",
+        "langues": "allemand",
         "title": "S'il te plaît, dessine-moi un chien-guide&nbsp;!",
         "description": "Heureuse bénéficiaire d’un chien-guide, transformée par sa présence à mes côtés, j’ai à cœur de partager mon expérience et mes connaissances pour sensibiliser.",
         "facebook": {
@@ -892,15 +892,15 @@
           "article", 
           "Savez-vous pourquoi il ne faut jamais distraire un chien-guide au travail&nbsp;?", 
           "Savez-vous pourquoi il ne faut jamais distraire un chien-guide au travail&nbsp;? Il en va de la sécurité du chien-guide et de son maître",
-          "../images/0-000-001-illustration-fr.png",
+          "../images/0-000-014-einen-blindenfuehrhund-nicht-bei-der-arbeit-stoeren.jpg",
           "S'il te plait, dessine-moi un chien-guide !",
-          "fr_CH"
+          "de_CH"
           ]
         }
       },
       "itineraire": {
-        "lang": "fr-CH",
-        "langues": "français",
+        "lang": "de-CH",
+        "langues": "allemand",
         "title": "S'il te plaît, dessine-moi un chien-guide&nbsp;!",
         "description": "Heureuse bénéficiaire d’un chien-guide, transformée par sa présence à mes côtés, j’ai à cœur de partager mon expérience et mes connaissances pour sensibiliser.",
         "facebook": {
@@ -916,8 +916,8 @@
         }
       },
       "passion": {
-        "lang": "fr-CH",
-        "langues": "français",
+        "lang": "de-CH",
+        "langues": "allemand",
         "title": "S'il te plaît, dessine-moi un chien-guide&nbsp;!",
         "description": "Heureuse bénéficiaire d’un chien-guide, transformée par sa présence à mes côtés, j’ai à cœur de partager mon expérience et mes connaissances pour sensibiliser.",
         "facebook": {
@@ -926,15 +926,15 @@
           "article", 
           "Savez-vous pourquoi il ne faut jamais distraire un chien-guide au travail&nbsp;?", 
           "Savez-vous pourquoi il ne faut jamais distraire un chien-guide au travail&nbsp;? Il en va de la sécurité du chien-guide et de son maître",
-          "../images/0-000-014-illustration-de.jpg",
+          "../images/0-000-014-einen-blindenfuehrhund-nicht-bei-der-arbeit-stoeren.jpg",
           "S'il te plait, dessine-moi un chien-guide !",
           "fr_CH"
           ]
         }
       },
       "besoin": {
-        "lang": "fr-CH",
-        "langues": "français",
+        "lang": "de-CH",
+        "langues": "allemand",
         "title": "S'il te plaît, dessine-moi un chien-guide&nbsp;!",
         "description": "Heureuse bénéficiaire d’un chien-guide, transformée par sa présence à mes côtés, j’ai à cœur de partager mon expérience et mes connaissances pour sensibiliser.",
         "facebook": {
@@ -1034,7 +1034,7 @@
     "main": {
       "illustration": {
         "img": {
-          "imgUrl": "./images/0-000-014-illustration-de.jpg",
+          "imgUrl": "./images/0-000-014-einen-blindenfuehrhund-nicht-bei-der-arbeit-stoeren.jpg",
           "alt": "Wichtigste Illustration, Beschreibung. In einer Landschaft, in der die Pflanzen in den schillernden Farben des Herbstes erstrahlen, veranschaulichen zwei Zeichnungen die Problematik, die durch die Frage aufgeworfen wird, die gleich nach Chloes wunderschöner Illustration gestellt wird: «Wissen Sie, warum man einen Blindenführhund niemals bei der Arbeit stören darf?» Die linke Abbildung zeigt einen grauhaarigen Mann, der den Kopf einer Labradorhündin streichelt, deren schwarzes Fell mit weißen Haaren durchsetzt ist. Die Hündin hält einen Brief mit folgendem Wortlaut in ihrem Maul: «AHV Yuka, wir freuen uns, Ihnen mitteilen zu können, dass Sie nun Ihren wohlverdienten Ruhestand bei Talaria genießen werden. Herzlichen Glückwunsch». Zu ihren Füßen befinden sich zwei Katzen: eine getigerte und eine dreifarbige mit folgender Aufschrift: «Uranie und Euterpe, berufslose Musen des Gutsherrn». Auf der rechten Seite steht eine Frau mit roten Haaren und einer Brille mit dunklen Gläsern auf der Nase, die von ihrer jungen schwarzen Labradorhündin geführt wird. Das Duo wird durch das unerwartete Auftauchen von Yuka gestört, die zum Spiel auffordernd und schwanzwedelnd nach ihrer jüngeren Schwester ruft: «Kira! Kira! Kira!». Diese antwortet: \"Yuka, du übertreibst, ich arbeite! Wir werden zusammen spielen, wenn ich libera bin».",
           "figcaption": {
             "span1": "Danke an ",
@@ -1726,17 +1726,17 @@
         "description": "Contenta beneficiaria di un cane guida, trasformata dalla sua presenza al mio fianco, tengo molto a condividere la mia esperienza e le mie conoscenze per sensibilizzare.",
         "facebook": {
           "meta": [
-            "https://dessine-moi1chien-guide.com", 
-            "articlei", 
-            "Savez-vous pourquoi il ne faut jamais distraire un chien-guide au travail&nbsp;?", 
-            "Savez-vous pourquoi il ne faut jamais distraire un chien-guide au travail&nbsp;? Il en va de la sécurité du chien-guide et de son maître",
-            "../images/0-000-001-illustration-fr.png",
-            "S'il te plait, dessine-moi un chien-guide !",
+            "https://dessine-moi1chien-guide.com/index.html?lang=italiano",
+            "article", 
+            "Sai perché non bisogna mai distrarre un cane guida al lavoro?",
+            "Sai perché non bisogna mai distrarre un cane guida al lavoro? Si tratta della sicurezza del cane guida e del suo padrone.",
+            "https://dessine-moi1chien-guide.com/images/0-000-001-ne-pas-deranger-un-chien-guide-au-travail-fr.jpg",
+            "Per favore, disegna per me un cane guida!",
             "1863592504071537",
-            "fr_CH",
+            "it_CH",
             "Dionysia Tissot"
-            ]
-        }
+          ]
+        }  
       },
       "about": {
         "lang": "fr-CH",
@@ -2575,7 +2575,7 @@
   },
   "english": {
     "id": 4,
-    "head": {
+      "head": {
       "index": {
         "lang": "en-GB",
         "langues": "English",
@@ -2583,16 +2583,16 @@
         "description": "As the lucky owner of a guide dog, transformed by its presence at my side, I'm passionate about sharing my experience and knowledge to raise awareness.",
         "facebook": {
           "meta": [
-            "https://dessine-moi1chien-guide.com", 
-            "articlee", 
-            "Savez-vous pourquoi il ne faut jamais distraire un chien-guide au travail&nbsp;?", 
-            "Savez-vous pourquoi il ne faut jamais distraire un chien-guide au travail&nbsp;? Il en va de la sécurité du chien-guide et de son maître",
-            "../images/0-000-001-illustration-fr.png",
-            "S'il te plait, dessine-moi un chien-guide !",
+            "https://dessine-moi1chien-guide.com/index.html?lang=English",
+            "article", 
+            "Do you know why you should never distract a guide dog at work?",
+            "Do you know why you should never distract a guide dog at work? It's about the safety of the guide dog and its owner.",
+            "https://dessine-moi1chien-guide.com/images/0-000-001-ne-pas-deranger-un-chien-guide-au-travail-fr.jpg",
+            "Please, draw me a guide dog!",
             "1863592504071537",
-            "fr_CH",
+            "eng_ENG",
             "Dionysia Tissot"
-            ]
+          ]
         }
       },
       "about": {
@@ -3439,16 +3439,16 @@
         "description": "Ως η τυχερή λήπτρια ενός σκύλου-οδηγού, που μεταμορφώθηκε από την παρουσία του στο πλευρό μου, επιθυμώ να μοιραστώ την εμπειρία και τις γνώσεις μου για να ευαισθητοποιήσω το κοινό.",
         "facebook": {
           "meta": [
-            "https://dessine-moi1chien-guide.com", 
-            "articlek", 
-            "Savez-vous pourquoi il ne faut jamais distraire un chien-guide au travail&nbsp;?", 
-            "Savez-vous pourquoi il ne faut jamais distraire un chien-guide au travail&nbsp;? Il en va de la sécurité du chien-guide et de son maître",
-            "../images/0-000-001-illustration-fr.png",
-            "S'il te plait, dessine-moi un chien-guide !",
+            "https://dessine-moi1chien-guide.com/index.html?lang=Elinka",
+            "article", 
+            "Ξέρετε γιατί δεν πρέπει ποτέ να αποσπάτε την προσοχή ενός σκύλου-οδηγού στη δουλειά;",
+            "Ξέρετε γιατί δεν πρέπει ποτέ να αποσπάτε την προσοχή ενός σκύλου-οδηγού στη δουλειά; Πρόκειται για την ασφάλεια του σκύλου-οδηγού και του ιδιοκτήτη του.",
+            "https://dessine-moi1chien-guide.com/images/0-000-001-ne-pas-deranger-un-chien-guide-au-travail-fr.jpg",
+            "Παρακαλώ, ζωγράφισε μου έναν σκύλο-οδηγό!",
             "1863592504071537",
             "fr_CH",
             "Dionysia Tissot"
-            ]
+          ]
         }
       },
       "about": {
@@ -3679,8 +3679,7 @@
             "Tότε, είχα την ιδέα να παρακολουθήσω ένα μάθημα κωδικοποίησης για να δημιουργήσω ένα σάιτ από το Α ως το Ω για να δημοσιεύω ονλάιν τα ενημερωτικά άρθρα που είχα γράψει στα γαλλικά αλλά επίσης στις άλλες γλώσσες που είχα αρχίσει να κατέχω το τρέχον έτος 2022 χάρις στα ιδιαίτερα μαθήματα μέσω Preply, μία εφαρμογή που μας επιτρέπει να συναντιόμαστε σε μία εικονική τάξη.",
             "Aπό εδώ και στο εξής, είναι η ιστοσελίδα που θα λέγεται \"Σε παρακαλώ, ζωγράφισέ μου έναν σκύλο-οδηγό!\". To μπλογκ θα έχει νέα εμφάνιση , με νέο όνομα και θα διηγείται τις στιγμές ευτυχίας που μοιράζομαι με την Γιούκα και την Κίρα ( χωρίς να ξεχνάω βέβαια, την υπόλοιπη ωραία οικογένειά μου , τον Νταβίντ και τις δύο γατούλες μας που φέρουν με υπερηφάνεια ονόματα από την ελληνική μυθολογία. Η τρίχρωμή μας γατούλα, γεννημένη στις 14 Ιουλίου 2006, λέγεται Ευτέρπη, το όνομα της Μούσας της Μουσικής. Η τιγρέ μας γατούλα η Ουρανία που έχει το όνομα της Μούσας της Αστρονομίας και της Αστρολογίας, είναι γεννημένη στις 7 Ιουνίου 2012. Απίστευτος συγχρονισμός: Η Γιούκα έχει γεννηθεί την ίδια μέρα και τον ίδιο χρόνο με την Ουρανία. Ενώ η Κίρα μοιράζεται την ίδια ημέρα γενεθλίων με την Ευτέρπη αλλά έχουν 14 χρόνια διαφορά).",
             "Τώρα ξέρετε την μικρή μου οικογένεια.",
-            "Update août 2024", 
-            "Euterpe a rejoint les étoiles 💫. Notre chagrin est immense. Je lui ai adressé un hommage ailleurs sur le site&nbsp;:",
+            "",
             "Όσο είναι δυνατόν, από το 2023 θα γράφω τα άρθρα του μπλογκ στα γαλλικά και στα γερμανικά μιας και είναι η κυρίως ομιλούμενη γλώσσα στο σχολείο της Κίρα."
           ],
           "figcaption": "H Aριάν και τρεις από τους σκύλους που χορήγησε στο Fondation Romande de chiens-guides. Tης κάνει παρέα ο Τζόι , το δέκατό της κουτάβι. Στα αριστερά της ο Ετός, που κατευθύνει τον ιδιοκτήτη του, Πάτρικ. Στα δεξιά της η Γιούκα η νέα μου συνταξιούχος που τώρα περπατάει με τον Νταβίντ.  "
