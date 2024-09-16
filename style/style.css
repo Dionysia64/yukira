@@ -889,6 +889,9 @@ div.langues > ul > li > a:hover, div.langues > ul > li > a:focus-visible, div.co
 
 div.confort {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 ul.dropdown-menu-color, ul.dropdown-menu-taille, ul.dropdown-menu-font {
@@ -1845,6 +1848,16 @@ section.passion > div > p:nth-child(10),
   display: initial;
 }
 
+.lien_inline_block {
+  display: inline-block;
+}
+
+#euterpe > span {
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  line-height: 5;
+}
+
 section.informations a:hover,
 section.itinéraire a:hover,
 section.adresses a:hover,
@@ -2011,4 +2024,34 @@ section.title-questions a
 
 #menuLateralPassion > li {
   width: 350px;
+}
+
+/* search bar */
+
+input#search-bar {
+  width: 100%;
+  height: 50px;
+  font-size: 1.5rem;
+  border-radius: 15px 0 0 15px;
+  padding: 25px;
+}
+
+footer form {
+  display: flex;
+  justify-content: center;
+}
+
+input#btn-search {
+  width: 25%;
+  border-radius: 0 15px 15px 0;
+  background-color: black;
+  color: #fff;
+  font-weight: 900;
+  font-size: 1.5rem;
+  border: 1px solid white;
+}
+
+header form {
+  display: flex;
+  flex-wrap: nowrap;
 }

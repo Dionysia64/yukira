@@ -28,7 +28,7 @@ reset();
 
 handleGrey(); // trigger the grey mode change
 
-getLang("btn-fr", "Fran%C3%A7ais");
+getLang("btn-fr", "Français");
 getLang("btn-ger", "Deutsch");
 getLang("btn-it", "Italiano");
 getLang("btn-eng", "English");
@@ -36,8 +36,8 @@ getLang("btn-grec", "Ellinika");
 
 function switchLanguages(url) {
   switch (url) {
-    case "Fran%C3%A7ais":
-      languages("Fran%C3%A7ais");
+    case "Français":
+      languages("Français");
       break;
     case "Deutsch":
       languages("Deutsch");
@@ -528,7 +528,7 @@ function displayLang(data) {
     retrieveData()
       .then((data) => {
         switch (lang) {
-          case "Fran%C3%A7ais":
+          case "Français":
             containerQuiz.innerHTML = "";
             displayLang(data.french);
             stateColor = JSON.parse(localStorage.getItem("stateColor"));
@@ -585,7 +585,7 @@ function displayLang(data) {
       retrieveData()
         .then((data) => {
           switch (lang) {
-            case "Fran%C3%A7ais":
+            case "Français":
               containerQuiz.innerHTML = "";
               displayLang(data.french);
               stateColor = JSON.parse(localStorage.getItem("stateColor"));
@@ -717,39 +717,7 @@ function displayLang(data) {
   }
 
   function main(data) {
-    const h1 = document.querySelector("h1");
-    h1.innerHTML = data.questions.h1;
-    const quiz = data.questions.faq;
-    const containerQuiz = document.getElementById("quiz");
-    containerQuiz.classList.add("quest");
-    let div;
-
-    Object.entries(quiz).forEach(([key, value], index) => {
-        if (key.charAt(0) === "q") {
-            div = document.createElement("div");
-            div.classList.add("faq");
-
-            let h2 = document.createElement("h2");
-            h2.innerHTML = value;
-
-            let imgPlus = document.createElement("img");
-            imgPlus.src = "../images/faq-plus.png";
-
-            let imgMinus = document.createElement("img");
-            imgMinus.src = "../images/faq-moins.png";
-            imgMinus.classList.add("hide");
-
-            div.appendChild(h2);
-            div.appendChild(imgPlus);
-            div.appendChild(imgMinus);
-            containerQuiz.appendChild(div);
-        } else {
-            let p = document.createElement("p");
-            p.classList.add("paraph");
-            p.innerHTML = value;
-            containerQuiz.appendChild(p);
-        }
-    });
+    displayQuest(data);
 
     const faqs = document.querySelectorAll(".faq");
 
@@ -765,6 +733,42 @@ function displayLang(data) {
             changeColorQuest("#quiz > p.paraph.open > a");
         });
     });
+}
+
+function displayQuest(data) {
+  const h1 = document.querySelector("h1");
+  h1.innerHTML = data.questions.h1;
+  const quiz = data.questions.faq;
+  const containerQuiz = document.getElementById("quiz");
+  containerQuiz.classList.add("quest");
+  let div;
+
+  Object.entries(quiz).forEach(([key, value], index) => {
+      if (key.charAt(0) === "q") {
+          div = document.createElement("div");
+          div.classList.add("faq");
+
+          let h2 = document.createElement("h2");
+          h2.innerHTML = value;
+
+          let imgPlus = document.createElement("img");
+          imgPlus.src = "../images/faq-plus.png";
+
+          let imgMinus = document.createElement("img");
+          imgMinus.src = "../images/faq-moins.png";
+          imgMinus.classList.add("hide");
+
+          div.appendChild(h2);
+          div.appendChild(imgPlus);
+          div.appendChild(imgMinus);
+          containerQuiz.appendChild(div);
+      } else {
+          let p = document.createElement("p");
+          p.classList.add("paraph");
+          p.innerHTML = value;
+          containerQuiz.appendChild(p);
+      }
+  });
 }
 
   

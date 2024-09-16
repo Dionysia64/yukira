@@ -1,6 +1,6 @@
 RewriteEngine On
 
-# Activer la compression gzip si mod_gzip est disponible
+# Enable gzip compression if mod_gzip is available
 <IfModule mod_gzip.c>
     mod_gzip_on Yes
     mod_gzip_dechunk Yes
@@ -12,34 +12,35 @@ RewriteEngine On
     mod_gzip_item_exclude rspheader ^Content-Encoding:.*gzip.*
 </IfModule>
 
-# Gestion des redirections pour Facebook (facebot)
+# Handling redirections for Facebook (facebot) on all HTML pages
 
+# French
 RewriteCond %{HTTP_USER_AGENT} "facebot" [NC]
-RewriteCond %{QUERY_STRING} ^lang=Fran%C3%A7ais$ [NC]
-RewriteRule ^index\.html$ /index.html?lang=Fran%C3%A7ais [L,R=302]
+RewriteCond %{QUERY_STRING} ^lang=Français$ [NC]
+RewriteRule \.html$ $0?lang=Français&_escaped_fragment_=/ [L]
 
+# German
 RewriteCond %{HTTP_USER_AGENT} "facebot" [NC]
 RewriteCond %{QUERY_STRING} ^lang=Deutsch$ [NC]
-RewriteRule ^index\.html$ /index.html?lang=Deutsch [L,R=302]
+RewriteRule \.html$ $0?lang=Deutsch&_escaped_fragment_=/ [L]
 
+# Italian
 RewriteCond %{HTTP_USER_AGENT} "facebot" [NC]
 RewriteCond %{QUERY_STRING} ^lang=Italiano$ [NC]
-RewriteRule ^index\.html$ /index.html?lang=Italiano [L,R=302]
+RewriteRule \.html$ $0?lang=Italiano&_escaped_fragment_=/ [L]
 
+# English
 RewriteCond %{HTTP_USER_AGENT} "facebot" [NC]
 RewriteCond %{QUERY_STRING} ^lang=English$ [NC]
-RewriteRule ^index\.html$ /index.html?lang=English [L,R=302]
+RewriteRule \.html$ $0?lang=English&_escaped_fragment_=/ [L]
 
+# Greek
 RewriteCond %{HTTP_USER_AGENT} "facebot" [NC]
 RewriteCond %{QUERY_STRING} ^lang=Ellinika$ [NC]
-RewriteRule ^index\.html$ /index.html?lang=Ellinika [L,R=302]
+RewriteRule \.html$ $0?lang=Ellinika&_escaped_fragment_=/ [L]
 
-# Redirection par défaut pour le bot Facebook (si aucune langue n'est spécifiée)
-RewriteCond %{HTTP_USER_AGENT} "facebot" [NC]
-RewriteCond %{QUERY_STRING} !^lang= [NC]
-RewriteRule ^index\.html$ /index.html?lang= [L,R=302]
-
-# Redirection par défaut pour les autres bots et utilisateurs
-RewriteCond %{HTTP_USER_AGENT} !facebot [NC]
-RewriteCond %{QUERY_STRING} !^lang= [NC]
-RewriteRule ^index\.html$ /index.html [L,R=302]
+# Delay processing for 10 seconds
+<IfModule mod_headers.c>
+    Header set Cache-Control "max-age=10, s-maxage=10"
+    Header set Expires "Thu, 01 Jan 1970 00:00:10 GMT"
+</IfModule>

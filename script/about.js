@@ -26,7 +26,7 @@ reset();
 
 handleGrey(); // trigger the grey mode change
 
-getLang("btn-fr", "Fran%C3%A7ais");
+getLang("btn-fr", "Français");
 getLang("btn-ger", "Deutsch");
 getLang("btn-it", "Italiano");
 getLang("btn-eng", "English");
@@ -35,8 +35,8 @@ getLang("btn-grec", "Ellinika");
 
 function switchLanguages(url) {
   switch (url) {
-    case "Fran%C3%A7ais":
-      languages("Fran%C3%A7ais");
+    case "Français":
+      languages("Français");
       break;
     case "Deutsch":
       languages("Deutsch");
@@ -51,7 +51,7 @@ function switchLanguages(url) {
       languages("Ellinika");
       break;
     default:
-      languages("Fran%C3%A7ais");
+      languages("Français");
       break;
   }
 }
@@ -524,7 +524,7 @@ function displayLang(data) {
     retrieveData()
       .then((data) => {
         switch (lang) {
-          case "Fran%C3%A7ais":
+          case "Français":
             displayLang(data.french);
             stateColor = JSON.parse(localStorage.getItem("stateColor"));
             
@@ -575,7 +575,7 @@ function displayLang(data) {
       retrieveData()
         .then((data) => {
           switch (lang) {
-            case "Fran%C3%A7ais":
+            case "Français":
               displayLang(data.french);
               stateColor = JSON.parse(localStorage.getItem("stateColor"));
               

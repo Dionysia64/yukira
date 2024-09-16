@@ -28,7 +28,7 @@ reset();
 
 handleGrey(); // trigger the grey mode change
 
-getLang("btn-fr", "Fran%C3%A7ais");
+getLang("btn-fr", "Français");
 getLang("btn-ger", "Deutsch");
 getLang("btn-it", "Italiano");
 getLang("btn-eng", "English");
@@ -37,8 +37,8 @@ getLang("btn-grec", "Ellinika");
 
 function switchLanguages(url) {
   switch (url) {
-    case "Fran%C3%A7ais":
-      languages("Fran%C3%A7ais");
+    case "Français":
+      languages("Français");
       break;
     case "Deutsch":
       languages("Deutsch");
@@ -53,7 +53,7 @@ function switchLanguages(url) {
       languages("Ellinika");
       break;
     default:
-      languages("Fran%C3%A7ais");
+      languages("Français");
       break;
   }
 }
@@ -497,6 +497,7 @@ function displayLang(data) {
     head(data);
     header(data);
     menu(data);
+    main(data);
     footer(data);
   }
   
@@ -524,7 +525,7 @@ function displayLang(data) {
     retrieveData()
       .then((data) => {
         switch (lang) {
-          case "Fran%C3%A7ais":
+          case "Français":
             displayLang(data.french);
             stateColor = JSON.parse(localStorage.getItem("stateColor"));
             
@@ -574,7 +575,7 @@ function displayLang(data) {
       retrieveData()
         .then((data) => {
           switch (lang) {
-            case "Fran%C3%A7ais":
+            case "Français":
               displayLang(data.french);
               stateColor = JSON.parse(localStorage.getItem("stateColor"));
               
@@ -645,6 +646,85 @@ function displayLang(data) {
     for (let i = 0; i < imgs.length; i++) {
       imgs[i].alt = data.header.langues[i];
     }
+  }
+
+  function main(data) {
+    const banner = document.querySelector("#grey > main > section.banniere > img");
+    banner.alt = data.besoin.banniere.alt;
+    const quoteP = document.querySelector("#grey > main > section.citation > blockquote > p");
+    const quoteF = document.querySelector("#grey > main > section.citation > blockquote > footer");
+    quoteP.textContent = data.besoin.citation.blockquote.p;
+    quoteF.textContent = data.besoin.citation.blockquote.footer;
+    const paragraphs = document.querySelectorAll("section.citation > p");
+    paragraphs.forEach((p, index) => {
+      p.textContent = data.besoin.citation.paragraphs[index];
+    });
+    const h2s = document.querySelectorAll("section.containerPath > div > div > a > div > h2");
+    h2s.forEach((h2, index) => {
+      h2.textContent = data.besoin.containerPath.h2[index];
+    });
+    /*const titleSimule = document.querySelector("#simule > div:nth-child(1) > span");
+    titleSimule.textContent = data.besoin.besoins.simule.span;
+    const paragraphsSimule = document.querySelectorAll("#simule > p");
+    paragraphsSimule.forEach((p, index) => {
+      p.textContent = data.besoin.besoins.simule.paragraphs[index];
+    });
+    const liensSimule = [] || document.querySelectorAll("#simule > a");
+    liensSimule.forEach((a, index) => {
+      a.href = data.besoin.besoins.simule.liens[index];
+    });
+    const titleGaelle = document.querySelector("#gaelle > div:nth-child(1) > span");
+    titleGaelle.textContent = data.besoin.besoins.gaelle.span;
+    const paragraphGaelle = document.querySelectorAll("#gaelle > p");
+    paragraphGaelle.forEach((p, index) => {
+      p.textContent = data.besoin.besoins.gaelle.paragraphs[index];
+    });
+    const liensGaelle = [] || document.querySelectorAll("#gaelle > a");
+    liensGaelle.forEach((a, index) => {
+      a.href = data.besoin.besoins.gaelle.liens[index];
+    });
+    const titleIrlen = document.querySelector("#irlen > div:nth-child(1) > span");
+    titleIrlen.textContent = data.besoin.besoins.irlen.span;
+    const paragraphsIrlen = document.querySelectorAll("#irlen > p");
+    paragraphsIrlen.forEach((p, index) => {
+      p.textContent = data.besoin.besoins.irlen.paragraphs[index];
+    });
+    const liensIrlen = [] || document.querySelectorAll("#irlen > a");
+    liensIrlen.forEach((a, index) => {
+      a.href = data.besoin.besoins.irlen.liens[index];
+    });
+    const titleSed = document.querySelector("#sed > div:nth-child(1) > span");
+    titleSed.textContent = data.besoin.besoins.sed.span;
+    const paragraphsSed = document.querySelectorAll("#sed > p");
+    paragraphsSed.forEach((p, index) => {
+      p.textContent = data.besoin.besoins.sed.paragraphs[index];
+    });
+    const liensSed = [] || document.querySelectorAll("#sed > a");
+    liensSed.forEach((a, index) => {
+      a.href = data.besoin.besoins.sed.liens[index];
+    });
+    const titleTsa = document.querySelector("#tsa > div:nth-child(1) > span");
+    titleTsa.textContent = data.besoin.besoins.tsa.span;
+    const paragraphsTsa = document.querySelectorAll("#tsa > p");
+    paragraphsTsa.forEach((p, index) => {
+      p.textContent = data.besoin.besoins.tsa.paragraphs[index];
+    });
+    const liensTsa = [] || document.querySelectorAll("#tsa > a");
+    liensTsa.forEach((a, index) => {
+      a.href = data.besoin.besoins.tsa.liens[index];
+    });*/
+    const titleEutrepe = document.querySelector("#euterpe > div:nth-child(1) > span");
+    titleEutrepe.textContent = data.besoin.besoins.euterpe.span;
+    const paragraphsEutrepe = document.querySelectorAll("#euterpe > p");
+    paragraphsEutrepe.forEach((p, index) => {
+      p.textContent = data.besoin.besoins.euterpe.paragraphs[index];
+    });
+    const ode = document.querySelector("#euterpe > span");
+    ode.textContent = data.besoin.besoins.euterpe.date;
+    const liensEutrepe = document.querySelectorAll("#euterpe > a");
+    liensEutrepe.forEach((a, index) => {
+      a.href = data.besoin.besoins.euterpe.liens[index];
+    });
   }
 
   function footer(data) {
@@ -811,7 +891,6 @@ function reset() {
             menuLateral.style.display = "none";
           } 
     }
-    console.log(window.scrollY);
 }
 
   
