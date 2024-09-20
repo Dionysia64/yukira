@@ -663,7 +663,7 @@ function displayLang(data) {
     h2s.forEach((h2, index) => {
       h2.textContent = data.besoin.containerPath.h2[index];
     });
-    /*const titleSimule = document.querySelector("#simule > div:nth-child(1) > span");
+    const titleSimule = document.querySelector("#simule > div:nth-child(1) > span");
     titleSimule.textContent = data.besoin.besoins.simule.span;
     const paragraphsSimule = document.querySelectorAll("#simule > p");
     paragraphsSimule.forEach((p, index) => {
@@ -712,7 +712,7 @@ function displayLang(data) {
     const liensTsa = [] || document.querySelectorAll("#tsa > a");
     liensTsa.forEach((a, index) => {
       a.href = data.besoin.besoins.tsa.liens[index];
-    });*/
+    });
     const titleEutrepe = document.querySelector("#euterpe > div:nth-child(1) > span");
     titleEutrepe.textContent = data.besoin.besoins.euterpe.span;
     const paragraphsEutrepe = document.querySelectorAll("#euterpe > p");

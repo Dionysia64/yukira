@@ -738,6 +738,8 @@ function displayLang(data) {
 function displayQuest(data) {
   const h1 = document.querySelector("h1");
   h1.innerHTML = data.questions.h1;
+  const h2 = document.querySelector("#grey > main > section.title-questions > h2");
+  h2.textContent = data.questions.h2;
   const quiz = data.questions.faq;
   const containerQuiz = document.getElementById("quiz");
   containerQuiz.classList.add("quest");
