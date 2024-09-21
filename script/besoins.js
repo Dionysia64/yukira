@@ -672,7 +672,7 @@ function displayLang(data) {
     const liensSimule = [] || document.querySelectorAll("#simule > a");
     liensSimule.forEach((a, index) => {
       a.href = data.besoin.besoins.simule.liens[index];
-    });
+    });/*
     const titleGaelle = document.querySelector("#gaelle > div:nth-child(1) > span");
     titleGaelle.textContent = data.besoin.besoins.gaelle.span;
     const paragraphGaelle = document.querySelectorAll("#gaelle > p");
@@ -682,7 +682,7 @@ function displayLang(data) {
     const liensGaelle = [] || document.querySelectorAll("#gaelle > a");
     liensGaelle.forEach((a, index) => {
       a.href = data.besoin.besoins.gaelle.liens[index];
-    });
+    });*/
     const titleIrlen = document.querySelector("#irlen > div:nth-child(1) > span");
     titleIrlen.textContent = data.besoin.besoins.irlen.span;
     const paragraphsIrlen = document.querySelectorAll("#irlen > p");
