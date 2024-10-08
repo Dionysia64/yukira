@@ -668,7 +668,30 @@ function displayLang(data) {
     paragraphs.forEach((paragraph, index) => {
       paragraph.innerHTML = data.itineraire.citation.p[index];
     })
-    const h2s = document.querySelector("section.containerPath > div > div.Yukaa > a > div > h2");
+    const h2s = document.querySelectorAll("section.containerPath > div > div > a > div > h2");
+    h2s.forEach((h2, index) => {
+      h2.textContent = data.itineraire.containerPath.h2[index];
+    });
+    const nurseryTitle = document.querySelector("#nursery > div:nth-child(1) > span");
+    const parrainageTitle = document.querySelector("#parrainage > div:nth-child(1) > span");
+    const formationTitle = document.querySelector("#formation > div:nth-child(1) > span");
+    const diplomeTitle = document.querySelector("#diplôme > div:nth-child(1) > span");
+    const travailTitle = document.querySelector("#travail > div:nth-child(1) > span");
+    const retraiteTitle = document.querySelector("#retraite > div:nth-child(1) > span");
+    nurseryTitle.textContent = data.itineraire.itinéraire.nursery.span;
+    parrainageTitle.textContent = data.itineraire.itinéraire.parrainage.span;
+    formationTitle.textContent =  data.itineraire.itinéraire.formation.span;
+    diplomeTitle.textContent =  data.itineraire.itinéraire.diplôme.span;
+    travailTitle.textContent =  data.itineraire.itinéraire.travail.span;
+    retraiteTitle.textContent =  data.itineraire.itinéraire.retraite.span;
+    const menuLatrals = document.querySelectorAll("#menuLateralItineraire > li > a");
+    menuLatrals.forEach((menu, index) => {
+      menu.textContent = data.itineraire.menuLateral.menu[index];
+    });
+    const paragraphsCitation = document.querySelectorAll("section.citation > p");
+    paragraphsCitation.forEach((paragraph, index) => {
+      paragraph.textContent = data.itineraire.citation.paragraph[index];
+    });
   }
 
   function footer(data) {

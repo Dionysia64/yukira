@@ -725,6 +725,10 @@ function displayLang(data) {
     liensEutrepe.forEach((a, index) => {
       a.href = data.besoin.besoins.euterpe.liens[index];
     });
+    const menuLateral = document.querySelectorAll("#menuLateralBesoins > li > a");
+    menuLateral.forEach((menu, index) => {
+      menu.textContent = data.besoin.menuLateral.menu[index];
+    });
   }
 
   function footer(data) {

@@ -1,3 +1,9 @@
+async function fetchData() {
+    const response = await fetch("../data.json");
+    const data = await response.json();
+    return data;
+}
+
 function initializeSearchBar(id) {
     const search = document.getElementById(id);
     const parent = search.parentNode;
@@ -12,7 +18,11 @@ function initializeSearchBar(id) {
     }
 
     search.addEventListener('click', (e) => {
+
         e.preventDefault();
+
+        localStorage.removeItem('correspondances');
+        localStorage.removeItem('word');
 
         // Retire le bouton de recherche
         search.remove();
@@ -46,12 +56,12 @@ function initializeSearchBar(id) {
         });
 
         // Gérer l'accessibilité clavier
-        bar.addEventListener('keydown', (e) => {
+        /*bar.addEventListener('keydown', (e) => {
             // Fermer le formulaire avec la touche "Escape"
             if (e.key === 'Escape') {
                 restoreSearchElement(form);
             }
-        });
+        });*/
 
         // Gérer le clic à l'extérieur du formulaire
         function outsideClick(event) {
@@ -69,6 +79,7 @@ function initializeSearchBar(id) {
                 search.click(); // Simule un clic pour ouvrir le formulaire
             }
         });
+        searchModule("search-bar", "french");
     });
 
     // Permet d'accéder au bouton avec la touche Tab
@@ -78,3 +89,80 @@ function initializeSearchBar(id) {
 // Initialiser la fonction pour les deux barres de recherche
 initializeSearchBar("search-links");
 initializeSearchBar("search");
+
+
+async function searchModule(id, lang) {
+    const field = document.getElementById(id);
+    const btn = document.getElementById("btn-search");
+    let page = "";
+    const url = window.location.pathname;
+
+    switch (url) {
+        case "/index.html":
+            page = "main";
+            break;
+        default:
+            break;
+    }
+
+    btn.addEventListener("click", async (e) => {
+        e.preventDefault();
+        const response = await fetch("../data.json");
+        const data = await response.json();
+        let foundAnyMatch = false; // Drapeau pour vérifier s'il y a une correspondance
+
+        // Fonction pour accumuler les résultats dans le localStorage
+        function addToLocalStorage(value, url) {
+            let correspondances = JSON.parse(localStorage.getItem("correspondances")) || [];
+            correspondances.push({ value: value, url: url });
+            localStorage.setItem("correspondances", JSON.stringify(correspondances));
+        }
+
+        function iterateJSON(obj, url = "") {
+            const pagesArray = ["main", "mainAbout", "itineraire", "informations", "passion", "besoin", "questions"];
+            
+            for (let key in obj) {
+                if (obj.hasOwnProperty(key)) {
+                    // Si la clé est "pageURL", mettre à jour l'URL
+                    if (key === "pageURL" && typeof obj[key] === 'string') {
+                        url = obj[key]; // Mise à jour de l'URL
+                    }
+        
+                    // Vérifie si la valeur est un objet ou un tableau
+                    if (typeof obj[key] === 'object' && obj[key] !== null || pagesArray.includes(key)) {
+                        // Appel récursif pour parcourir les sous-objets, avec l'URL mise à jour
+                        iterateJSON(obj[key], url);
+                    } else {
+                        if (field.value.length >= 3) {
+                            const userInput = field.value.toLowerCase();  // Input de l'utilisateur
+                            localStorage.setItem("word", JSON.stringify(userInput));
+                            
+                            // Vérifie que la valeur dans l'objet est une chaîne avant d'utiliser toLowerCase()
+                            if (typeof obj[key] === 'string') {
+                                const objectValue = obj[key].toLowerCase();   // Valeur dans l'objet JSON
+                                
+                                // Vérifie si l'input de l'utilisateur est inclus dans la valeur de l'objet
+                                if (objectValue.includes(userInput)) {
+                                    foundAnyMatch = true;  // Une correspondance a été trouvée
+                                    addToLocalStorage(obj[key], url);  // Ajoute la correspondance au localStorage avec l'URL
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+
+        iterateJSON(data);
+
+        // Si aucune correspondance n'a été trouvée
+        if (!foundAnyMatch) {
+            addToLocalStorage('Pas de correspondance trouvée pour le mot cherché.');
+        }
+        location.href = "./pages/result.html";
+    });
+}
+
+console.log(localStorage.getItem('correspondances'));
+
