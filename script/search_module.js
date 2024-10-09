@@ -1,9 +1,3 @@
-async function fetchData() {
-    const response = await fetch("../data.json");
-    const data = await response.json();
-    return data;
-}
-
 function initializeSearchBar(id) {
     const search = document.getElementById(id);
     const parent = search.parentNode;
@@ -56,12 +50,12 @@ function initializeSearchBar(id) {
         });
 
         // Gérer l'accessibilité clavier
-        /*bar.addEventListener('keydown', (e) => {
+        bar.addEventListener('keydown', (e) => {
             // Fermer le formulaire avec la touche "Escape"
             if (e.key === 'Escape') {
                 restoreSearchElement(form);
             }
-        });*/
+        });
 
         // Gérer le clic à l'extérieur du formulaire
         function outsideClick(event) {
@@ -79,7 +73,7 @@ function initializeSearchBar(id) {
                 search.click(); // Simule un clic pour ouvrir le formulaire
             }
         });
-        searchModule("search-bar", "french");
+        searchModule("search-bar");
     });
 
     // Permet d'accéder au bouton avec la touche Tab
@@ -91,19 +85,10 @@ initializeSearchBar("search-links");
 initializeSearchBar("search");
 
 
-async function searchModule(id, lang) {
+async function searchModule(id) {
+    const regex = /^https:\/\/[^\s#\/]+(?:\/[^\s#]*)?(?:#[^\s]*)?$/;
     const field = document.getElementById(id);
     const btn = document.getElementById("btn-search");
-    let page = "";
-    const url = window.location.pathname;
-
-    switch (url) {
-        case "/index.html":
-            page = "main";
-            break;
-        default:
-            break;
-    }
 
     btn.addEventListener("click", async (e) => {
         e.preventDefault();
@@ -123,11 +108,16 @@ async function searchModule(id, lang) {
             
             for (let key in obj) {
                 if (obj.hasOwnProperty(key)) {
+                    // Ignore la clé "alt"
+                    if (key === "alt") {
+                        continue;
+                    }
+
                     // Si la clé est "pageURL", mettre à jour l'URL
                     if (key === "pageURL" && typeof obj[key] === 'string') {
                         url = obj[key]; // Mise à jour de l'URL
                     }
-        
+
                     // Vérifie si la valeur est un objet ou un tableau
                     if (typeof obj[key] === 'object' && obj[key] !== null || pagesArray.includes(key)) {
                         // Appel récursif pour parcourir les sous-objets, avec l'URL mise à jour
@@ -143,8 +133,11 @@ async function searchModule(id, lang) {
                                 
                                 // Vérifie si l'input de l'utilisateur est inclus dans la valeur de l'objet
                                 if (objectValue.includes(userInput)) {
-                                    foundAnyMatch = true;  // Une correspondance a été trouvée
-                                    addToLocalStorage(obj[key], url);  // Ajoute la correspondance au localStorage avec l'URL
+                                    // Si la valeur est une URL valide (selon le regex), l'ignorer sauf si c'est du texte mélangé avec une URL
+                                    if (!regex.test(objectValue) && objectValue.match(/[a-zA-Z0-9]/)) {
+                                        foundAnyMatch = true;  // Une correspondance a été trouvée
+                                        addToLocalStorage(obj[key], url);  // Ajoute la correspondance au localStorage avec l'URL
+                                    }
                                 }
                             }
                         }
@@ -152,7 +145,6 @@ async function searchModule(id, lang) {
                 }
             }
         }
-        
 
         iterateJSON(data);
 
@@ -163,6 +155,4 @@ async function searchModule(id, lang) {
         location.href = "./pages/result.html";
     });
 }
-
-console.log(localStorage.getItem('correspondances'));
 
