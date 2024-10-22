@@ -505,6 +505,7 @@ document.getElementById("Verdana").addEventListener("click", function () {
 function displayLang(data) {
     head(data);
     header(data);
+    main(data);
     menu(data);
     footer(data);
   }
@@ -642,6 +643,63 @@ function displayLang(data) {
     const linkHref = document.querySelector("div.en-tete > a.logo");
     linkHref.href = data.header.linkLogo;
     linkHref.ariaLabel = data.header.ariaTitle;
+  }
+
+  function main(data) {
+    const banniere = document.querySelector("#grey > main > section.banniere > img");
+    banniere.alt = data.passion.banniere.alt;
+    const blockquote = document.querySelector("#grey > main > section.citation > blockquote > p");
+    const blockquoteFooter = document.querySelector("#grey > main > section.citation > blockquote > footer");
+    blockquote.innerHTML = data.passion.citation.blockquote.p;
+    blockquoteFooter.innerHTML = data.passion.citation.blockquote.footer;
+    const blockquoteParaphs = document.querySelectorAll("#grey > main > section.citation > p");
+    blockquoteParaphs.forEach((blockquoteParaph, index) => {
+      blockquoteParaph.innerHTML = data.passion.citation.paragraphs[index];
+    });
+    const arrayH2s = document.querySelectorAll("#grey > main > section.containerPath > div > div > a > div > h2");
+    arrayH2s.forEach((H2, index) => {
+      H2.innerHTML = data.passion.containerPath.h2[index];
+    });
+    const title1 = document.querySelector("#lettre > div:nth-child(1) > span");
+    title1.innerHTML = data.passion.passions.lettre.span;
+    const title2 = document.querySelector("#chiens > div > span");
+    title2.innerHTML = data.passion.passions.chiens.span;
+    const title3 = document.querySelector("#training > div > span");
+    title3.innerHTML = data.passion.passions.training.span;
+    const title4 = document.querySelector("#témoignages > div > span");
+    title4.innerHTML = data.passion.passions.témoignages.span;
+    const title5 = document.querySelector("#éthologie > div > span");
+    title5.innerHTML = data.passion.passions.éthologie.span;
+    const title6 = document.querySelector("#nutrition > div > span");
+    title6.innerHTML = data.passion.passions.nutrition.span;
+    const paragraphsLettre = document.querySelectorAll("#lettre > p");
+    paragraphsLettre.forEach((paragraph, index) => {
+      paragraph.innerHTML = data.passion.passions.lettre.paragraphs[index];
+    });
+    const paragraphsChiens = document.querySelectorAll("#lettre > p");
+    paragraphsChiens.forEach((paragraph, index) => {
+      paragraph.innerHTML = data.passion.passions.lettre.paragraphs[index];
+    });
+    const paragraphsTraining = document.querySelectorAll("#training > p");
+    paragraphsTraining.forEach((paragraph, index) => {
+      paragraph.innerHTML = data.passion.passions.training.paragraphs[index];
+    });
+    const paragraphsTémoignages = document.querySelectorAll("#témoignages > p");
+    paragraphsTémoignages.forEach((paragraph, index) => {
+      paragraph.innerHTML = data.passion.passions.témoignages.paragraphs[index];
+    });
+    const paragraphsEthologie = document.querySelectorAll("#éthologie > p");
+    paragraphsEthologie.forEach((paragraph, index) => {
+      paragraph.innerHTML = data.passion.passions.éthologie.paragraphs[index];
+    });
+    const paragraphsNutrition = document.querySelectorAll("#nutrition > p");
+    paragraphsNutrition.forEach((paragraph, index) => {
+      paragraph.innerHTML = data.passion.passions.nutrition.paragraphs[index];
+    });
+    const menuLaterals = document.querySelectorAll("#menuLateralPassion > li > a");
+    menuLaterals.forEach((menuItem, index) => {
+      menuItem.innerHTML = data.passion.menuLateral.menu[index];
+    });
   }
   
   function menu(data) {

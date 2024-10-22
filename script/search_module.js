@@ -152,7 +152,12 @@ async function searchModule(id) {
         if (!foundAnyMatch) {
             addToLocalStorage('Pas de correspondance trouvée pour le mot cherché.');
         }
-        location.href = "./pages/result.html";
+        if (location.pathname === '/index.html' || location.pathname === '/') {
+            location.href = "./pages/result.html";
+        } else {
+            location.href = "./result.html";
+        }
+
     });
 }
 

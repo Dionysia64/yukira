@@ -2072,3 +2072,8 @@ header form {
   width: 100%;
   object-fit: scale-down;
 }
+
+.result {
+  background-color: var(--green-bg-hover);
+  color: var(--black-text-color);
+}
